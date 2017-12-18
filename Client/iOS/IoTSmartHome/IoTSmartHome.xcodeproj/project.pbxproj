@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D22195FB71656557D1B691A5 /* Pods_IoTSmartHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A59C3F5D44EC6D556284127 /* Pods_IoTSmartHome.framework */; };
+		DCCB98AD1FE7D20000D5E9B3 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCB98AC1FE7D20000D5E9B3 /* Colors.xcassets */; };
+		DCCB98B11FE7D38700D5E9B3 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCB98B01FE7D38700D5E9B3 /* Extentions.swift */; };
+		DCFE77001FE7BF7200B1049C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFE76FF1FE7BF7200B1049C /* AppDelegate.swift */; };
+		DCFE77021FE7BF7200B1049C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFE77011FE7BF7200B1049C /* ViewController.swift */; };
+		DCFE77051FE7BF7200B1049C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFE77031FE7BF7200B1049C /* Main.storyboard */; };
+		DCFE77071FE7BF7200B1049C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCFE77061FE7BF7200B1049C /* Assets.xcassets */; };
+		DCFE770A1FE7BF7200B1049C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFE77081FE7BF7200B1049C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A59C3F5D44EC6D556284127 /* Pods_IoTSmartHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IoTSmartHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F2EBCEC779AC5AB4826817 /* Pods-IoTSmartHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IoTSmartHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-IoTSmartHome/Pods-IoTSmartHome.release.xcconfig"; sourceTree = "<group>"; };
+		CB706C41F0F687168C317C5C /* Pods-IoTSmartHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IoTSmartHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IoTSmartHome/Pods-IoTSmartHome.debug.xcconfig"; sourceTree = "<group>"; };
+		DCCB98AC1FE7D20000D5E9B3 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		DCCB98B01FE7D38700D5E9B3 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		DCFE76FC1FE7BF7200B1049C /* IoTSmartHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IoTSmartHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFE76FF1FE7BF7200B1049C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCFE77011FE7BF7200B1049C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCFE77041FE7BF7200B1049C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCFE77061FE7BF7200B1049C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCFE77091FE7BF7200B1049C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCFE770B1FE7BF7200B1049C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCFE76F91FE7BF7200B1049C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22195FB71656557D1B691A5 /* Pods_IoTSmartHome.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05FE6CEC5571FB47E5AD2E28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A59C3F5D44EC6D556284127 /* Pods_IoTSmartHome.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44F2381379D732342A76A2DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB706C41F0F687168C317C5C /* Pods-IoTSmartHome.debug.xcconfig */,
+				70F2EBCEC779AC5AB4826817 /* Pods-IoTSmartHome.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DCCB98AE1FE7D21200D5E9B3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DCFE77061FE7BF7200B1049C /* Assets.xcassets */,
+				DCCB98AC1FE7D20000D5E9B3 /* Colors.xcassets */,
+				DCFE77031FE7BF7200B1049C /* Main.storyboard */,
+				DCFE77081FE7BF7200B1049C /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		DCCB98AF1FE7D37400D5E9B3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB98B01FE7D38700D5E9B3 /* Extentions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DCCB98B21FE7D5A600D5E9B3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DCFE77011FE7BF7200B1049C /* ViewController.swift */,
+				DCFE76FF1FE7BF7200B1049C /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DCFE76F31FE7BF7200B1049C = {
+			isa = PBXGroup;
+			children = (
+				DCFE76FE1FE7BF7200B1049C /* IoTSmartHome */,
+				DCFE76FD1FE7BF7200B1049C /* Products */,
+				44F2381379D732342A76A2DF /* Pods */,
+				05FE6CEC5571FB47E5AD2E28 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DCFE76FD1FE7BF7200B1049C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCFE76FC1FE7BF7200B1049C /* IoTSmartHome.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCFE76FE1FE7BF7200B1049C /* IoTSmartHome */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB98B21FE7D5A600D5E9B3 /* Controller */,
+				DCCB98AF1FE7D37400D5E9B3 /* Helpers */,
+				DCCB98AE1FE7D21200D5E9B3 /* Resource */,
+				DCFE770B1FE7BF7200B1049C /* Info.plist */,
+			);
+			path = IoTSmartHome;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCFE76FB1FE7BF7200B1049C /* IoTSmartHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFE770E1FE7BF7200B1049C /* Build configuration list for PBXNativeTarget "IoTSmartHome" */;
+			buildPhases = (
+				E43BC216E5D5AAC394A5606C /* [CP] Check Pods Manifest.lock */,
+				DCFE76F81FE7BF7200B1049C /* Sources */,
+				DCFE76F91FE7BF7200B1049C /* Frameworks */,
+				DCFE76FA1FE7BF7200B1049C /* Resources */,
+				014C5E3112CDBCD20FE1AEDA /* [CP] Embed Pods Frameworks */,
+				8A3911EF91B74314C5E73A04 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IoTSmartHome;
+			productName = IoTSmartHome;
+			productReference = DCFE76FC1FE7BF7200B1049C /* IoTSmartHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCFE76F41FE7BF7200B1049C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Bao Nguyen";
+				TargetAttributes = {
+					DCFE76FB1FE7BF7200B1049C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DCFE76F71FE7BF7200B1049C /* Build configuration list for PBXProject "IoTSmartHome" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCFE76F31FE7BF7200B1049C;
+			productRefGroup = DCFE76FD1FE7BF7200B1049C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCFE76FB1FE7BF7200B1049C /* IoTSmartHome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCFE76FA1FE7BF7200B1049C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFE770A1FE7BF7200B1049C /* LaunchScreen.storyboard in Resources */,
+				DCCB98AD1FE7D20000D5E9B3 /* Colors.xcassets in Resources */,
+				DCFE77071FE7BF7200B1049C /* Assets.xcassets in Resources */,
+				DCFE77051FE7BF7200B1049C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		014C5E3112CDBCD20FE1AEDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IoTSmartHome/Pods-IoTSmartHome-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IoTSmartHome/Pods-IoTSmartHome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A3911EF91B74314C5E73A04 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IoTSmartHome/Pods-IoTSmartHome-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E43BC216E5D5AAC394A5606C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IoTSmartHome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCFE76F81FE7BF7200B1049C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFE77021FE7BF7200B1049C /* ViewController.swift in Sources */,
+				DCFE77001FE7BF7200B1049C /* AppDelegate.swift in Sources */,
+				DCCB98B11FE7D38700D5E9B3 /* Extentions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCFE77031FE7BF7200B1049C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCFE77041FE7BF7200B1049C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCFE77081FE7BF7200B1049C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCFE77091FE7BF7200B1049C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCFE770C1FE7BF7200B1049C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCFE770D1FE7BF7200B1049C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCFE770F1FE7BF7200B1049C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB706C41F0F687168C317C5C /* Pods-IoTSmartHome.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MK2N7RD69E;
+				INFOPLIST_FILE = IoTSmartHome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baon.IoTSmartHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCFE77101FE7BF7200B1049C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70F2EBCEC779AC5AB4826817 /* Pods-IoTSmartHome.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MK2N7RD69E;
+				INFOPLIST_FILE = IoTSmartHome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baon.IoTSmartHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCFE76F71FE7BF7200B1049C /* Build configuration list for PBXProject "IoTSmartHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFE770C1FE7BF7200B1049C /* Debug */,
+				DCFE770D1FE7BF7200B1049C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCFE770E1FE7BF7200B1049C /* Build configuration list for PBXNativeTarget "IoTSmartHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFE770F1FE7BF7200B1049C /* Debug */,
+				DCFE77101FE7BF7200B1049C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCFE76F41FE7BF7200B1049C /* Project object */;
+}
