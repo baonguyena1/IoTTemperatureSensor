@@ -3,23 +3,14 @@
 #include <ESP8266WiFi.h>
 #include <SocketIoClient.h>
 
-//#define           DEBUG
-#ifdef DEBUG
-  #define DEBUG_PRINT(...)      { Serial.print(__VA_ARGS__); }
-  #define DEBUG_PRINTLN(...)    { Serial.println(__VA_ARGS__); }
-#else
-  #define DEBUG_PRINT(...)      {}
-  #define DEBUG_PRINTLN(...)    {}
-#endif
-
 /**
  * Define
  */
-#define DHTPIN      5
+#define DHTPIN      D4
 #define DHTTYPE     DHT11
-#define SSID        "GetZ"
+#define SSID        "Getz"
 #define PASSWORD    "G3tzP@ss"
-const char * host = "192.168.1.41";
+const char * host = "192.168.1.86";
 int port = 9898;
 
 /*
@@ -30,56 +21,69 @@ WiFiClient wifiClient;
 SocketIoClient webSocket;
 
 void event(const char *payload, size_t length) {
-  DEBUG_PRINTLN("Got message: %s", payload);
+  Serial.printf("Got message: %s\n", payload);
 }
+
+/**
+ * Read temperature, Humidity of DHT11
+ */
+ void dht11Process() {
+  float h = dht.readHumidity();
+  float t = dht.readTemperature();
+  float f = dht.readTemperature(true);
+  
+  if (isnan(h) || isnan(t) || isnan(f)) {
+    Serial.println("Incorrect data");
+    return;
+  }
+
+  float hif = dht.computeHeatIndex(f, h);
+  float hic = dht.computeHeatIndex(t, h, false);
+
+  Serial.print("Humidity: ");
+  Serial.print(h);
+  Serial.print(" %\t");
+  Serial.print("Temperature: ");
+  Serial.print(t);
+  Serial.print(" *C ");
+  Serial.print(f);
+  Serial.print(" *F\t");
+  Serial.print("Heat index: ");
+  Serial.print(hic);
+  Serial.print(" *C ");
+  Serial.print(hif);
+  Serial.println(" *F");
+  String data = "{\"temp\": ";
+  data += t;
+  data += "}";
+  Serial.println(data);
+  webSocket.emit("temperature", data.c_str());
+ }
 
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(115200);
   delay(10);
-  DEBUG_PRINT("Connecting to wifi ");
+  Serial.print("Connecting to wifi ");
   WiFi.begin(SSID, PASSWORD);
   while(WiFi.status() != WL_CONNECTED) {
     delay(500);
-    DEBUG_PRINT(".")
+    Serial.print(".");
   }
-  DEBUG_PRINTLN(F("Conntected wifi"));
-  DEBUG_PRINTLN(F("Wifi address: %s", Wifi.localIP()));
+  Serial.println("Conntected wifi");
+  Serial.print("Wifi address:");
+  Serial.println(WiFi.localIP());
  
-  webSocket.on("connection", event);
-   webSocket.begin(host, port);
-//  DEBUG_PRINTLN("DHT Text!!!");
-//  dht.begin();
+  webSocket.on("response", event);
+  webSocket.begin(host, port);
+  Serial.println("DHT Text!!!");
+  dht.begin();
 }
 
 void loop() {
   webSocket.loop();
-  // put your main code here, to run repeatedly:
-//  float h = dht.readHumidity();
-//  float t = dht.readTemperature();
-//  float f = dht.readTemperature(true);
-//  
-//  if (isnan(h) || isnan(t) || isnan(f)) {
-//    DEBUG_PRINT("Incorrect data");
-//    return;
-//  }
-//
-//  float hif = dht.computeHeatIndex(f, h);
-//  float hic = dht.computeHeatIndex(t, h, false);
-//
-//  DEBUG_PRINT("Humidity: ");
-//  DEBUG_PRINT(h);
-//  DEBUG_PRINT(" %\t");
-//  DEBUG_PRINT("Temperature: ");
-//  DEBUG_PRINT(t);
-//  DEBUG_PRINT(" *C ");
-//  DEBUG_PRINT(f);
-//  DEBUG_PRINT(" *F\t");
-//  DEBUG_PRINT("Heat index: ");
-//  DEBUG_PRINT(hic);
-//  DEBUG_PRINT(" *C ");
-//  DEBUG_PRINT(hif);
-//  DEBUG_PRINTLN(" *F");
+  dht11Process();
+
   delay(2000);
-  
+
  }

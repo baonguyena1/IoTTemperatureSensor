@@ -28,8 +28,15 @@ server.listen(PORT, function() {
 
 io.on('connection', function(client) {
     console.log('Client is connected...');
-    console.log(client);
-    client.on('join', function(data) {
+    console.log(client.id);
+    var data = {
+        'id': client.id,
+        'data': 'response from server'
+    }
+
+    client.emit('response', data);
+    
+    client.on('temperature', function(data) {
         console.log(data);
     });
 });
