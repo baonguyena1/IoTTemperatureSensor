@@ -1,0 +1,28 @@
+{
+  "name": "iottemperature",
+  "version": "1.0.0",
+  "description": "IoT Temperature sensor with remote by mobile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Test\""
+  },
+  "keywords": [
+    "IoT",
+    "iOS",
+    "Temperatute",
+    "Sensor",
+    "DHT11",
+    "ESP8266"
+  ],
+  "author": "Bao Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "mongodb": "^3.0.0-rc0",
+    "mongoose": "^4.13.7",
+    "q": "^1.5.1",
+    "socket.io": "^2.0.4"
+  }
+}
