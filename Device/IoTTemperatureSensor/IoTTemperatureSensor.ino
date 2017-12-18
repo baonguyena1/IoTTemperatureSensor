@@ -1,4 +1,6 @@
-#include "DHT.h"
+#include <DHT.h>
+#include <Arduino.h>
+#include <ESP8266WiFi.h>
 
 //#define           DEBUG
 #ifdef DEBUG
@@ -9,10 +11,19 @@
   #define DEBUG_PRINTLN(...)    {}
 #endif
 
+/**
+ * Define
+ */
 #define DHTPIN      5
 #define DHTTYPE     DHT11
+#define SSID        GetZ
+#define PASSWORD    G3tzP@ss
 
+/*
+ * Global variable
+ */
 DHT dht(DHTPIN, DHTTYPE);
+WiFiClient wifiClient;
 
 void setup() {
   // put your setup code here, to run once:
