@@ -17,10 +17,10 @@
  * Socket IO Event name
  */
  #define RESPONSE                       "response"
- #define UPDATE_MANUAL_SETTING          "updateManualSetting"
- #define TEMPERATURE                    "temperature"
+ #define UPDATE_MANUAL_SETTING          "didUpdateManualSetting"
+ #define TEMPERATURE                    "didUpdateTemperature"
 
-const char * host = "192.168.1.86";
+const char * host = "localhost";
 int port = 9898;
 
 /*

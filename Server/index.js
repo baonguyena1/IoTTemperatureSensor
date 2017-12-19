@@ -1,4 +1,3 @@
-const PORT = 9898;
 var path = require('path');
 var bodyParser = require('body-parser');
 var express = require('express');
@@ -6,6 +5,10 @@ var express = require('express');
 var app = express();
 var server = require('http').createServer(app);
 var io = require('socket.io')(server);
+
+var constant = require('./config/constant')
+var database_config = require('./config/database_config');
+var Logger = require('./log/log');
 
 app.use(bodyParser.json());
 app.use('/public', express.static(path.join(__dirname, 'public')));
@@ -22,21 +25,19 @@ app.get('/', function(req, res) {
     res.send('Welcome to Vietlott Application!');
 });
 
-server.listen(PORT, function() {
-    console.log('[INFO]App listen at port: ' + PORT);
+server.listen(constant.listen_port, function() {
+   Logger.logInfo('[INFO]App listen at port: ' + constant.listen_port);
 });
 
-io.on('connection', function(client) {
-    console.log('Client is connected...');
-    console.log(client.id);
-    var data = {
-        'id': client.id,
-        'data': 'response from server'
-    }
+io.on(constant.SocketIOEvent.CONNECTION, function(socket) {
+    Logger.logInfo('user is connected. socket id: ' + socket.id);
 
-    client.emit('response', data);
-    
-    client.on('temperature', function(data) {
-        console.log(data);
+    socket.on(constant.SocketIOEvent.DISCONNECT, function() {
+        Logger.logInfo('user disconnected');
+    });
+
+    socket.on(constant.SocketIOEvent.DIDUPDATETEMPERATURE, function(data) {
+        Logger.logInfo(JSON.stringify(data));
+        socket.emit(constant.SocketIOEvent.DIDUPDATETEMPERATURE, data);
     });
 });

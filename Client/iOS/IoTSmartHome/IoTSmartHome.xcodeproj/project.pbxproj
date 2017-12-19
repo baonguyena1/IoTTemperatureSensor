@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D22195FB71656557D1B691A5 /* Pods_IoTSmartHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A59C3F5D44EC6D556284127 /* Pods_IoTSmartHome.framework */; };
+		DCAC827C1FE8AF31003E4D09 /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC827B1FE8AF31003E4D09 /* DashboardController.swift */; };
+		DCAC827E1FE8B25E003E4D09 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC827D1FE8B25E003E4D09 /* Logger.swift */; };
+		DCAC82831FE8B452003E4D09 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC82821FE8B452003E4D09 /* SocketIOManager.swift */; };
 		DCCB98AD1FE7D20000D5E9B3 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCB98AC1FE7D20000D5E9B3 /* Colors.xcassets */; };
 		DCCB98B11FE7D38700D5E9B3 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCB98B01FE7D38700D5E9B3 /* Extentions.swift */; };
 		DCFE77001FE7BF7200B1049C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFE76FF1FE7BF7200B1049C /* AppDelegate.swift */; };
@@ -21,6 +24,9 @@
 		1A59C3F5D44EC6D556284127 /* Pods_IoTSmartHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IoTSmartHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70F2EBCEC779AC5AB4826817 /* Pods-IoTSmartHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IoTSmartHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-IoTSmartHome/Pods-IoTSmartHome.release.xcconfig"; sourceTree = "<group>"; };
 		CB706C41F0F687168C317C5C /* Pods-IoTSmartHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IoTSmartHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IoTSmartHome/Pods-IoTSmartHome.debug.xcconfig"; sourceTree = "<group>"; };
+		DCAC827B1FE8AF31003E4D09 /* DashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
+		DCAC827D1FE8B25E003E4D09 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		DCAC82821FE8B452003E4D09 /* SocketIOManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
 		DCCB98AC1FE7D20000D5E9B3 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		DCCB98B01FE7D38700D5E9B3 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 		DCFE76FC1FE7BF7200B1049C /* IoTSmartHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IoTSmartHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,9 +67,32 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		DCAC827F1FE8B429003E4D09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DCAC82801FE8B430003E4D09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DCAC82811FE8B440003E4D09 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DCAC82821FE8B452003E4D09 /* SocketIOManager.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		DCCB98AE1FE7D21200D5E9B3 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				DCFE770B1FE7BF7200B1049C /* Info.plist */,
 				DCFE77061FE7BF7200B1049C /* Assets.xcassets */,
 				DCCB98AC1FE7D20000D5E9B3 /* Colors.xcassets */,
 				DCFE77031FE7BF7200B1049C /* Main.storyboard */,
@@ -75,6 +104,7 @@
 		DCCB98AF1FE7D37400D5E9B3 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				DCAC827D1FE8B25E003E4D09 /* Logger.swift */,
 				DCCB98B01FE7D38700D5E9B3 /* Extentions.swift */,
 			);
 			path = Helpers;
@@ -83,8 +113,9 @@
 		DCCB98B21FE7D5A600D5E9B3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				DCFE77011FE7BF7200B1049C /* ViewController.swift */,
 				DCFE76FF1FE7BF7200B1049C /* AppDelegate.swift */,
+				DCFE77011FE7BF7200B1049C /* ViewController.swift */,
+				DCAC827B1FE8AF31003E4D09 /* DashboardController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -110,10 +141,12 @@
 		DCFE76FE1FE7BF7200B1049C /* IoTSmartHome */ = {
 			isa = PBXGroup;
 			children = (
+				DCAC82811FE8B440003E4D09 /* Common */,
+				DCAC82801FE8B430003E4D09 /* View */,
+				DCAC827F1FE8B429003E4D09 /* Model */,
 				DCCB98B21FE7D5A600D5E9B3 /* Controller */,
 				DCCB98AF1FE7D37400D5E9B3 /* Helpers */,
 				DCCB98AE1FE7D21200D5E9B3 /* Resource */,
-				DCFE770B1FE7BF7200B1049C /* Info.plist */,
 			);
 			path = IoTSmartHome;
 			sourceTree = "<group>";
@@ -258,8 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCAC827E1FE8B25E003E4D09 /* Logger.swift in Sources */,
+				DCAC827C1FE8AF31003E4D09 /* DashboardController.swift in Sources */,
 				DCFE77021FE7BF7200B1049C /* ViewController.swift in Sources */,
 				DCFE77001FE7BF7200B1049C /* AppDelegate.swift in Sources */,
+				DCAC82831FE8B452003E4D09 /* SocketIOManager.swift in Sources */,
 				DCCB98B11FE7D38700D5E9B3 /* Extentions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,7 +436,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MK2N7RD69E;
-				INFOPLIST_FILE = IoTSmartHome/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/IoTSmartHome/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baon.IoTSmartHome;
@@ -417,7 +453,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MK2N7RD69E;
-				INFOPLIST_FILE = IoTSmartHome/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/IoTSmartHome/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baon.IoTSmartHome;
