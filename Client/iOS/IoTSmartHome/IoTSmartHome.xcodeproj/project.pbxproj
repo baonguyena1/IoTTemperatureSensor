@@ -11,6 +11,7 @@
 		DCAC827C1FE8AF31003E4D09 /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC827B1FE8AF31003E4D09 /* DashboardController.swift */; };
 		DCAC827E1FE8B25E003E4D09 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC827D1FE8B25E003E4D09 /* Logger.swift */; };
 		DCAC82831FE8B452003E4D09 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC82821FE8B452003E4D09 /* SocketIOManager.swift */; };
+		DCAC82851FE8C925003E4D09 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC82841FE8C925003E4D09 /* Constant.swift */; };
 		DCCB98AD1FE7D20000D5E9B3 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCB98AC1FE7D20000D5E9B3 /* Colors.xcassets */; };
 		DCCB98B11FE7D38700D5E9B3 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCB98B01FE7D38700D5E9B3 /* Extentions.swift */; };
 		DCFE77001FE7BF7200B1049C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFE76FF1FE7BF7200B1049C /* AppDelegate.swift */; };
@@ -27,6 +28,7 @@
 		DCAC827B1FE8AF31003E4D09 /* DashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
 		DCAC827D1FE8B25E003E4D09 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		DCAC82821FE8B452003E4D09 /* SocketIOManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
+		DCAC82841FE8C925003E4D09 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		DCCB98AC1FE7D20000D5E9B3 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		DCCB98B01FE7D38700D5E9B3 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 		DCFE76FC1FE7BF7200B1049C /* IoTSmartHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IoTSmartHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				DCAC82821FE8B452003E4D09 /* SocketIOManager.swift */,
+				DCAC82841FE8C925003E4D09 /* Constant.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCAC82851FE8C925003E4D09 /* Constant.swift in Sources */,
 				DCAC827E1FE8B25E003E4D09 /* Logger.swift in Sources */,
 				DCAC827C1FE8AF31003E4D09 /* DashboardController.swift in Sources */,
 				DCFE77021FE7BF7200B1049C /* ViewController.swift in Sources */,

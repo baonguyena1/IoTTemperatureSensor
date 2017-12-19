@@ -14,8 +14,8 @@ var constant = {
     SocketIOEvent: {
         CONNECTION: 'connection',
         DISCONNECT: 'disconnect',
-        DIDUPDATETEMPERATURE: 'didUpdateTemperature',
-        DIDUPDATEMANUALSETTING: 'didUpdateManualSetting'
+        DID_UPDATE_TEMPERATURE: 'didUpdateTemperature',
+        DID_UPDATE_MANUALSETTING: 'didUpdateManualSetting'
     }
 };
 

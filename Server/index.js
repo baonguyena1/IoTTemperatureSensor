@@ -30,14 +30,14 @@ server.listen(constant.listen_port, function() {
 });
 
 io.on(constant.SocketIOEvent.CONNECTION, function(socket) {
-    Logger.logInfo('user is connected. socket id: ' + socket.id);
+    Logger.logInfo('User is connected. socket id: ' + socket.id);
 
     socket.on(constant.SocketIOEvent.DISCONNECT, function() {
-        Logger.logInfo('user disconnected');
+        Logger.logInfo(socket.id + 'is disconnected');
     });
 
-    socket.on(constant.SocketIOEvent.DIDUPDATETEMPERATURE, function(data) {
+    socket.on(constant.SocketIOEvent.DID_UPDATE_TEMPERATURE, function(data) {
         Logger.logInfo(JSON.stringify(data));
-        socket.emit(constant.SocketIOEvent.DIDUPDATETEMPERATURE, data);
+        io.emit(constant.SocketIOEvent.DID_UPDATE_TEMPERATURE, data);
     });
 });

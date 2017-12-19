@@ -14,6 +14,8 @@ class SocketIOManager: NSObject {
     fileprivate var manager: SocketManager!
     fileprivate var socket: SocketIOClient!
     
+    var didUpdateTemperature: ((JSON?) -> Void)?
+    
     override init() {
         super.init()
         Logger.log("")
@@ -25,6 +27,10 @@ class SocketIOManager: NSObject {
         }
         socket.on(clientEvent: .disconnect) { (datas, ack) in
             Logger.log("Socket is disconnected")
+        }
+        socket.on(SocketIOEvent.didUpdateTemperature) { (datas, ack) in
+            let didUpdateTemperature = self.didUpdateTemperature
+            didUpdateTemperature?(datas[0] as? JSON)
         }
     }
     

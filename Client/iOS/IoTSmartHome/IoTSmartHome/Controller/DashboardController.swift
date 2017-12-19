@@ -23,12 +23,30 @@ class DashboardController: UITableViewController {
         static let FanOffImage = #imageLiteral(resourceName: "Fan_Off")
     }
     
+    fileprivate let tempSymbol = "°"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        SocketIOManager.shared.didUpdateTemperature = { [weak self] datas in
+            guard let strongSelf = self, let datas = datas else {
+                return
+            }
+            let temp: Float = datas[KeyString.Temperature] as! Float
+            let humidity: Float = datas[KeyString.Humidity] as! Float
+            DispatchQueue.main.async {
+                strongSelf.temperatureLabel.text = "\(temp)\(strongSelf.tempSymbol)C"
+                strongSelf.humidityLabel.text = "\(humidity)%"
+            }
+        }
     }
 
     @IBAction func fanSwitchTapped(_ sender: UISwitch) {
         Logger.log("Status = \(sender.isOn)")
-        
+        fanImageView.image = sender.isOn ? FanImage.FanOnImage : FanImage.FanOffImage
+        fanStatusLabel.text = sender.isOn ? "Fan On" : "Fan Off"
     }
 }
