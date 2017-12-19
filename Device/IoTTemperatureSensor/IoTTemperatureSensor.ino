@@ -27,7 +27,16 @@ void updateManualSetting(const char *payload, size_t length) {
   int newSetting = atoi(payload);
   Serial.printf("updateManualSetting: payload = %d", newSetting);
   EEPROM.write(EEPROM_MANUAL_SETTING_ADD, newSetting);
-  manualSetting = newSetting;
+  manualSetting = getManualSetting();
+  char *setting;
+  sprintf(setting, "%d", manualSetting);
+  delay(50);
+  webSocket.emit(SOCKET_UPDATE_MANUAL_SETTING_RESPONSE, setting);
+}
+
+int getManualSetting() {
+  int manualSetting = EEPROM.read(EEPROM_MANUAL_SETTING_ADD);
+  return manualSetting;
 }
 
 /**
@@ -79,7 +88,7 @@ void setup() {
   webSocket.on(SOCKET_DID_UPDATE_TEMPERATURE, updateManualSetting);
   
   webSocket.begin(host, port);
-  manualSetting = EEPROM.read(EEPROM_MANUAL_SETTING_ADD);
+  manualSetting = getManualSetting();
   Serial.printf("Manual setting = %d\n", manualSetting);
   Serial.println("DHT Text!!!");
   dht.begin();

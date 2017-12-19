@@ -10,6 +10,7 @@
  **/
 const char *SOCKET_DID_UPDATE_MANUAL_SETTING = "didUpdateManualSetting";
 const char *SOCKET_DID_UPDATE_TEMPERATURE = "didUpdateTemperature";
+const char *SOCKET_UPDATE_MANUAL_SETTING_RESPONSE = "updateManualSettingResponse";
 
 /**
  * Global define

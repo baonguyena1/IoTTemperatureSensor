@@ -42,4 +42,12 @@ class SocketIOManager: NSObject {
         socket.disconnect()
     }
     
+    func updateManualSetting(with manualSetting: Bool, completion: ((_ success: Bool) -> Void)?){
+        socket.emit(SocketIOEvent.didUpdateManualSetting, manualSetting);
+        socket.on(SocketIOEvent.updateManualSettingResponse) { (datas, ack) in
+            let success = datas[0] as? Bool
+            completion?(success ?? false)
+        }
+    }
+    
 }

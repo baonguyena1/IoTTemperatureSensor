@@ -13,6 +13,7 @@ typealias JSON = [String: Any]
 struct SocketIOEvent {
     static let didUpdateTemperature = "didUpdateTemperature"
     static let didUpdateManualSetting = "didUpdateManualSetting"
+    static let updateManualSettingResponse = "updateManualSettingResponse"
 }
 
 struct KeyString {

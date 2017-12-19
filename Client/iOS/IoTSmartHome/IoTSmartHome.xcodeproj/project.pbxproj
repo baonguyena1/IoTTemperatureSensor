@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D22195FB71656557D1B691A5 /* Pods_IoTSmartHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A59C3F5D44EC6D556284127 /* Pods_IoTSmartHome.framework */; };
+		DC187C381FE8FF1900B99A65 /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC187C371FE8FF1900B99A65 /* SettingController.swift */; };
 		DCAC827C1FE8AF31003E4D09 /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC827B1FE8AF31003E4D09 /* DashboardController.swift */; };
 		DCAC827E1FE8B25E003E4D09 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC827D1FE8B25E003E4D09 /* Logger.swift */; };
 		DCAC82831FE8B452003E4D09 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC82821FE8B452003E4D09 /* SocketIOManager.swift */; };
@@ -25,6 +26,7 @@
 		1A59C3F5D44EC6D556284127 /* Pods_IoTSmartHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IoTSmartHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70F2EBCEC779AC5AB4826817 /* Pods-IoTSmartHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IoTSmartHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-IoTSmartHome/Pods-IoTSmartHome.release.xcconfig"; sourceTree = "<group>"; };
 		CB706C41F0F687168C317C5C /* Pods-IoTSmartHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IoTSmartHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IoTSmartHome/Pods-IoTSmartHome.debug.xcconfig"; sourceTree = "<group>"; };
+		DC187C371FE8FF1900B99A65 /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
 		DCAC827B1FE8AF31003E4D09 /* DashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
 		DCAC827D1FE8B25E003E4D09 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		DCAC82821FE8B452003E4D09 /* SocketIOManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				DCFE76FF1FE7BF7200B1049C /* AppDelegate.swift */,
 				DCFE77011FE7BF7200B1049C /* ViewController.swift */,
 				DCAC827B1FE8AF31003E4D09 /* DashboardController.swift */,
+				DC187C371FE8FF1900B99A65 /* SettingController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-IoTSmartHome/Pods-IoTSmartHome-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -243,6 +247,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
@@ -298,6 +303,7 @@
 				DCAC827E1FE8B25E003E4D09 /* Logger.swift in Sources */,
 				DCAC827C1FE8AF31003E4D09 /* DashboardController.swift in Sources */,
 				DCFE77021FE7BF7200B1049C /* ViewController.swift in Sources */,
+				DC187C381FE8FF1900B99A65 /* SettingController.swift in Sources */,
 				DCFE77001FE7BF7200B1049C /* AppDelegate.swift in Sources */,
 				DCAC82831FE8B452003E4D09 /* SocketIOManager.swift in Sources */,
 				DCCB98B11FE7D38700D5E9B3 /* Extentions.swift in Sources */,

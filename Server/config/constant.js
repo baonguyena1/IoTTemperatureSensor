@@ -15,7 +15,8 @@ var constant = {
         CONNECTION: 'connection',
         DISCONNECT: 'disconnect',
         DID_UPDATE_TEMPERATURE: 'didUpdateTemperature',
-        DID_UPDATE_MANUALSETTING: 'didUpdateManualSetting'
+        DID_UPDATE_MANUALSETTING: 'didUpdateManualSetting',
+        UPDATE_MANUAL_SETTING_RESPONSE: 'updateManualSettingResponse'
     }
 };
 
