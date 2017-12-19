@@ -28,12 +28,4 @@ class SettingController: UITableViewController {
             MBProgressHUD.hide(for: self!.view, animated: true)
         }
     }
-    
-    @IBAction func turnOnFanTapped(_ sender: UITapGestureRecognizer) {
-        Logger.log("")
-    }
-    
-    @IBAction func turnOffFanTapped(_ sender: UITapGestureRecognizer) {
-        Logger.log("")
-    }
 }

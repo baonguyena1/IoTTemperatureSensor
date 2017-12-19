@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		D22195FB71656557D1B691A5 /* Pods_IoTSmartHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A59C3F5D44EC6D556284127 /* Pods_IoTSmartHome.framework */; };
 		DC187C381FE8FF1900B99A65 /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC187C371FE8FF1900B99A65 /* SettingController.swift */; };
+		DC1DC6A31FE91D19008F8AE5 /* TemperatureSettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DC6A21FE91D19008F8AE5 /* TemperatureSettingController.swift */; };
+		DC1DC6A51FE91E8E008F8AE5 /* TemperatureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DC6A41FE91E8E008F8AE5 /* TemperatureController.swift */; };
+		DC1DC6A71FE92017008F8AE5 /* Temperature.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC1DC6A61FE92017008F8AE5 /* Temperature.plist */; };
 		DCAC827C1FE8AF31003E4D09 /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC827B1FE8AF31003E4D09 /* DashboardController.swift */; };
 		DCAC827E1FE8B25E003E4D09 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC827D1FE8B25E003E4D09 /* Logger.swift */; };
 		DCAC82831FE8B452003E4D09 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC82821FE8B452003E4D09 /* SocketIOManager.swift */; };
@@ -27,6 +30,9 @@
 		70F2EBCEC779AC5AB4826817 /* Pods-IoTSmartHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IoTSmartHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-IoTSmartHome/Pods-IoTSmartHome.release.xcconfig"; sourceTree = "<group>"; };
 		CB706C41F0F687168C317C5C /* Pods-IoTSmartHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IoTSmartHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IoTSmartHome/Pods-IoTSmartHome.debug.xcconfig"; sourceTree = "<group>"; };
 		DC187C371FE8FF1900B99A65 /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
+		DC1DC6A21FE91D19008F8AE5 /* TemperatureSettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureSettingController.swift; sourceTree = "<group>"; };
+		DC1DC6A41FE91E8E008F8AE5 /* TemperatureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureController.swift; sourceTree = "<group>"; };
+		DC1DC6A61FE92017008F8AE5 /* Temperature.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Temperature.plist; sourceTree = "<group>"; };
 		DCAC827B1FE8AF31003E4D09 /* DashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
 		DCAC827D1FE8B25E003E4D09 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		DCAC82821FE8B452003E4D09 /* SocketIOManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
@@ -90,6 +96,7 @@
 			children = (
 				DCAC82821FE8B452003E4D09 /* SocketIOManager.swift */,
 				DCAC82841FE8C925003E4D09 /* Constant.swift */,
+				DC1DC6A41FE91E8E008F8AE5 /* TemperatureController.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -102,6 +109,7 @@
 				DCCB98AC1FE7D20000D5E9B3 /* Colors.xcassets */,
 				DCFE77031FE7BF7200B1049C /* Main.storyboard */,
 				DCFE77081FE7BF7200B1049C /* LaunchScreen.storyboard */,
+				DC1DC6A61FE92017008F8AE5 /* Temperature.plist */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -122,6 +130,7 @@
 				DCFE77011FE7BF7200B1049C /* ViewController.swift */,
 				DCAC827B1FE8AF31003E4D09 /* DashboardController.swift */,
 				DC187C371FE8FF1900B99A65 /* SettingController.swift */,
+				DC1DC6A21FE91D19008F8AE5 /* TemperatureSettingController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -222,6 +231,7 @@
 				DCFE770A1FE7BF7200B1049C /* LaunchScreen.storyboard in Resources */,
 				DCCB98AD1FE7D20000D5E9B3 /* Colors.xcassets in Resources */,
 				DCFE77071FE7BF7200B1049C /* Assets.xcassets in Resources */,
+				DC1DC6A71FE92017008F8AE5 /* Temperature.plist in Resources */,
 				DCFE77051FE7BF7200B1049C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,10 +312,12 @@
 				DCAC82851FE8C925003E4D09 /* Constant.swift in Sources */,
 				DCAC827E1FE8B25E003E4D09 /* Logger.swift in Sources */,
 				DCAC827C1FE8AF31003E4D09 /* DashboardController.swift in Sources */,
+				DC1DC6A31FE91D19008F8AE5 /* TemperatureSettingController.swift in Sources */,
 				DCFE77021FE7BF7200B1049C /* ViewController.swift in Sources */,
 				DC187C381FE8FF1900B99A65 /* SettingController.swift in Sources */,
 				DCFE77001FE7BF7200B1049C /* AppDelegate.swift in Sources */,
 				DCAC82831FE8B452003E4D09 /* SocketIOManager.swift in Sources */,
+				DC1DC6A51FE91E8E008F8AE5 /* TemperatureController.swift in Sources */,
 				DCCB98B11FE7D38700D5E9B3 /* Extentions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
