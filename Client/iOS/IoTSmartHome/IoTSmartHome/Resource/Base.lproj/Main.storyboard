@@ -253,7 +253,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="69.666666666666671"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Fan_On" translatesAutoresizingMaskIntoConstraints="NO" id="EDk-fD-aAz">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon_Fan_On" translatesAutoresizingMaskIntoConstraints="NO" id="EDk-fD-aAz">
                                                     <rect key="frame" x="16" y="15" width="40" height="40"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="EDk-fD-aAz" secondAttribute="height" multiplier="1:1" id="8nM-4Y-xFj"/>
@@ -296,7 +296,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="69.666666666666671"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Fan_Off" translatesAutoresizingMaskIntoConstraints="NO" id="Oyz-zY-OhS">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon_Fan_Off" translatesAutoresizingMaskIntoConstraints="NO" id="Oyz-zY-OhS">
                                                     <rect key="frame" x="16" y="15" width="40" height="40"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="Oyz-zY-OhS" secondAttribute="height" multiplier="1:1" id="N79-jX-Rte"/>
@@ -502,6 +502,7 @@
                                             <constraint firstAttribute="height" constant="44" id="U50-Qn-aVW"/>
                                         </constraints>
                                         <items>
+                                            <barButtonItem width="16" style="plain" systemItem="fixedSpace" id="sIT-V2-X6J"/>
                                             <barButtonItem title="Cancel" id="Lpe-g1-auc">
                                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
@@ -515,6 +516,7 @@
                                                     <action selector="doneTapped:" destination="7eM-r5-PIj" id="1Ek-TV-U1r"/>
                                                 </connections>
                                             </barButtonItem>
+                                            <barButtonItem width="16" style="plain" systemItem="fixedSpace" id="5vM-eX-Kr6"/>
                                         </items>
                                     </toolbar>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M3d-tg-aM9">
@@ -613,8 +615,9 @@
     </scenes>
     <resources>
         <image name="Fan_Off" width="180" height="180"/>
-        <image name="Fan_On" width="180" height="180"/>
         <image name="Humidity" width="60" height="60"/>
+        <image name="Icon_Fan_Off" width="29" height="29"/>
+        <image name="Icon_Fan_On" width="29" height="29"/>
         <image name="Information" width="29" height="29"/>
         <image name="Manual_Setting" width="29" height="29"/>
         <image name="Temp" width="60" height="60"/>
