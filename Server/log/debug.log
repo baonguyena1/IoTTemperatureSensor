@@ -288,3 +288,99 @@ Tuesday:12/19/2017|17:54:30:115 - [INFO]   - [IoTSmartHome][message]: User is co
 Tuesday:12/19/2017|17:55:34:556 - [INFO]   - [IoTSmartHome][message]: abHd2uYMWxaObr75AAALis disconnected
 Tuesday:12/19/2017|17:55:44:262 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: coalDZdmk0Gy79rgAAAM
 Tuesday:12/19/2017|17:56:1:37 - [INFO]   - [IoTSmartHome][message]: coalDZdmk0Gy79rgAAAMis disconnected
+Wednesday:12/20/2017|11:15:51:262 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/20/2017|11:15:51:588 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: NRFW-BTWhGilTJ-_AAAA
+Wednesday:12/20/2017|11:16:1:131 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":50}
+Wednesday:12/20/2017|11:16:1:157 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":50}
+Wednesday:12/20/2017|11:16:1:163 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":49}
+Wednesday:12/20/2017|11:16:1:170 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":49}
+Wednesday:12/20/2017|11:16:6:256 - [INFO]   - [IoTSmartHome][message]: {"temp":25,"humi":49}
+Wednesday:12/20/2017|11:16:11:235 - [INFO]   - [IoTSmartHome][message]: {"temp":25,"humi":49}
+Wednesday:12/20/2017|11:16:16:182 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":50}
+Wednesday:12/20/2017|11:16:21:175 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":50}
+Wednesday:12/20/2017|11:16:26:185 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":50}
+Wednesday:12/20/2017|11:16:31:179 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":50}
+Wednesday:12/20/2017|11:16:36:361 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":50}
+Wednesday:12/20/2017|11:17:34:130 - [INFO]   - [IoTSmartHome][message]: NRFW-BTWhGilTJ-_AAAAis disconnected
+Wednesday:12/20/2017|11:19:35:203 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: TG1wapfjduFrcU_zAAAB
+Wednesday:12/20/2017|11:19:45:526 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":49}
+Wednesday:12/20/2017|11:19:45:541 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":49}
+Wednesday:12/20/2017|11:19:45:551 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":50}
+Wednesday:12/20/2017|11:19:45:565 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":50}
+Wednesday:12/20/2017|11:19:50:557 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":51}
+Wednesday:12/20/2017|11:19:55:713 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":51}
+Wednesday:12/20/2017|11:20:7:85 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":50}
+Wednesday:12/20/2017|11:20:12:301 - [INFO]   - [IoTSmartHome][message]: TG1wapfjduFrcU_zAAABis disconnected
+Wednesday:12/20/2017|11:23:25:220 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: UmF7c2MlCsAvgiQlAAAC
+Wednesday:12/20/2017|11:23:35:69 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":50}
+Wednesday:12/20/2017|11:23:35:81 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":51}
+Wednesday:12/20/2017|11:23:35:85 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":51}
+Wednesday:12/20/2017|11:23:35:92 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":51}
+Wednesday:12/20/2017|11:23:40:97 - [INFO]   - [IoTSmartHome][message]: {"temp":25,"humi":48}
+Wednesday:12/20/2017|11:23:45:186 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":48}
+Wednesday:12/20/2017|11:23:50:240 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":48}
+Wednesday:12/20/2017|11:23:55:219 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":48}
+Wednesday:12/20/2017|11:24:0:239 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":48}
+Wednesday:12/20/2017|11:24:5:97 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":48}
+Wednesday:12/20/2017|11:24:10:372 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":49}
+Wednesday:12/20/2017|11:24:29:61 - [INFO]   - [IoTSmartHome][message]: UmF7c2MlCsAvgiQlAAACis disconnected
+Wednesday:12/20/2017|11:27:37:929 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: ozEnUFC-I9Jhv1UQAAAD
+Wednesday:12/20/2017|11:27:47:576 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":51}
+Wednesday:12/20/2017|11:27:47:585 - [INFO]   - [IoTSmartHome][message]: {"temp":25,"humi":48}
+Wednesday:12/20/2017|11:27:47:605 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":48}
+Wednesday:12/20/2017|11:27:47:622 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":48}
+Wednesday:12/20/2017|11:27:52:621 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":48}
+Wednesday:12/20/2017|11:27:57:809 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":48}
+Wednesday:12/20/2017|11:28:2:674 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":48}
+Wednesday:12/20/2017|11:28:7:843 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":49}
+Wednesday:12/20/2017|11:28:12:756 - [INFO]   - [IoTSmartHome][message]: {"temp":25,"humi":48}
+Wednesday:12/20/2017|11:28:17:680 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":49}
+Wednesday:12/20/2017|11:28:22:626 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":49}
+Wednesday:12/20/2017|11:29:6:823 - [INFO]   - [IoTSmartHome][message]: ozEnUFC-I9Jhv1UQAAADis disconnected
+Wednesday:12/20/2017|11:33:26:185 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: UiJTT36asPJtycNuAAAE
+Wednesday:12/20/2017|11:33:35:493 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":48}
+Wednesday:12/20/2017|11:33:35:497 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":48}
+Wednesday:12/20/2017|11:33:35:502 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":48}
+Wednesday:12/20/2017|11:33:35:508 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":48}
+Wednesday:12/20/2017|11:33:40:542 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":49}
+Wednesday:12/20/2017|11:33:45:527 - [INFO]   - [IoTSmartHome][message]: {"temp":25,"humi":48}
+Wednesday:12/20/2017|11:33:50:696 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":49}
+Wednesday:12/20/2017|11:33:55:524 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":49}
+Wednesday:12/20/2017|11:34:0:590 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":50}
+Wednesday:12/20/2017|11:34:5:735 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":50}
+Wednesday:12/20/2017|11:34:10:652 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":51}
+Wednesday:12/20/2017|11:34:37:654 - [INFO]   - [IoTSmartHome][message]: UiJTT36asPJtycNuAAAEis disconnected
+Wednesday:12/20/2017|11:40:39:273 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: DGEdfnodSfaoxmSnAAAF
+Wednesday:12/20/2017|11:40:48:585 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":48}
+Wednesday:12/20/2017|11:40:48:590 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":49}
+Wednesday:12/20/2017|11:40:48:605 - [INFO]   - [IoTSmartHome][message]: {"temp":25,"humi":48}
+Wednesday:12/20/2017|11:40:48:611 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":49}
+Wednesday:12/20/2017|11:40:53:699 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":49}
+Wednesday:12/20/2017|11:40:58:653 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":50}
+Wednesday:12/20/2017|11:41:3:733 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":50}
+Wednesday:12/20/2017|11:41:8:751 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":51}
+Wednesday:12/20/2017|11:41:13:982 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":51}
+Wednesday:12/20/2017|11:41:18:891 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":51}
+Wednesday:12/20/2017|11:41:23:620 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":51}
+Wednesday:12/20/2017|11:42:46:551 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":49}
+Wednesday:12/20/2017|11:42:51:517 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":49}
+Wednesday:12/20/2017|11:42:56:552 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":50}
+Wednesday:12/20/2017|11:43:1:529 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":50}
+Wednesday:12/20/2017|11:43:6:590 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":51}
+Wednesday:12/20/2017|11:43:11:521 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":51}
+Wednesday:12/20/2017|11:43:16:737 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":51}
+Wednesday:12/20/2017|11:43:21:817 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":51}
+Wednesday:12/20/2017|11:44:30:620 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: rqy6Zd-mpyURjrTdAAAG
+Wednesday:12/20/2017|11:44:32:396 - [INFO]   - [IoTSmartHome][message]: DGEdfnodSfaoxmSnAAAFis disconnected
+Wednesday:12/20/2017|11:44:39:889 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":49}
+Wednesday:12/20/2017|11:44:39:956 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":49}
+Wednesday:12/20/2017|11:44:40:18 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":50}
+Wednesday:12/20/2017|11:44:40:84 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":50}
+Wednesday:12/20/2017|11:44:45:28 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":51}
+Wednesday:12/20/2017|11:44:50:295 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":51}
+Wednesday:12/20/2017|11:44:55:28 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":51}
+Wednesday:12/20/2017|11:45:0:106 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":51}
+Wednesday:12/20/2017|11:45:5:30 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":51}
+Wednesday:12/20/2017|11:45:10:192 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":51}
+Wednesday:12/20/2017|11:45:15:37 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":51}
+Wednesday:12/20/2017|11:46:40:42 - [INFO]   - [IoTSmartHome][message]: rqy6Zd-mpyURjrTdAAAGis disconnected

@@ -43,9 +43,11 @@ class SocketIOManager: NSObject {
     }
     
     func updateManualSetting(with manualSetting: Bool, completion: ((_ success: Bool) -> Void)?){
+        Logger.log("Manual setting = \(manualSetting)")
         socket.emit(SocketIOEvent.didUpdateManualSetting, manualSetting);
         socket.on(SocketIOEvent.updateManualSettingResponse) { (datas, ack) in
             let success = datas[0] as? Bool
+            Logger.log("Seccuss = \(success)")
             completion?(success ?? false)
         }
     }

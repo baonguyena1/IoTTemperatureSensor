@@ -18,14 +18,14 @@ class SettingController: UITableViewController {
     }
 
     @IBAction func manualSettingTapped(_ sender: UISwitch) {
-        MBProgressHUD.showAdded(to: self.view, animated: true)
+//        MBProgressHUD.showAdded(to: self.view, animated: true)
         let setting = sender.isOn
         manualSwitch.isOn = !setting;
         Logger.log("manual setting = \(setting)")
         SocketIOManager.shared.updateManualSetting(with: sender.isOn) { [weak self] (success) in
             Logger.log("Response status = \(success)")
             self?.manualSwitch.isOn = success
-            MBProgressHUD.hide(for: self!.view, animated: true)
+//            MBProgressHUD.hide(for: self!.view, animated: true)
         }
     }
 }

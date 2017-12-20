@@ -20,3 +20,7 @@ struct KeyString {
     static let Temperature = "temp"
     static let Humidity = "humi"
 }
+
+struct StoryBoardIdentifier {
+    static let TemperatureController = "TemperatureController"
+}

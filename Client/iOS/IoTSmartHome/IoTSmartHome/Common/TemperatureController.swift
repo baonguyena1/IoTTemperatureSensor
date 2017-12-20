@@ -56,6 +56,10 @@ class TemperatureController: UIViewController {
         let data = prefix + suffix
         delegate?.temperature(self, didSelected: data)
     }
+    
+    @IBAction func viewTapped(_ sender: UITapGestureRecognizer) {
+        delegate?.temperatureDidCancel(self)
+    }
 }
 
 extension TemperatureController: UIPickerViewDataSource {
