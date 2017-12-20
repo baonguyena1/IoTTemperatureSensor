@@ -1,6 +1,7 @@
 var path = require('path');
 var bodyParser = require('body-parser');
 var express = require('express');
+var mongoose = require('mongoose');
 
 var app = express();
 var server = require('http').createServer(app);
@@ -9,10 +10,13 @@ var io = require('socket.io')(server);
 var constant = require('./config/constant')
 var database_config = require('./config/database_config');
 var Logger = require('./log/log');
+var connect_database = require('./config/connect_database');
+var settingController = require('./controllers/SettingController');
+
+mongoose = connect_database.connectDatabase(mongoose, database_config.mongodb);
 
 app.use(bodyParser.json());
 app.use('/public', express.static(path.join(__dirname, 'public')));
-
 app.use(function (req, res, done) {
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Headers", "Cache-Control, Pragma, Origin, Authorization, Content-Type, X-Requested-With, access_token");
@@ -51,3 +55,5 @@ io.on(constant.SocketIOEvent.CONNECTION, function(socket) {
     });
 
 });
+
+app.use('/setting/', settingController);

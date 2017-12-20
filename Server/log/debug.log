@@ -384,3 +384,91 @@ Wednesday:12/20/2017|11:45:5:30 - [INFO]   - [IoTSmartHome][message]: {"temp":26
 Wednesday:12/20/2017|11:45:10:192 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":51}
 Wednesday:12/20/2017|11:45:15:37 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":51}
 Wednesday:12/20/2017|11:46:40:42 - [INFO]   - [IoTSmartHome][message]: rqy6Zd-mpyURjrTdAAAGis disconnected
+Wednesday:12/20/2017|16:31:16:640 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/20/2017|16:31:17:902 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 8YAN6UtdCuUM04c4AAAA
+Wednesday:12/20/2017|16:31:19:378 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: JdjDcGv5qy6ODpklAAAB
+Wednesday:12/20/2017|16:31:27:420 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":53}
+Wednesday:12/20/2017|16:31:27:440 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":53}
+Wednesday:12/20/2017|16:31:27:444 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":52}
+Wednesday:12/20/2017|16:31:27:468 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":52}
+Wednesday:12/20/2017|16:31:32:542 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":53}
+Wednesday:12/20/2017|16:31:37:967 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":53}
+Wednesday:12/20/2017|16:31:42:466 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":53}
+Wednesday:12/20/2017|16:31:47:584 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":53}
+Wednesday:12/20/2017|16:31:52:469 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":53}
+Wednesday:12/20/2017|16:31:57:801 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":53}
+Wednesday:12/20/2017|16:32:2:472 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":53}
+Wednesday:12/20/2017|16:39:34:50 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/20/2017|16:39:42:503 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 00uQK5yr7vsWCwWVAAAA
+Wednesday:12/20/2017|16:40:29:502 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/20/2017|16:40:38:886 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: QA11VWwSNvlIsVWPAAAA
+Wednesday:12/20/2017|16:47:42:664 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/20/2017|16:47:51:983 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: kxkqKs6psUgEHXK8AAAA
+Wednesday:12/20/2017|16:48:7:434 - [INFO]   - [IoTSmartHome][message]: Test...
+Wednesday:12/20/2017|16:49:51:676 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/20/2017|16:49:55:426 - [INFO]   - [IoTSmartHome][message]: Test...
+Wednesday:12/20/2017|16:50:1:33 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 2cF_-u6cjDaE9FlsAAAA
+Wednesday:12/20/2017|16:50:16:855 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/20/2017|16:50:22:183 - [INFO]   - [IoTSmartHome][message]: Test...
+Wednesday:12/20/2017|16:50:26:311 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: zbLOhqOrOJUvHXv_AAAA
+Wednesday:12/20/2017|16:50:53:993 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/20/2017|16:50:55:568 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/20/2017|16:50:58:548 - [INFO]   - [IoTSmartHome][message]: Test...
+Wednesday:12/20/2017|16:51:3:349 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: kpgePp3wAkwB_j6bAAAA
+Wednesday:12/20/2017|16:52:30:127 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/20/2017|16:52:39:499 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: UJ4SR-rF2jILoBXSAAAA
+Wednesday:12/20/2017|16:53:5:39 - [INFO]   - [IoTSmartHome][message]: Test...
+Wednesday:12/20/2017|16:56:51:754 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/20/2017|16:57:1:113 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: GnGcrLaLwLpW5JNrAAAA
+Wednesday:12/20/2017|16:57:7:75 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/20/2017|16:57:11:107 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: Xrj9bzYdpr7VTMw5AAAA
+Wednesday:12/20/2017|16:57:18:318 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/20/2017|16:57:21:567 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 2y_q2Jb2gEoqbmuKAAAA
+Wednesday:12/20/2017|16:57:25:163 - [INFO]   - [IoTSmartHome][message]: Test...
+Wednesday:12/20/2017|16:59:34:391 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/20/2017|16:59:35:278 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/20/2017|16:59:43:679 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: A8e2RtvyXci2KIs8AAAA
+Wednesday:12/20/2017|16:59:47:280 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/20/2017|16:59:53:681 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: RtfSRttZzKxeZ_LfAAAA
+Wednesday:12/20/2017|17:2:6:423 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/20/2017|17:2:11:237 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/20/2017|17:2:15:745 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: UEB9EhsJu1Bj91rqAAAA
+Wednesday:12/20/2017|17:2:16:70 - [INFO]   - [IoTSmartHome][message]: Test...
+Wednesday:12/20/2017|17:2:47:390 - [INFO]   - [IoTSmartHome][message]: Test...
+Wednesday:12/20/2017|17:3:18:772 - [INFO]   - [IoTSmartHome][message]: Test...
+Wednesday:12/20/2017|17:3:30:746 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/20/2017|17:3:33:957 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: Qdg0c1j0KGBuzKUaAAAA
+Wednesday:12/20/2017|17:4:1:606 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/20/2017|17:4:9:493 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: SBi6kBwISe8TBxK5AAAA
+Wednesday:12/20/2017|17:5:13:910 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/20/2017|17:5:19:57 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: LIPB2qWSUT3mZycmAAAA
+Wednesday:12/20/2017|17:7:43:263 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: o55PNt3WGMucYJWzAAAB
+Wednesday:12/20/2017|17:7:52:891 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":52}
+Wednesday:12/20/2017|17:7:52:896 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":53}
+Wednesday:12/20/2017|17:7:52:901 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":53}
+Wednesday:12/20/2017|17:7:52:908 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":53}
+Wednesday:12/20/2017|17:7:57:909 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":53}
+Wednesday:12/20/2017|17:8:2:926 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":53}
+Wednesday:12/20/2017|17:8:7:974 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":53}
+Wednesday:12/20/2017|17:8:12:915 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":53}
+Wednesday:12/20/2017|17:8:17:958 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":53}
+Wednesday:12/20/2017|17:8:23:177 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":53}
+Wednesday:12/20/2017|17:8:27:915 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":53}
+Wednesday:12/20/2017|17:9:34:833 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/20/2017|17:9:44:219 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: PCQYC-KUb-zq5QxBAAAA
+Wednesday:12/20/2017|17:17:14:358 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: Pb3XG6mlXzKh-7BuAAAB
+Wednesday:12/20/2017|17:17:23:849 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":53}
+Wednesday:12/20/2017|17:17:23:888 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":53}
+Wednesday:12/20/2017|17:17:23:895 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":53}
+Wednesday:12/20/2017|17:17:23:906 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":53}
+Wednesday:12/20/2017|17:17:28:953 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":53}
+Wednesday:12/20/2017|17:17:33:986 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":53}
+Wednesday:12/20/2017|17:17:38:911 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":53}
+Wednesday:12/20/2017|17:17:43:909 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":53}
+Wednesday:12/20/2017|17:17:48:929 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":53}
+Wednesday:12/20/2017|17:17:54:4 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":53}
+Wednesday:12/20/2017|17:17:58:968 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":52}
+Wednesday:12/20/2017|17:18:18:268 - [INFO]   - [IoTSmartHome][message]: Pb3XG6mlXzKh-7BuAAABis disconnected
+Wednesday:12/20/2017|17:23:19:330 - [INFO]   - [IoTSmartHome][message]: PCQYC-KUb-zq5QxBAAAAis disconnected
+Wednesday:12/20/2017|17:24:39:951 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/20/2017|17:25:38:369 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
