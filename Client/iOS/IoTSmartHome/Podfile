@@ -6,9 +6,7 @@ target 'IoTSmartHome' do
   use_frameworks!
 
   # Pods for IoTSmartHome
-  pod 'RxSwift'
-  pod 'RxCocoa'
-  pod 'RxAlamofire'
+  pod 'Alamofire'
   pod 'Socket.IO-Client-Swift'
   pod 'MBProgressHUD'
 

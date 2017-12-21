@@ -472,3 +472,46 @@ Wednesday:12/20/2017|17:18:18:268 - [INFO]   - [IoTSmartHome][message]: Pb3XG6ml
 Wednesday:12/20/2017|17:23:19:330 - [INFO]   - [IoTSmartHome][message]: PCQYC-KUb-zq5QxBAAAAis disconnected
 Wednesday:12/20/2017|17:24:39:951 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
 Wednesday:12/20/2017|17:25:38:369 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/20/2017|17:37:49:502 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: -ztorU4EHg3gb8_qAAAA
+Thursday:12/21/2017|9:29:4:631 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Thursday:12/21/2017|9:30:4:112 - [INFO]   - [IoTSmartHome][message]: Test...
+Thursday:12/21/2017|9:35:53:559 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Thursday:12/21/2017|9:38:17:877 - [INFO]   - [IoTSmartHome][message]: Test...
+Thursday:12/21/2017|9:38:21:272 - [INFO]   - [IoTSmartHome][message]: Test...
+Thursday:12/21/2017|9:38:22:519 - [INFO]   - [IoTSmartHome][message]: Test...
+Thursday:12/21/2017|9:38:23:421 - [INFO]   - [IoTSmartHome][message]: Test...
+Thursday:12/21/2017|9:38:38:86 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Thursday:12/21/2017|9:40:15:960 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Thursday:12/21/2017|9:41:53:509 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Thursday:12/21/2017|9:42:17:151 - [INFO]   - [IoTSmartHome][message]: Test...
+Thursday:12/21/2017|9:51:30:488 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Thursday:12/21/2017|9:52:27:733 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Thursday:12/21/2017|9:52:45:474 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Thursday:12/21/2017|9:53:7:135 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Thursday:12/21/2017|9:55:8:792 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Thursday:12/21/2017|9:55:30:542 - [INFO]   - [IoTSmartHome][message]: Test...
+Thursday:12/21/2017|9:55:52:640 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Thursday:12/21/2017|9:55:59:318 - [INFO]   - [IoTSmartHome][message]: Test...
+Thursday:12/21/2017|9:58:3:771 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Thursday:12/21/2017|10:0:58:964 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Thursday:12/21/2017|10:1:16:383 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: W2fukPQ1yrzMI0DsAAAA
+Thursday:12/21/2017|10:1:25:909 - [INFO]   - [IoTSmartHome][message]: {"temp":25,"humi":69}
+Thursday:12/21/2017|10:1:25:957 - [INFO]   - [IoTSmartHome][message]: {"temp":25,"humi":71}
+Thursday:12/21/2017|10:1:25:975 - [INFO]   - [IoTSmartHome][message]: {"temp":25,"humi":71}
+Thursday:12/21/2017|10:1:26:1 - [INFO]   - [IoTSmartHome][message]: {"temp":25,"humi":71}
+Thursday:12/21/2017|10:1:31:106 - [INFO]   - [IoTSmartHome][message]: {"temp":25,"humi":71}
+Thursday:12/21/2017|10:1:36:15 - [INFO]   - [IoTSmartHome][message]: {"temp":25,"humi":71}
+Thursday:12/21/2017|10:1:36:617 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Test
+Thursday:12/21/2017|10:1:36:689 - [INFO]   - [IoTSmartHome][message]: [END] Test
+Thursday:12/21/2017|10:1:41:1 - [INFO]   - [IoTSmartHome][message]: {"temp":25,"humi":71}
+Thursday:12/21/2017|10:1:46:186 - [INFO]   - [IoTSmartHome][message]: {"temp":25,"humi":71}
+Thursday:12/21/2017|10:1:51:82 - [INFO]   - [IoTSmartHome][message]: {"temp":25,"humi":71}
+Thursday:12/21/2017|10:1:56:292 - [INFO]   - [IoTSmartHome][message]: {"temp":25,"humi":71}
+Thursday:12/21/2017|10:2:1:163 - [INFO]   - [IoTSmartHome][message]: {"temp":25,"humi":71}
+Thursday:12/21/2017|10:2:1:819 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Thursday:12/21/2017|10:2:34:809 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Test
+Thursday:12/21/2017|10:2:34:837 - [INFO]   - [IoTSmartHome][message]: [END] Test
+Thursday:12/21/2017|10:4:41:885 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Thursday:12/21/2017|10:6:28:85 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Thursday:12/21/2017|10:6:53:874 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Thursday:12/21/2017|10:6:53:896 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting

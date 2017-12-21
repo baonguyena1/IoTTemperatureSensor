@@ -7,37 +7,58 @@ var constant = require('../config/constant');
 var Setting = require('../models/Setting');
 
 router.get('/test', function(req, res) {
-    Logger.logInfo('Test...');
-    var setting = Setting();
-    setting.save(function(error, object) {
-        Logger.logInfo(JSON.stringify(object));
-    });
-    // createNewSetting()
-    // .then(function(setting) {
-    //     Logger.logInfo('Success: ' + JSON.stringify(setting));
-    //     res.send(JSON.stringify(setting));
-    // })
-    // .catch(function(error) {
-    //     Logger.logError('Fail: ' + JSON.stringify(error));
-    //     res.send(JSON.stringify(error))
-    // })
-    // .then(function() {
-    //     Logger.logInfo('Done');
-    // });
+    Logger.logInfo('[BEGIN] Test');
+    function createNewSetting() {
+        var defer = Q.defer();
+        var setting = new Setting();
+        setting.save(function(error, object) {
+            if (error) {
+                defer.reject(error);
+            } else {
+                defer.resolve(object);
+            }
+        });
+        return defer.promise;
+    }
 
-    // function createNewSetting() {
-    //     var defered = Q.defer();
-    //     var setting = new Setting();
-    //     setting.save(function(err, object) {
-    //         if (err) {
-    //             defered.reject(err);
-    //         } else {
-    //             defered.resolve(object);
-    //         }
-    //     });
-    //     return defered.promise;
-    // }
+    createNewSetting()
+    .then(function(setting) {
+        res.send(setting);
+    })
+    .catch(function(error) {
+        Logger.logError(JSON.stringify(error));
+        res.send(error);
+    })
+    .then(function() {
+        Logger.logInfo('[END] Test');
+    })
+});
 
+router.get('/setting', function(req, res) {
+    function getSetting() {
+        var defer = Q.defer()
+        Setting.find(function(error, settings) {
+            if (error) {
+                defer.reject(error);
+            } else {
+                defer.resolve(settings);
+            }
+        });
+        return defer.promise;
+    }
+
+    Logger.logInfo('[BEGIN] Get Setting');
+    getSetting()
+    .then(function(settings) {
+        res.send(settings);
+    })
+    .catch(function(error) {
+        Logger.logError(JSON.stringify(error));
+        res.send(error);
+    })
+    .then(function() {
+        Logger.logInfo('[END] Get Setting');
+    })
 });
 
 module.exports = router;
