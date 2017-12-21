@@ -16,6 +16,22 @@ class SettingController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.getSetting(from: Service.shared, with: "http://localhost:9898/setting/setting")
+    }
+    
+    fileprivate func getSetting<S: Serviceable>(from service: S, with url: String) {
+        service.get(url) { (result) in
+            switch result {
+            case .success(let json):
+                Logger.log("JSON = \(json)")
+            case .error(let error):
+                Logger.log("Error - \(error)")
+            }
+        }
+    }
 
     @IBAction func manualSettingTapped(_ sender: UISwitch) {
 //        MBProgressHUD.showAdded(to: self.view, animated: true)

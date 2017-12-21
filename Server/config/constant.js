@@ -1,10 +1,5 @@
 var constant = {
     listen_port: 9898,
-    status: 'status',
-    error: 'error',
-    error_code: 'error_code',
-    message: 'message',
-    results: 'results',
     server_time: 'server_time',
     enable_log: true,
     day_format: 'DD-MM-YYYY HH:mm:ss',
@@ -17,7 +12,13 @@ var constant = {
         DID_UPDATE_TEMPERATURE: 'didUpdateTemperature',
         DID_UPDATE_MANUALSETTING: 'didUpdateManualSetting',
         UPDATE_MANUAL_SETTING_RESPONSE: 'updateManualSettingResponse'
-    }
+    },
+    success: 'success',
+    status: 'status',
+    error: 'error',
+    error_code: 'error_code',
+    message: 'message',
+    results: 'results',
 };
 
 module.exports = constant;

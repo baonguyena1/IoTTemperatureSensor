@@ -12,6 +12,9 @@
 		DC1DC6A31FE91D19008F8AE5 /* TemperatureSettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DC6A21FE91D19008F8AE5 /* TemperatureSettingController.swift */; };
 		DC1DC6A51FE91E8E008F8AE5 /* TemperatureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DC6A41FE91E8E008F8AE5 /* TemperatureController.swift */; };
 		DC1DC6A71FE92017008F8AE5 /* Temperature.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC1DC6A61FE92017008F8AE5 /* Temperature.plist */; };
+		DC4AD2411FEB613500007B07 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4AD2401FEB613500007B07 /* Setting.swift */; };
+		DC4AD2431FEB6AFD00007B07 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4AD2421FEB6AFD00007B07 /* Service.swift */; };
+		DC4AD2451FEB70E300007B07 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4AD2441FEB70E300007B07 /* Response.swift */; };
 		DCAC827C1FE8AF31003E4D09 /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC827B1FE8AF31003E4D09 /* DashboardController.swift */; };
 		DCAC827E1FE8B25E003E4D09 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC827D1FE8B25E003E4D09 /* Logger.swift */; };
 		DCAC82831FE8B452003E4D09 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC82821FE8B452003E4D09 /* SocketIOManager.swift */; };
@@ -33,6 +36,9 @@
 		DC1DC6A21FE91D19008F8AE5 /* TemperatureSettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureSettingController.swift; sourceTree = "<group>"; };
 		DC1DC6A41FE91E8E008F8AE5 /* TemperatureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureController.swift; sourceTree = "<group>"; };
 		DC1DC6A61FE92017008F8AE5 /* Temperature.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Temperature.plist; sourceTree = "<group>"; };
+		DC4AD2401FEB613500007B07 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		DC4AD2421FEB6AFD00007B07 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		DC4AD2441FEB70E300007B07 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		DCAC827B1FE8AF31003E4D09 /* DashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
 		DCAC827D1FE8B25E003E4D09 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		DCAC82821FE8B452003E4D09 /* SocketIOManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
@@ -80,6 +86,8 @@
 		DCAC827F1FE8B429003E4D09 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DC4AD2401FEB613500007B07 /* Setting.swift */,
+				DC4AD2441FEB70E300007B07 /* Response.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -119,6 +127,7 @@
 			children = (
 				DCAC827D1FE8B25E003E4D09 /* Logger.swift */,
 				DCCB98B01FE7D38700D5E9B3 /* Extentions.swift */,
+				DC4AD2421FEB6AFD00007B07 /* Service.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -304,11 +313,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCAC82851FE8C925003E4D09 /* Constant.swift in Sources */,
+				DC4AD2451FEB70E300007B07 /* Response.swift in Sources */,
 				DCAC827E1FE8B25E003E4D09 /* Logger.swift in Sources */,
 				DCAC827C1FE8AF31003E4D09 /* DashboardController.swift in Sources */,
 				DC1DC6A31FE91D19008F8AE5 /* TemperatureSettingController.swift in Sources */,
 				DCFE77021FE7BF7200B1049C /* ViewController.swift in Sources */,
+				DC4AD2431FEB6AFD00007B07 /* Service.swift in Sources */,
 				DC187C381FE8FF1900B99A65 /* SettingController.swift in Sources */,
+				DC4AD2411FEB613500007B07 /* Setting.swift in Sources */,
 				DCFE77001FE7BF7200B1049C /* AppDelegate.swift in Sources */,
 				DCAC82831FE8B452003E4D09 /* SocketIOManager.swift in Sources */,
 				DC1DC6A51FE91E8E008F8AE5 /* TemperatureController.swift in Sources */,

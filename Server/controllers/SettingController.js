@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var Q = require('q');
 
+var util = require('../libs/utils');
 var Logger = require('../log/log');
 var constant = require('../config/constant');
 var Setting = require('../models/Setting');
@@ -23,11 +24,11 @@ router.get('/test', function(req, res) {
 
     createNewSetting()
     .then(function(setting) {
-        res.send(setting);
+        util.responseSuccess(res, setting);
     })
     .catch(function(error) {
         Logger.logError(JSON.stringify(error));
-        res.send(error);
+        util.responseFail(res);
     })
     .then(function() {
         Logger.logInfo('[END] Test');
@@ -37,7 +38,7 @@ router.get('/test', function(req, res) {
 router.get('/setting', function(req, res) {
     function getSetting() {
         var defer = Q.defer()
-        Setting.find(function(error, settings) {
+        Setting.findOne(function(error, settings) {
             if (error) {
                 defer.reject(error);
             } else {
@@ -50,11 +51,11 @@ router.get('/setting', function(req, res) {
     Logger.logInfo('[BEGIN] Get Setting');
     getSetting()
     .then(function(settings) {
-        res.send(settings);
+        util.responseSuccess(res, settings);
     })
     .catch(function(error) {
         Logger.logError(JSON.stringify(error));
-        res.send(error);
+        util.responseFail(res);
     })
     .then(function() {
         Logger.logInfo('[END] Get Setting');

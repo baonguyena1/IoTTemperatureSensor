@@ -19,6 +19,10 @@ struct SocketIOEvent {
 struct KeyString {
     static let Temperature = "temp"
     static let Humidity = "humi"
+    static let Results = "results"
+    static let Success = "success"
+    static let ErrorCode = "error_code"
+    static let Message = "message"
 }
 
 struct StoryBoardIdentifier {

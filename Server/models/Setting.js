@@ -22,7 +22,7 @@ var settingSchema = new Schema({
         type: Number,
         default: 15.0
     },
-    createdAt: {
+    created_at: {
         type: Date,
         default: Date.now
     },
