@@ -23,6 +23,22 @@ struct KeyString {
     static let Success = "success"
     static let ErrorCode = "error_code"
     static let Message = "message"
+    
+    static let id = "_id"
+    static let manualSetting = "manualSetting"
+    static let highTempEnable = "highTempEnable"
+    static let highTemp = "highTemp"
+    static let lowTempEnable = "lowTempEnable"
+    static let lowTemp = "lowTemp"
+    static let created_at = "created_at"
+    static let updated_at = "updated_at"
+}
+
+struct Message {
+    static let SOMETHING_WRONG = "Something went wrong. Please try again!!!"
+    static let TEMP_SYMBOL = "°"
+    static let FAN_ON_WHEN_TEMP_GREATER_THAN = "Turn on Fan when the temperature is greater than"
+    static let FAN_OFF_WHEN_TEMP_LESS_THAN = "Turn off Fan when the temperature is less than"
 }
 
 struct StoryBoardIdentifier {

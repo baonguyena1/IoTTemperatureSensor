@@ -22,7 +22,6 @@
 		DCCB98AD1FE7D20000D5E9B3 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCB98AC1FE7D20000D5E9B3 /* Colors.xcassets */; };
 		DCCB98B11FE7D38700D5E9B3 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCB98B01FE7D38700D5E9B3 /* Extentions.swift */; };
 		DCFE77001FE7BF7200B1049C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFE76FF1FE7BF7200B1049C /* AppDelegate.swift */; };
-		DCFE77021FE7BF7200B1049C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFE77011FE7BF7200B1049C /* ViewController.swift */; };
 		DCFE77051FE7BF7200B1049C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFE77031FE7BF7200B1049C /* Main.storyboard */; };
 		DCFE77071FE7BF7200B1049C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCFE77061FE7BF7200B1049C /* Assets.xcassets */; };
 		DCFE770A1FE7BF7200B1049C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFE77081FE7BF7200B1049C /* LaunchScreen.storyboard */; };
@@ -47,7 +46,6 @@
 		DCCB98B01FE7D38700D5E9B3 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 		DCFE76FC1FE7BF7200B1049C /* IoTSmartHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IoTSmartHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFE76FF1FE7BF7200B1049C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DCFE77011FE7BF7200B1049C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DCFE77041FE7BF7200B1049C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCFE77061FE7BF7200B1049C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCFE77091FE7BF7200B1049C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -136,7 +134,6 @@
 			isa = PBXGroup;
 			children = (
 				DCFE76FF1FE7BF7200B1049C /* AppDelegate.swift */,
-				DCFE77011FE7BF7200B1049C /* ViewController.swift */,
 				DCAC827B1FE8AF31003E4D09 /* DashboardController.swift */,
 				DC187C371FE8FF1900B99A65 /* SettingController.swift */,
 				DC1DC6A21FE91D19008F8AE5 /* TemperatureSettingController.swift */,
@@ -317,7 +314,6 @@
 				DCAC827E1FE8B25E003E4D09 /* Logger.swift in Sources */,
 				DCAC827C1FE8AF31003E4D09 /* DashboardController.swift in Sources */,
 				DC1DC6A31FE91D19008F8AE5 /* TemperatureSettingController.swift in Sources */,
-				DCFE77021FE7BF7200B1049C /* ViewController.swift in Sources */,
 				DC4AD2431FEB6AFD00007B07 /* Service.swift in Sources */,
 				DC187C381FE8FF1900B99A65 /* SettingController.swift in Sources */,
 				DC4AD2411FEB613500007B07 /* Setting.swift in Sources */,

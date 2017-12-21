@@ -23,8 +23,6 @@ class DashboardController: UITableViewController {
         static let FanOffImage = #imageLiteral(resourceName: "Fan_Off")
     }
     
-    fileprivate let tempSymbol = "°"
-    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -38,7 +36,7 @@ class DashboardController: UITableViewController {
             let temp: Float = datas[KeyString.Temperature] as! Float
             let humidity: Float = datas[KeyString.Humidity] as! Float
             DispatchQueue.main.async {
-                strongSelf.temperatureLabel.text = "\(temp)\(strongSelf.tempSymbol)C"
+                strongSelf.temperatureLabel.text = "\(temp)\(Message.TEMP_SYMBOL)C"
                 strongSelf.humidityLabel.text = "\(humidity)%"
             }
         }

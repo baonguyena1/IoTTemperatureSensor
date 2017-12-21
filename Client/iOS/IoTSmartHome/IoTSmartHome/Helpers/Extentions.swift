@@ -52,3 +52,32 @@ extension UIView {
     }
     
 }
+
+typealias AlertActionHandler = ((UIAlertAction) -> Void)
+
+extension UIAlertControllerStyle {
+    func controller(title: String?, message: String?, actions:[UIAlertAction]) -> UIAlertController {
+        let controller = UIAlertController(title: title, message: message, preferredStyle: self)
+        actions.forEach {
+            controller.addAction($0)
+        }
+        return controller
+    }
+}
+
+extension String {
+    func alertAction(style: UIAlertActionStyle = .default, handler: AlertActionHandler? = nil) -> UIAlertAction {
+        return UIAlertAction(title: self, style: style, handler: handler)
+    }
+    
+    func mongoDBToDate() -> Date {
+        let formatter = DateFormatter()
+        
+        // Format 1
+        formatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
+        if let parsedDate = formatter.date(from: self) {
+            return parsedDate
+        }
+        return Date()
+    }
+}

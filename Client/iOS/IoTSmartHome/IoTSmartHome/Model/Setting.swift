@@ -8,7 +8,8 @@
 
 import UIKit
 
-struct Setting: Codable {
+struct Setting {
+    var id: String
     var manualSetting: Bool
     var highTempEnable: Bool
     var highTemp: Float
@@ -17,4 +18,14 @@ struct Setting: Codable {
     var created_at: Date
     var updated_at: Date
     
+    init(with json: JSON) {
+        id = json[KeyString.id] as! String
+        manualSetting = json[KeyString.manualSetting] as! Bool
+        highTempEnable = json[KeyString.highTempEnable] as! Bool
+        highTemp = json[KeyString.highTemp] as! Float
+        lowTempEnable = json[KeyString.lowTempEnable] as! Bool
+        lowTemp = json[KeyString.lowTemp] as! Float
+        created_at = (json[KeyString.created_at] as! String).mongoDBToDate()
+        updated_at = (json[KeyString.updated_at] as! String).mongoDBToDate()
+    }
 }
