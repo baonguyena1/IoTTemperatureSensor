@@ -65,6 +65,21 @@ router.post('/login', function(req, res) {
 
 });
 
+router.post('register', function(req, res) {
+    var username = req.body.username;
+
+    getUserByUsername(username)
+    .then(function(user) {
+        // Username is exist
+        util.responseFail(res);
+    })
+    .catch(function(error) {
+    })
+    .then(function() {
+        
+    });
+});
+
 function isNull(data) {
     return _.isNull(data) || _.isUndefined(data) || _.isEmpty(data);
 }function isNull(data) {
