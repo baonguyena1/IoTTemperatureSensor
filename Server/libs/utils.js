@@ -1,4 +1,5 @@
 var constant = require('../config/constant');
+var crypto = require('crypto');
 
 var utils = {
     responseSuccess: function(res, data) {
@@ -13,6 +14,12 @@ var utils = {
         response[constant.error_code] = 500
         response[constant.message] = 'Something went wrong. Please try again!!!'
         res.json(response);
+    },
+    generateToken: function(length) {
+        if (length <= 0) {
+            return null;
+        }
+        return crypto.randomBytes(length).toString('base64');
     }
 }
 

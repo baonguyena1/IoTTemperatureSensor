@@ -11,7 +11,9 @@ var constant = require('./config/constant')
 var database_config = require('./config/database_config');
 var Logger = require('./log/log');
 var connect_database = require('./config/connect_database');
+
 var settingController = require('./controllers/SettingController');
+var authController = require('./controllers/AuthController');
 
 mongoose = connect_database.connectDatabase(mongoose, database_config.mongodb);
 
@@ -57,3 +59,4 @@ io.on(constant.SocketIOEvent.CONNECTION, function(socket) {
 });
 
 app.use('/setting/', settingController);
+app.use('/auth/', authController);

@@ -6,6 +6,9 @@ var constant = {
     short_day_format: 'DD-MM-YYYY',
     limit: 100,
     offset: 0,
+    token_length: 20,
+    token_expire: 7,
+    access_tokenizer: '___',
     SocketIOEvent: {
         CONNECTION: 'connection',
         DISCONNECT: 'disconnect',

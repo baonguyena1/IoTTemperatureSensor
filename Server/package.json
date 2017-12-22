@@ -18,11 +18,13 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "crypto": "^1.0.1",
     "express": "^4.16.2",
     "fs": "0.0.1-security",
     "mongodb": "^3.0.0-rc0",
     "mongoose": "^4.13.7",
     "q": "^1.5.1",
-    "socket.io": "^2.0.4"
+    "socket.io": "^2.0.4",
+    "underscore": "^1.8.3"
   }
 }
