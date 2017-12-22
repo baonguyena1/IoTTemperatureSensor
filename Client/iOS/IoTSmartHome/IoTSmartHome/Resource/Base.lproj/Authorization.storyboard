@@ -506,7 +506,7 @@
         <!--Temperature Controller-->
         <scene sceneID="jXd-RL-4Ql">
             <objects>
-                <viewController storyboardIdentifier="TemperatureController" id="7eM-r5-PIj" customClass="TemperatureController" customModule="IoTSmartHome" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7eM-r5-PIj" customClass="TemperatureController" customModule="IoTSmartHome" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JV3-Ax-857">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

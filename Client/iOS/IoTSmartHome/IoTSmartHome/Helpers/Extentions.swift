@@ -81,3 +81,17 @@ extension String {
         return Date()
     }
 }
+
+extension UIImageView {
+    @IBInspectable
+    var color: UIColor {
+        get {
+            return self.tintColor
+        }
+        set {
+            let image = self.image?.withRenderingMode(.alwaysTemplate)
+            self.image = image
+            self.tintColor = newValue;
+        }
+    }
+}

@@ -16,6 +16,9 @@
 		DC4AD2431FEB6AFD00007B07 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4AD2421FEB6AFD00007B07 /* Service.swift */; };
 		DC4AD2451FEB70E300007B07 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4AD2441FEB70E300007B07 /* Response.swift */; };
 		DC6370101FECB6FD000FF417 /* UnAuthorization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC63700F1FECB6FD000FF417 /* UnAuthorization.storyboard */; };
+		DC6370131FECC720000FF417 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6370121FECC720000FF417 /* LoginController.swift */; };
+		DC6370151FECC72B000FF417 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6370141FECC72B000FF417 /* RegisterController.swift */; };
+		DC6370171FECC739000FF417 /* ForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6370161FECC739000FF417 /* ForgotPasswordController.swift */; };
 		DCAC827C1FE8AF31003E4D09 /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC827B1FE8AF31003E4D09 /* DashboardController.swift */; };
 		DCAC827E1FE8B25E003E4D09 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC827D1FE8B25E003E4D09 /* Logger.swift */; };
 		DCAC82831FE8B452003E4D09 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC82821FE8B452003E4D09 /* SocketIOManager.swift */; };
@@ -40,6 +43,9 @@
 		DC4AD2421FEB6AFD00007B07 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		DC4AD2441FEB70E300007B07 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		DC63700F1FECB6FD000FF417 /* UnAuthorization.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UnAuthorization.storyboard; sourceTree = "<group>"; };
+		DC6370121FECC720000FF417 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		DC6370141FECC72B000FF417 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		DC6370161FECC739000FF417 /* ForgotPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordController.swift; sourceTree = "<group>"; };
 		DCAC827B1FE8AF31003E4D09 /* DashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
 		DCAC827D1FE8B25E003E4D09 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		DCAC82821FE8B452003E4D09 /* SocketIOManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
@@ -81,6 +87,16 @@
 				70F2EBCEC779AC5AB4826817 /* Pods-IoTSmartHome.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC6370111FECC708000FF417 /* UnAuthorization */ = {
+			isa = PBXGroup;
+			children = (
+				DC6370121FECC720000FF417 /* LoginController.swift */,
+				DC6370141FECC72B000FF417 /* RegisterController.swift */,
+				DC6370161FECC739000FF417 /* ForgotPasswordController.swift */,
+			);
+			path = UnAuthorization;
 			sourceTree = "<group>";
 		};
 		DCAC827F1FE8B429003E4D09 /* Model */ = {
@@ -136,6 +152,7 @@
 		DCCB98B21FE7D5A600D5E9B3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DC6370111FECC708000FF417 /* UnAuthorization */,
 				DCFE76FF1FE7BF7200B1049C /* AppDelegate.swift */,
 				DCAC827B1FE8AF31003E4D09 /* DashboardController.swift */,
 				DC187C371FE8FF1900B99A65 /* SettingController.swift */,
@@ -316,12 +333,15 @@
 				DCAC82851FE8C925003E4D09 /* Constant.swift in Sources */,
 				DC4AD2451FEB70E300007B07 /* Response.swift in Sources */,
 				DCAC827E1FE8B25E003E4D09 /* Logger.swift in Sources */,
+				DC6370131FECC720000FF417 /* LoginController.swift in Sources */,
 				DCAC827C1FE8AF31003E4D09 /* DashboardController.swift in Sources */,
 				DC1DC6A31FE91D19008F8AE5 /* TemperatureSettingController.swift in Sources */,
 				DC4AD2431FEB6AFD00007B07 /* Service.swift in Sources */,
 				DC187C381FE8FF1900B99A65 /* SettingController.swift in Sources */,
 				DC4AD2411FEB613500007B07 /* Setting.swift in Sources */,
 				DCFE77001FE7BF7200B1049C /* AppDelegate.swift in Sources */,
+				DC6370171FECC739000FF417 /* ForgotPasswordController.swift in Sources */,
+				DC6370151FECC72B000FF417 /* RegisterController.swift in Sources */,
 				DCAC82831FE8B452003E4D09 /* SocketIOManager.swift in Sources */,
 				DC1DC6A51FE91E8E008F8AE5 /* TemperatureController.swift in Sources */,
 				DCCB98B11FE7D38700D5E9B3 /* Extentions.swift in Sources */,
