@@ -15,6 +15,7 @@
 		DC4AD2411FEB613500007B07 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4AD2401FEB613500007B07 /* Setting.swift */; };
 		DC4AD2431FEB6AFD00007B07 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4AD2421FEB6AFD00007B07 /* Service.swift */; };
 		DC4AD2451FEB70E300007B07 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4AD2441FEB70E300007B07 /* Response.swift */; };
+		DC6370101FECB6FD000FF417 /* UnAuthorization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC63700F1FECB6FD000FF417 /* UnAuthorization.storyboard */; };
 		DCAC827C1FE8AF31003E4D09 /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC827B1FE8AF31003E4D09 /* DashboardController.swift */; };
 		DCAC827E1FE8B25E003E4D09 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC827D1FE8B25E003E4D09 /* Logger.swift */; };
 		DCAC82831FE8B452003E4D09 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC82821FE8B452003E4D09 /* SocketIOManager.swift */; };
@@ -22,7 +23,7 @@
 		DCCB98AD1FE7D20000D5E9B3 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCB98AC1FE7D20000D5E9B3 /* Colors.xcassets */; };
 		DCCB98B11FE7D38700D5E9B3 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCB98B01FE7D38700D5E9B3 /* Extentions.swift */; };
 		DCFE77001FE7BF7200B1049C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFE76FF1FE7BF7200B1049C /* AppDelegate.swift */; };
-		DCFE77051FE7BF7200B1049C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFE77031FE7BF7200B1049C /* Main.storyboard */; };
+		DCFE77051FE7BF7200B1049C /* Authorization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFE77031FE7BF7200B1049C /* Authorization.storyboard */; };
 		DCFE77071FE7BF7200B1049C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCFE77061FE7BF7200B1049C /* Assets.xcassets */; };
 		DCFE770A1FE7BF7200B1049C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFE77081FE7BF7200B1049C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,7 @@
 		DC4AD2401FEB613500007B07 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
 		DC4AD2421FEB6AFD00007B07 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		DC4AD2441FEB70E300007B07 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		DC63700F1FECB6FD000FF417 /* UnAuthorization.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UnAuthorization.storyboard; sourceTree = "<group>"; };
 		DCAC827B1FE8AF31003E4D09 /* DashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
 		DCAC827D1FE8B25E003E4D09 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		DCAC82821FE8B452003E4D09 /* SocketIOManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
@@ -46,7 +48,7 @@
 		DCCB98B01FE7D38700D5E9B3 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 		DCFE76FC1FE7BF7200B1049C /* IoTSmartHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IoTSmartHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFE76FF1FE7BF7200B1049C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DCFE77041FE7BF7200B1049C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCFE77041FE7BF7200B1049C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Authorization.storyboard; sourceTree = "<group>"; };
 		DCFE77061FE7BF7200B1049C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCFE77091FE7BF7200B1049C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCFE770B1FE7BF7200B1049C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -113,9 +115,10 @@
 				DCFE770B1FE7BF7200B1049C /* Info.plist */,
 				DCFE77061FE7BF7200B1049C /* Assets.xcassets */,
 				DCCB98AC1FE7D20000D5E9B3 /* Colors.xcassets */,
-				DCFE77031FE7BF7200B1049C /* Main.storyboard */,
+				DCFE77031FE7BF7200B1049C /* Authorization.storyboard */,
 				DCFE77081FE7BF7200B1049C /* LaunchScreen.storyboard */,
 				DC1DC6A61FE92017008F8AE5 /* Temperature.plist */,
+				DC63700F1FECB6FD000FF417 /* UnAuthorization.storyboard */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -237,8 +240,9 @@
 				DCFE770A1FE7BF7200B1049C /* LaunchScreen.storyboard in Resources */,
 				DCCB98AD1FE7D20000D5E9B3 /* Colors.xcassets in Resources */,
 				DCFE77071FE7BF7200B1049C /* Assets.xcassets in Resources */,
+				DC6370101FECB6FD000FF417 /* UnAuthorization.storyboard in Resources */,
 				DC1DC6A71FE92017008F8AE5 /* Temperature.plist in Resources */,
-				DCFE77051FE7BF7200B1049C /* Main.storyboard in Resources */,
+				DCFE77051FE7BF7200B1049C /* Authorization.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,12 +331,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DCFE77031FE7BF7200B1049C /* Main.storyboard */ = {
+		DCFE77031FE7BF7200B1049C /* Authorization.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DCFE77041FE7BF7200B1049C /* Base */,
 			);
-			name = Main.storyboard;
+			name = Authorization.storyboard;
 			sourceTree = "<group>";
 		};
 		DCFE77081FE7BF7200B1049C /* LaunchScreen.storyboard */ = {

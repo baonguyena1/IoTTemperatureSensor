@@ -6,7 +6,7 @@
 //  Copyright © 2017 Bao Nguyen. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 typealias JSON = [String: Any]
 
@@ -41,6 +41,29 @@ struct Message {
     static let FAN_OFF_WHEN_TEMP_LESS_THAN = "Turn off Fan when the temperature is less than"
 }
 
-struct StoryBoardIdentifier {
-    static let TemperatureController = "TemperatureController"
+enum AppStoryBoard: String {
+    case Authorization
+    case UnAuthorization
+    
+    var instance: UIStoryboard {
+        return UIStoryboard(name: self.rawValue, bundle: .main)
+    }
+    
+    func viewController<T: UIViewController>(viewControllerClass: T.Type) -> T {
+        let storyBoardID = (viewControllerClass as UIViewController.Type).storyBoardID
+        return instance.instantiateViewController(withIdentifier: storyBoardID) as! T
+    }
+    
+    func initialViewController() -> UIViewController? {
+        return instance.instantiateInitialViewController()
+    }
+}
+
+extension UIViewController {
+    class var storyBoardID: String {
+        return "\(self)"
+    }
+    static func instantiate(from appStoryBoard: AppStoryBoard) -> Self {
+        return  appStoryBoard.viewController(viewControllerClass: self)
+    }
 }

@@ -17,7 +17,7 @@ class TemperatureSettingController: UITableViewController {
     }
 
     @IBAction func chooseTemperature(_ sender: UITapGestureRecognizer) {
-        temperatureController = storyboard?.instantiateViewController(withIdentifier: StoryBoardIdentifier.TemperatureController) as? TemperatureController
+        temperatureController = TemperatureController.instantiate(from: .Authorization)
         if let tempController = temperatureController {
             tempController.delegate = self
             if let rootVC = UIApplication.shared.keyWindow?.rootViewController {
