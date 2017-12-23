@@ -32,6 +32,9 @@ struct KeyString {
     static let lowTemp = "lowTemp"
     static let created_at = "created_at"
     static let updated_at = "updated_at"
+    
+    static let username = "username"
+    static let access_token = "access_token"
 }
 
 struct Message {

@@ -31,7 +31,7 @@ class SettingController: UITableViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.getSetting(from: Service.shared, with: "http://localhost:9898/setting/setting")
+        self.getSetting(from: Service.shared, with: ServerURL.getSetting)
     }
     
     fileprivate func getSetting<S: Serviceable>(from service: S, with url: String) {
