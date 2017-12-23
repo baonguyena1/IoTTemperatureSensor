@@ -878,3 +878,37 @@ Saturday:12/23/2017|10:57:39:629 - [INFO]   - [IoTSmartHome][message]: [INFO]App
 Saturday:12/23/2017|10:57:45:669 - [INFO]   - [IoTSmartHome][message]: [BEGIN] register. username = baonguyen
 Saturday:12/23/2017|10:57:45:695 - [INFO]   - [IoTSmartHome][message]: Token = 5a3dd439d3059907345066d6___0CvPIeJx93VYnbMiVKxBHEtrCbo=
 Saturday:12/23/2017|10:58:18:665 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Saturday:12/23/2017|10:59:55:504 - [INFO]   - [IoTSmartHome][message]: [BEGIN] login, username = baonguyen
+Saturday:12/23/2017|10:59:55:531 - [INFO]   - [IoTSmartHome][message]: Token = 5a3dd439d3059907345066d6___lxmI4GX3d69iD0XSQU6mKykZ4KY=
+Saturday:12/23/2017|10:59:55:607 - [INFO]   - [IoTSmartHome][message]: [END] login
+Saturday:12/23/2017|11:0:11:552 - [INFO]   - [IoTSmartHome][message]: [BEGIN] register. username = baonguyen
+Saturday:12/23/2017|11:0:11:560 - [INFO]   - [IoTSmartHome][message]: Token = 5a3dd4cb54760b0746d8c737___mMHm4vWAnxKqi3A4Hjcax9u1n6E=
+Saturday:12/23/2017|11:0:40:250 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Saturday:12/23/2017|11:0:51:24 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Saturday:12/23/2017|11:1:14:991 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Saturday:12/23/2017|11:1:16:545 - [INFO]   - [IoTSmartHome][message]: [BEGIN] register. username = baonguyen
+Saturday:12/23/2017|11:1:16:588 - [INFO]   - [IoTSmartHome][message]: Token = 5a3dd50c6132590937c4c151___UXAvCwdaxr55L1ovN+JDMEJE9iQ=
+Saturday:12/23/2017|11:1:51:28 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Saturday:12/23/2017|11:1:56:241 - [INFO]   - [IoTSmartHome][message]: [BEGIN] register. username = baonguyen
+Saturday:12/23/2017|11:1:56:282 - [INFO]   - [IoTSmartHome][message]: Token = 5a3dd534940943094a95714b___+PU/f3k12k8gJyZ6c5/HffDIfOE=
+Saturday:12/23/2017|11:3:27:199 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Saturday:12/23/2017|11:3:31:808 - [INFO]   - [IoTSmartHome][message]: [BEGIN] register. username = baonguyen
+Saturday:12/23/2017|11:3:31:850 - [INFO]   - [IoTSmartHome][message]: Token = 5a3dd593f09f37095ec0d962___8UB7rt1/chLDy7d4M7bioVsdKvA=
+Saturday:12/23/2017|11:5:8:423 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Saturday:12/23/2017|11:5:54:685 - [INFO]   - [IoTSmartHome][message]: [BEGIN] register. username = baonguyen
+Saturday:12/23/2017|11:5:54:721 - [INFO]   - [IoTSmartHome][message]: Token = 5a3dd6225d294b098abc2ecf___mNsAOOK14pfyC2Lo+buisd3KndE=
+Saturday:12/23/2017|11:6:19:757 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Saturday:12/23/2017|11:6:22:961 - [INFO]   - [IoTSmartHome][message]: [BEGIN] register. username = baonguyen
+Saturday:12/23/2017|11:6:23:6 - [INFO]   - [IoTSmartHome][message]: Token = 5a3dd63f1961ce09a72d65db___ePnBlqqG/3W6fYjl6hELk1iY6nw=
+Saturday:12/23/2017|11:6:44:95 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Saturday:12/23/2017|11:7:13:426 - [INFO]   - [IoTSmartHome][message]: [BEGIN] register. username = baonguyen
+Saturday:12/23/2017|11:7:13:467 - [INFO]   - [IoTSmartHome][message]: Token = 5a3dd6713a7e2709bad87183___MRLxfVGCm6qg3QalJodHOxyCqpE=
+Saturday:12/23/2017|11:7:31:619 - [INFO]   - [IoTSmartHome][message]: [BEGIN] register. username = baonguyen
+Saturday:12/23/2017|11:7:31:629 - [INFO]   - [IoTSmartHome][message]: Token = 5a3dd6833a7e2709bad87185___Cg/UDm2KADxHRLF7/WigsbwbQCc=
+Saturday:12/23/2017|11:8:18:50 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Saturday:12/23/2017|11:8:20:581 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Saturday:12/23/2017|11:8:29:85 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Saturday:12/23/2017|11:8:35:655 - [INFO]   - [IoTSmartHome][message]: [BEGIN] register. username = baonguyen
+Saturday:12/23/2017|11:8:35:684 - [ERROR]   - [IoTSmartHome][message]: User is exists.
+Saturday:12/23/2017|11:8:46:513 - [INFO]   - [IoTSmartHome][message]: [BEGIN] register. username = baonguyen
+Saturday:12/23/2017|11:8:46:520 - [ERROR]   - [IoTSmartHome][message]: User is exists.

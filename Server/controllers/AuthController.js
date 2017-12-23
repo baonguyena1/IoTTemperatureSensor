@@ -74,7 +74,7 @@ router.post('/register', function(req, res) {
     Logger.logInfo('[BEGIN] register. username = ' + username);
     isExistsUsername(username)
     .then(function(user) {
-        Location.logError('User is exists.');
+        Logger.logError('User is exists.');
         util.responseFailWithMEssage(res, 'Username is exists. Please try with another username.');
     })
     .catch(function(error) {
