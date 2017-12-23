@@ -6,23 +6,23 @@
 #include "constant.h"
 
 /**
- * Define
- */
+   Define
+*/
 #define DHTPIN      D4
 #define DHTTYPE     DHT11
 
 /*
- * Global variable
- */
+   Global variable
+*/
 DHT dht(DHTPIN, DHTTYPE);
 WiFiClient wifiClient;
 SocketIoClient webSocket;
 int manualSetting;
 
 /**
- * Description: Get new manual setting and save it to EEPROM
- * payload: Int
- */
+   Description: Get new manual setting and save it to EEPROM
+   payload: Int
+*/
 void updateManualSetting(const char *payload, size_t length) {
   int newSetting = atoi(payload);
   Serial.printf("updateManualSetting: payload = %d", newSetting);
@@ -40,13 +40,13 @@ int getManualSetting() {
 }
 
 /**
- * Description: Read temperature, Humidity of DHT11
- * And send data to server
- */
- void dht11Process() {
+   Description: Read temperature, Humidity of DHT11
+   And send data to server
+*/
+void dht11Process() {
   float h = dht.readHumidity();
   float t = dht.readTemperature();
-  
+
   if (isnan(h) || isnan(t)) {
     Serial.println("Incorrect data");
     return;
@@ -66,7 +66,7 @@ int getManualSetting() {
   Serial.println(data);
   webSocket.emit(SOCKET_DID_UPDATE_TEMPERATURE, data.c_str());
   delay(200);
- }
+}
 
 void setup() {
   // put your setup code here, to run once:
@@ -74,7 +74,7 @@ void setup() {
   delay(10);
   Serial.print("Connecting to wifi ");
   WiFi.begin(SSID, PASSWORD);
-  while(WiFi.status() != WL_CONNECTED) {
+  while (WiFi.status() != WL_CONNECTED) {
     delay(500);
     Serial.print(".");
   }
@@ -82,11 +82,11 @@ void setup() {
   Serial.print("Wifi address:");
   Serial.println(WiFi.localIP());
 
- /**
-  * Register socket io event
+  /**
+     Register socket io event
   */
   webSocket.on(SOCKET_DID_UPDATE_TEMPERATURE, updateManualSetting);
-  
+
   webSocket.begin(host, port);
   manualSetting = getManualSetting();
   Serial.printf("Manual setting = %d\n", manualSetting);
@@ -100,4 +100,4 @@ void loop() {
 
   delay(1000);
 
- }
+}

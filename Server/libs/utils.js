@@ -9,10 +9,13 @@ var utils = {
         res.json(response);
     },
     responseFail: function(res) {
+        this.responseFailWithMEssage(res, 'Something went wrong. Please try again!!!');
+    },
+    responseFailWithMEssage: function(res, message) {
         var response = {};
         response[constant.success] = false;
         response[constant.error_code] = 500
-        response[constant.message] = 'Something went wrong. Please try again!!!'
+        response[constant.message] = message
         res.json(response);
     },
     generateToken: function(length) {

@@ -20,7 +20,7 @@ var userSchema = new Schema({
                 type: String,
                 required: true
             },
-            token_expire: {
+            expire_date: {
                 type: Date,
                 required: true
             }
