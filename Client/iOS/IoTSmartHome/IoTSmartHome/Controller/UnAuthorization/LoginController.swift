@@ -7,8 +7,6 @@
 //
 
 import UIKit
-import RxCocoa
-import RxSwift
 
 class LoginController: UIViewController {
     
@@ -24,29 +22,30 @@ class LoginController: UIViewController {
     }
     
     fileprivate func login<S: Serviceable>(from service: S, with url: String) {
-        service.get(url) { (result) in
+        service.get(url) { [unowned self] (result) in
             switch result {
             case .success(let response):
                 Logger.log("JSON = \(response)")
-                guard let response = response as? Response else {
-                    return
-                }
-                if response.success == false {
-                    return
-                }
+                let response = response as! Response
                 let user = User(with: response.results as! JSON)
-                guard let userLogin = user else {
-                    // Show error message
+                if user == nil {
+                    self.showErrorMessage()
                     return
                 }
-                // change root view controller
-                DispatchQueue.main.async { [unowned self] in
-                    User.save(userLogin)
-                }
-                
+                User.save(user!)
+                appDelegate.redirectVC()
             case .error(let error):
                 Logger.log("Error - \(error)")
+                self.showErrorMessage()
             }
         }
     }
+    
+    func showErrorMessage() {
+        let alert = UIAlertControllerStyle.alert.controller(title: nil, message: Language.shared.value(for: LanguageKey.somethingWentWrong), actions: [
+            Language.shared.value(for: LanguageKey.ok).alertAction(style: .destructive, handler: nil)
+            ])
+        IoTSmartHome.show(alert: alert)
+    }
+    
 }

@@ -15,11 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        if User.id != nil {
-            showDashboard()
-        } else {
-            showLoginVC()
-        }
+        redirectVC()
         return true
     }
 
@@ -44,12 +40,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
     
-    func showLoginVC() {
+    func redirectVC() {
+        if User.id != nil {
+            showDashboard()
+        } else {
+            showLoginVC()
+        }
+    }
+    
+    fileprivate func showLoginVC() {
         let navLogin = AppStoryBoard.UnAuthorization.instance.instantiateViewController(withIdentifier: StoryboardIdentifier.loginNavigationController)
         setRootViewController(navLogin)
     }
     
-    func showDashboard() {
+    fileprivate func showDashboard() {
         let tabbar =  AppStoryBoard.Authorization.instance.instantiateViewController(withIdentifier: StoryboardIdentifier.tabbarViewController)
         setRootViewController(tabbar)
     }

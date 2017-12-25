@@ -75,3 +75,12 @@ extension UIViewController {
         return  appStoryBoard.viewController(viewControllerClass: self)
     }
 }
+
+struct LanguageKey {
+    static let message = "general.message"
+    static let somethingWentWrong = "general.something-went-wrong"
+    static let yes = "general.yes"
+    static let no = "general.no"
+    static let ok = "general.ok"
+    static let cancel = "general.cancel"
+}

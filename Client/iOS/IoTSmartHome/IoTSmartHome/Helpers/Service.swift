@@ -36,20 +36,39 @@ struct Service: Serviceable {
     typealias completionHandler = (Result<Response>) -> Void
     
     func get(_ url: String, completion: @escaping completionHandler) {
+        
         Alamofire.request(url, method: .get, parameters: nil, encoding: JSONEncoding.default, headers: nil)
             .responseJSON { (response) in
                 if let _ = response.result.error {
                     completion(.error(.responseUnsuccessful))
+                    self.showErrorMessage()
                 } else if let result = response.result.value as? JSON {
                     let response =  Response(with: result)
-                    completion(.success(response))
+                    if response.success == false {
+                        completion(.error(.responseUnsuccessful))
+                        self.showErrorMessage()
+                    } else {
+                        completion(.success(response))
+                    }
+                    
                 } else {
                     completion(.error(.invalidData))
+                    self.showErrorMessage()
                 }
         }
     }
     
     func post(_ url: String, with jsonData: [String : Any], completion: @escaping completionHandler) {
         
+    }
+    
+    fileprivate func showErrorMessage() {
+        
+        let alert = UIAlertControllerStyle.alert.controller(title: nil, message: Language.shared.value(for: LanguageKey.somethingWentWrong), actions: [
+            Language.shared.value(for: LanguageKey.ok).alertAction(style: .destructive, handler: nil)
+            ])
+        DispatchQueue.main.async {
+            show(alert: alert)
+        }
     }
 }

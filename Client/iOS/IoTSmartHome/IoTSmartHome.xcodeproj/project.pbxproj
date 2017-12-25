@@ -27,6 +27,11 @@
 		DCAC82851FE8C925003E4D09 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC82841FE8C925003E4D09 /* Constant.swift */; };
 		DCCB98AD1FE7D20000D5E9B3 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCB98AC1FE7D20000D5E9B3 /* Colors.xcassets */; };
 		DCCB98B11FE7D38700D5E9B3 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCB98B01FE7D38700D5E9B3 /* Extentions.swift */; };
+		DCF74B781FF0935A00D4DE60 /* English.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCF74B771FF0935A00D4DE60 /* English.plist */; };
+		DCF74B7A1FF0936500D4DE60 /* Vietnamese.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCF74B791FF0936500D4DE60 /* Vietnamese.plist */; };
+		DCF74B7C1FF0938500D4DE60 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF74B7B1FF0938500D4DE60 /* Language.swift */; };
+		DCF74B7E1FF0980500D4DE60 /* GeneralFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF74B7D1FF0980500D4DE60 /* GeneralFunction.swift */; };
+		DCF74B801FF0995900D4DE60 /* AlertHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF74B7F1FF0995900D4DE60 /* AlertHandler.swift */; };
 		DCFE77001FE7BF7200B1049C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFE76FF1FE7BF7200B1049C /* AppDelegate.swift */; };
 		DCFE77051FE7BF7200B1049C /* Authorization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFE77031FE7BF7200B1049C /* Authorization.storyboard */; };
 		DCFE77071FE7BF7200B1049C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCFE77061FE7BF7200B1049C /* Assets.xcassets */; };
@@ -56,6 +61,11 @@
 		DCAC82841FE8C925003E4D09 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		DCCB98AC1FE7D20000D5E9B3 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		DCCB98B01FE7D38700D5E9B3 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		DCF74B771FF0935A00D4DE60 /* English.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = English.plist; sourceTree = "<group>"; };
+		DCF74B791FF0936500D4DE60 /* Vietnamese.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Vietnamese.plist; sourceTree = "<group>"; };
+		DCF74B7B1FF0938500D4DE60 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		DCF74B7D1FF0980500D4DE60 /* GeneralFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralFunction.swift; sourceTree = "<group>"; };
+		DCF74B7F1FF0995900D4DE60 /* AlertHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHandler.swift; sourceTree = "<group>"; };
 		DCFE76FC1FE7BF7200B1049C /* IoTSmartHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IoTSmartHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFE76FF1FE7BF7200B1049C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCFE77041FE7BF7200B1049C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Authorization.storyboard; sourceTree = "<group>"; };
@@ -137,6 +147,7 @@
 				DCAC82841FE8C925003E4D09 /* Constant.swift */,
 				DC1DC6A41FE91E8E008F8AE5 /* TemperatureController.swift */,
 				BF04827F1FEE11C400B9E612 /* ServerURL.swift */,
+				DCF74B7D1FF0980500D4DE60 /* GeneralFunction.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -144,12 +155,13 @@
 		DCCB98AE1FE7D21200D5E9B3 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				DCF74B761FF0934500D4DE60 /* Languages */,
 				DCFE770B1FE7BF7200B1049C /* Info.plist */,
+				DC1DC6A61FE92017008F8AE5 /* Temperature.plist */,
 				DCFE77061FE7BF7200B1049C /* Assets.xcassets */,
 				DCCB98AC1FE7D20000D5E9B3 /* Colors.xcassets */,
 				DCFE77031FE7BF7200B1049C /* Authorization.storyboard */,
 				DCFE77081FE7BF7200B1049C /* LaunchScreen.storyboard */,
-				DC1DC6A61FE92017008F8AE5 /* Temperature.plist */,
 				DC63700F1FECB6FD000FF417 /* UnAuthorization.storyboard */,
 			);
 			path = Resource;
@@ -161,6 +173,8 @@
 				DCAC827D1FE8B25E003E4D09 /* Logger.swift */,
 				DCCB98B01FE7D38700D5E9B3 /* Extentions.swift */,
 				DC4AD2421FEB6AFD00007B07 /* Service.swift */,
+				DCF74B7B1FF0938500D4DE60 /* Language.swift */,
+				DCF74B7F1FF0995900D4DE60 /* AlertHandler.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -173,6 +187,15 @@
 				BF0482821FEE12B300B9E612 /* Authorization */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		DCF74B761FF0934500D4DE60 /* Languages */ = {
+			isa = PBXGroup;
+			children = (
+				DCF74B771FF0935A00D4DE60 /* English.plist */,
+				DCF74B791FF0936500D4DE60 /* Vietnamese.plist */,
+			);
+			path = Languages;
 			sourceTree = "<group>";
 		};
 		DCFE76F31FE7BF7200B1049C = {
@@ -271,8 +294,10 @@
 				DCFE770A1FE7BF7200B1049C /* LaunchScreen.storyboard in Resources */,
 				DCCB98AD1FE7D20000D5E9B3 /* Colors.xcassets in Resources */,
 				DCFE77071FE7BF7200B1049C /* Assets.xcassets in Resources */,
+				DCF74B7A1FF0936500D4DE60 /* Vietnamese.plist in Resources */,
 				DC6370101FECB6FD000FF417 /* UnAuthorization.storyboard in Resources */,
 				DC1DC6A71FE92017008F8AE5 /* Temperature.plist in Resources */,
+				DCF74B781FF0935A00D4DE60 /* English.plist in Resources */,
 				DCFE77051FE7BF7200B1049C /* Authorization.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,12 +378,15 @@
 				DCAC82851FE8C925003E4D09 /* Constant.swift in Sources */,
 				DC4AD2451FEB70E300007B07 /* Response.swift in Sources */,
 				DCAC827E1FE8B25E003E4D09 /* Logger.swift in Sources */,
+				DCF74B7C1FF0938500D4DE60 /* Language.swift in Sources */,
 				DC6370131FECC720000FF417 /* LoginController.swift in Sources */,
 				BF0482801FEE11C400B9E612 /* ServerURL.swift in Sources */,
 				DCAC827C1FE8AF31003E4D09 /* DashboardController.swift in Sources */,
 				DC1DC6A31FE91D19008F8AE5 /* TemperatureSettingController.swift in Sources */,
 				BF0482841FEE132100B9E612 /* User.swift in Sources */,
+				DCF74B7E1FF0980500D4DE60 /* GeneralFunction.swift in Sources */,
 				DC4AD2431FEB6AFD00007B07 /* Service.swift in Sources */,
+				DCF74B801FF0995900D4DE60 /* AlertHandler.swift in Sources */,
 				DC187C381FE8FF1900B99A65 /* SettingController.swift in Sources */,
 				DC4AD2411FEB613500007B07 /* Setting.swift in Sources */,
 				DCFE77001FE7BF7200B1049C /* AppDelegate.swift in Sources */,

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>general.ok</key>
+	<string>Ok</string>
+	<key>general.yes</key>
+	<string>Yes</string>
+	<key>general.no</key>
+	<string>No</string>
+	<key>general.cancel</key>
+	<string>Cancel</string>
+	<key>general.something-went-wrong</key>
+	<string>Something went wrong. Please try again.</string>
+</dict>
+</plist>
