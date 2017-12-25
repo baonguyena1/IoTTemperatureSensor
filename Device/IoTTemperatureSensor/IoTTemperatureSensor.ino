@@ -65,7 +65,7 @@ void dht11Process() {
   data += "}";
   Serial.println(data);
   webSocket.emit(SOCKET_DID_UPDATE_TEMPERATURE, data.c_str());
-  delay(200);
+  delay(1000);
 }
 
 void setup() {
@@ -90,7 +90,6 @@ void setup() {
   webSocket.begin(host, port);
   manualSetting = getManualSetting();
   Serial.printf("Manual setting = %d\n", manualSetting);
-  Serial.println("DHT Text!!!");
   dht.begin();
 }
 
@@ -98,6 +97,5 @@ void loop() {
   webSocket.loop();
   dht11Process();
 
-  delay(1000);
-
+  delay(500);
 }

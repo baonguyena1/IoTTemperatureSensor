@@ -9,9 +9,10 @@ var Setting = require('../models/Setting');
 
 router.get('/test', function(req, res) {
     Logger.logInfo('[BEGIN] Test');
-    function createNewSetting() {
+    function createNewSetting(req) {
         var defer = Q.defer();
         var setting = new Setting();
+        setting.user_id = req.user_id;
         setting.save(function(error, object) {
             if (error) {
                 defer.reject(error);
@@ -22,7 +23,7 @@ router.get('/test', function(req, res) {
         return defer.promise;
     }
 
-    createNewSetting()
+    createNewSetting(req)
     .then(function(setting) {
         util.responseSuccess(res, setting);
     })
@@ -38,11 +39,14 @@ router.get('/test', function(req, res) {
 router.get('/setting', function(req, res) {
     function getSetting() {
         var defer = Q.defer()
-        Setting.findOne(function(error, settings) {
+        Setting.findOne({
+            user_id: req.user_id
+        })
+        .exec((error, setting) => {
             if (error) {
                 defer.reject(error);
             } else {
-                defer.resolve(settings);
+                defer.resolve(setting);
             }
         });
         return defer.promise;

@@ -1091,3 +1091,25 @@ Monday:12/25/2017|14:5:46:579 - [INFO]   - [IoTSmartHome][message]: User is conn
 Monday:12/25/2017|14:5:48:639 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
 Monday:12/25/2017|14:5:48:642 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
 Monday:12/25/2017|14:8:14:284 - [INFO]   - [IoTSmartHome][message]: _ylcBMs5fuTbxsDKAAAHis disconnected
+Monday:12/25/2017|16:11:45:905 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Monday:12/25/2017|16:11:57:446 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Monday:12/25/2017|16:12:50:963 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Monday:12/25/2017|16:12:53:694 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Test
+Monday:12/25/2017|16:12:53:706 - [ERROR]   - [IoTSmartHome][message]: {"errors":{"user":{"message":"Path `user` is required.","name":"ValidatorError","properties":{"type":"required","message":"Path `{PATH}` is required.","path":"user"},"kind":"required","path":"user","$isValidatorError":true}},"_message":"Setting validation failed","message":"Setting validation failed: user: Path `user` is required.","name":"ValidationError"}
+Monday:12/25/2017|16:12:53:711 - [INFO]   - [IoTSmartHome][message]: [END] Test
+Monday:12/25/2017|16:13:12:669 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Monday:12/25/2017|16:13:25:399 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Monday:12/25/2017|16:13:26:617 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Monday:12/25/2017|16:13:29:856 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Test
+Monday:12/25/2017|16:13:29:883 - [ERROR]   - [IoTSmartHome][message]: {"errors":{"user_id":{"message":"Path `user_id` is required.","name":"ValidatorError","properties":{"type":"required","message":"Path `{PATH}` is required.","path":"user_id"},"kind":"required","path":"user_id","$isValidatorError":true}},"_message":"Setting validation failed","message":"Setting validation failed: user_id: Path `user_id` is required.","name":"ValidationError"}
+Monday:12/25/2017|16:13:29:891 - [INFO]   - [IoTSmartHome][message]: [END] Test
+Monday:12/25/2017|16:14:26:519 - [INFO]   - [IoTSmartHome][message]: [BEGIN] login, username = baonguyen
+Monday:12/25/2017|16:14:26:543 - [INFO]   - [IoTSmartHome][message]: Token = 5a407da36a20ba3ea825f41a___qjCg1iMpkG6YbGuc7Oy3MtwtMo0=
+Monday:12/25/2017|16:14:26:568 - [INFO]   - [IoTSmartHome][message]: [END] login
+Monday:12/25/2017|16:14:45:15 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Test
+Monday:12/25/2017|16:14:45:28 - [INFO]   - [IoTSmartHome][message]: [END] Test
+Monday:12/25/2017|16:16:40:884 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Monday:12/25/2017|16:17:21:473 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|16:17:32:124 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Monday:12/25/2017|16:17:35:208 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|16:17:35:226 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting

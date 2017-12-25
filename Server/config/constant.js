@@ -26,7 +26,8 @@ var constant = {
     ],
     url_without_tokens: [
         '/auth/login',
-        '/auth/register'
+        '/auth/register',
+        '/setting/test'
     ]
 };
 
