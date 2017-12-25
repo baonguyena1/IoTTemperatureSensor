@@ -26,6 +26,8 @@ var userSchema = new Schema({
             }
         }
     ]
+}, {
+    usePushEach: true
 });
 
 var User = mongoose.model('User', userSchema);

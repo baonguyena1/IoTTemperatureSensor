@@ -1,7 +1,6 @@
 var express = require('express');
 var router = express.Router();
 var Q = require('q');
-var _ = require('underscore');
 var crypto = require('crypto');
 
 var util = require('../libs/utils');
@@ -12,7 +11,7 @@ var User = require('../models/User');
 router.post('/login', function(req, res) {
     var username = req.body.username.trim();
     var password = req.body.password.trim();
-    if (isNull(username) || isNull(password)) {
+    if (util.isNull(username) || util.isNull(password)) {
         return util.responseFail(res);
     }
     password = crypto.createHash('sha1').update(password).digest('hex');
@@ -112,10 +111,6 @@ router.post('/register', function(req, res) {
     });
 });
 
-function isNull(data) {
-    return _.isNull(data) || _.isUndefined(data) || _.isEmpty(data);
-}
-
 function getUserByUsername(username) {
     var defer = Q.defer();
     User.findOne({
@@ -154,7 +149,7 @@ function isExistsUsername(username) {
         username: username
     })
     .exec(function(error, user) {
-        if (error || isNull(user)) {
+        if (error || util.isNull(user)) {
             defer.reject(null);
         } else {
             defer.resolve(user);
@@ -166,6 +161,7 @@ function isExistsUsername(username) {
 function saveUser(user) {
     var defer = Q.defer();
     user.save(function(error, object) {
+        console.log(error);
         if (error) {
             defer.reject(error);
         } else {

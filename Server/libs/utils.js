@@ -1,5 +1,6 @@
 var constant = require('../config/constant');
 var crypto = require('crypto');
+var _ = require('underscore');
 
 var utils = {
     responseSuccess: function(res, data) {
@@ -23,6 +24,9 @@ var utils = {
             return null;
         }
         return crypto.randomBytes(length).toString('base64');
+    },
+    isNull: function(data) {
+        return _.isNull(data) || _.isUndefined(data) || _.isEmpty(data);
     }
 }
 

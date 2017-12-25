@@ -11,6 +11,7 @@ var constant = require('./config/constant')
 var database_config = require('./config/database_config');
 var Logger = require('./log/log');
 var connect_database = require('./config/connect_database');
+var middleware = require('./libs/middleware');
 
 var settingController = require('./controllers/SettingController');
 var authController = require('./controllers/AuthController');
@@ -58,5 +59,7 @@ io.on(constant.SocketIOEvent.CONNECTION, function(socket) {
 
 });
 
+app.use(middleware.access_token);
+app.use(middleware.verifyAuth);
 app.use('/setting/', settingController);
 app.use('/auth/', authController);

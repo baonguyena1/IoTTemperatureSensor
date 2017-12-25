@@ -22,6 +22,12 @@ var constant = {
     error_code: 'error_code',
     message: 'message',
     results: 'results',
+    url_without_tokens_with_parameter: [
+    ],
+    url_without_tokens: [
+        '/auth/login',
+        '/auth/register'
+    ]
 };
 
 module.exports = constant;

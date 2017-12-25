@@ -912,3 +912,82 @@ Saturday:12/23/2017|11:8:35:655 - [INFO]   - [IoTSmartHome][message]: [BEGIN] re
 Saturday:12/23/2017|11:8:35:684 - [ERROR]   - [IoTSmartHome][message]: User is exists.
 Saturday:12/23/2017|11:8:46:513 - [INFO]   - [IoTSmartHome][message]: [BEGIN] register. username = baonguyen
 Saturday:12/23/2017|11:8:46:520 - [ERROR]   - [IoTSmartHome][message]: User is exists.
+Monday:12/25/2017|11:24:18:484 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Monday:12/25/2017|11:24:22:316 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Monday:12/25/2017|11:24:42:225 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Monday:12/25/2017|11:24:43:469 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 7pkpM0xxM-5WDmyTAAAA
+Monday:12/25/2017|11:24:53:282 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|11:24:53:284 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|11:24:53:284 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":66}
+Monday:12/25/2017|11:24:53:284 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":66}
+Monday:12/25/2017|11:24:53:299 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":66}
+Monday:12/25/2017|11:24:58:507 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":66}
+Monday:12/25/2017|11:25:3:297 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|11:25:7:4 - [INFO]   - [IoTSmartHome][message]: [BEGIN] register. username = baonguyen
+Monday:12/25/2017|11:25:7:27 - [INFO]   - [IoTSmartHome][message]: Token = 5a407da36a20ba3ea825f41a___yaPnAMcNVqE0bDL+jnKPrvw3SCk=
+Monday:12/25/2017|11:25:8:292 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|11:25:13:350 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|11:25:18:463 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|11:25:22:182 - [INFO]   - [IoTSmartHome][message]: [BEGIN] login, username = baonguyen
+Monday:12/25/2017|11:25:22:190 - [INFO]   - [IoTSmartHome][message]: Token = 5a407da36a20ba3ea825f41a___hpU+A178In8Wrqt5uGZj/lcg41s=
+Monday:12/25/2017|11:25:22:203 - [ERROR]   - [IoTSmartHome][message]: MongoError: Unknown modifier: $pushAll
+Monday:12/25/2017|11:25:22:204 - [INFO]   - [IoTSmartHome][message]: [END] login
+Monday:12/25/2017|11:25:23:380 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|11:25:28:592 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|11:25:36:913 - [INFO]   - [IoTSmartHome][message]: [BEGIN] login, username = baonguyen
+Monday:12/25/2017|11:25:36:916 - [INFO]   - [IoTSmartHome][message]: Token = 5a407da36a20ba3ea825f41a___2qozTL306v4Eo7CPK1BBdhyCk9Y=
+Monday:12/25/2017|11:25:36:921 - [ERROR]   - [IoTSmartHome][message]: MongoError: Unknown modifier: $pushAll
+Monday:12/25/2017|11:25:36:922 - [INFO]   - [IoTSmartHome][message]: [END] login
+Monday:12/25/2017|11:25:47:219 - [INFO]   - [IoTSmartHome][message]: 7pkpM0xxM-5WDmyTAAAAis disconnected
+Monday:12/25/2017|11:27:34:192 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Monday:12/25/2017|11:27:41:919 - [INFO]   - [IoTSmartHome][message]: [BEGIN] register. username = baonguyen
+Monday:12/25/2017|11:27:41:936 - [ERROR]   - [IoTSmartHome][message]: User is exists.
+Monday:12/25/2017|11:27:43:453 - [INFO]   - [IoTSmartHome][message]: [BEGIN] register. username = baonguyen
+Monday:12/25/2017|11:27:43:456 - [ERROR]   - [IoTSmartHome][message]: User is exists.
+Monday:12/25/2017|11:27:44:664 - [INFO]   - [IoTSmartHome][message]: [BEGIN] register. username = baonguyen
+Monday:12/25/2017|11:27:44:666 - [ERROR]   - [IoTSmartHome][message]: User is exists.
+Monday:12/25/2017|11:27:47:136 - [INFO]   - [IoTSmartHome][message]: [BEGIN] login, username = baonguyen
+Monday:12/25/2017|11:27:47:139 - [ERROR]   - [IoTSmartHome][message]: ReferenceError: token is not defined
+Monday:12/25/2017|11:27:47:139 - [INFO]   - [IoTSmartHome][message]: [END] login
+Monday:12/25/2017|11:27:49:39 - [INFO]   - [IoTSmartHome][message]: [BEGIN] login, username = baonguyen
+Monday:12/25/2017|11:27:49:42 - [ERROR]   - [IoTSmartHome][message]: ReferenceError: token is not defined
+Monday:12/25/2017|11:27:49:42 - [INFO]   - [IoTSmartHome][message]: [END] login
+Monday:12/25/2017|11:27:50:769 - [INFO]   - [IoTSmartHome][message]: [BEGIN] login, username = baonguyen
+Monday:12/25/2017|11:27:50:774 - [ERROR]   - [IoTSmartHome][message]: ReferenceError: token is not defined
+Monday:12/25/2017|11:27:50:774 - [INFO]   - [IoTSmartHome][message]: [END] login
+Monday:12/25/2017|11:27:52:216 - [INFO]   - [IoTSmartHome][message]: [BEGIN] login, username = baonguyen
+Monday:12/25/2017|11:27:52:225 - [ERROR]   - [IoTSmartHome][message]: ReferenceError: token is not defined
+Monday:12/25/2017|11:27:52:226 - [INFO]   - [IoTSmartHome][message]: [END] login
+Monday:12/25/2017|11:28:39:273 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Monday:12/25/2017|11:28:52:712 - [INFO]   - [IoTSmartHome][message]: [BEGIN] login, username = baonguyen
+Monday:12/25/2017|11:28:52:731 - [INFO]   - [IoTSmartHome][message]: Token = 5a407da36a20ba3ea825f41a___Mc3llAzXFMcvO2geSZYd5N+usAM=
+Monday:12/25/2017|11:28:52:749 - [ERROR]   - [IoTSmartHome][message]: MongoError: Unknown modifier: $pushAll
+Monday:12/25/2017|11:28:52:754 - [INFO]   - [IoTSmartHome][message]: [END] login
+Monday:12/25/2017|11:30:30:605 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: TnDZa0GnyWvry960AAAA
+Monday:12/25/2017|11:30:40:121 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":66}
+Monday:12/25/2017|11:30:40:125 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":66}
+Monday:12/25/2017|11:30:40:129 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|11:30:40:138 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|11:30:45:328 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|11:30:50:136 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|11:30:55:137 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|11:31:0:257 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|11:31:5:146 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|11:31:10:206 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|11:31:15:141 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|11:31:34:124 - [INFO]   - [IoTSmartHome][message]: TnDZa0GnyWvry960AAAAis disconnected
+Monday:12/25/2017|11:31:36:861 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Monday:12/25/2017|11:34:43:838 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Monday:12/25/2017|11:35:7:442 - [INFO]   - [IoTSmartHome][message]: [BEGIN] login, username = baonguyen
+Monday:12/25/2017|11:35:7:463 - [INFO]   - [IoTSmartHome][message]: Token = 5a407da36a20ba3ea825f41a___QH5ic0XKYB5qv9V6VeFj5peJ7jg=
+Monday:12/25/2017|11:35:7:487 - [ERROR]   - [IoTSmartHome][message]: MongoError: Unknown modifier: $pushAll
+Monday:12/25/2017|11:35:7:491 - [INFO]   - [IoTSmartHome][message]: [END] login
+Monday:12/25/2017|11:36:58:969 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Monday:12/25/2017|11:37:3:444 - [INFO]   - [IoTSmartHome][message]: [BEGIN] login, username = baonguyen
+Monday:12/25/2017|11:37:3:464 - [INFO]   - [IoTSmartHome][message]: Token = 5a407da36a20ba3ea825f41a___LnXJMFNV2pHT9LoL60cVPN05KBw=
+Monday:12/25/2017|11:37:3:484 - [ERROR]   - [IoTSmartHome][message]: MongoError: Unknown modifier: $pushAll
+Monday:12/25/2017|11:37:3:488 - [INFO]   - [IoTSmartHome][message]: [END] login
+Monday:12/25/2017|11:44:55:947 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Monday:12/25/2017|11:44:59:792 - [INFO]   - [IoTSmartHome][message]: [BEGIN] login, username = baonguyen
+Monday:12/25/2017|11:44:59:812 - [INFO]   - [IoTSmartHome][message]: Token = 5a407da36a20ba3ea825f41a___6fTX2FSZwUP6Sh3plOdBo0rDuBk=
+Monday:12/25/2017|11:44:59:837 - [INFO]   - [IoTSmartHome][message]: [END] login
