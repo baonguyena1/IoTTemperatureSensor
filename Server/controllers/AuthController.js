@@ -10,8 +10,8 @@ var constant = require('../config/constant');
 var User = require('../models/User');
 
 router.post('/login', function(req, res) {
-    var username = req.body.username;
-    var password = req.body.password;
+    var username = req.body.username.trim();
+    var password = req.body.password.trim();
     if (isNull(username) || isNull(password)) {
         return util.responseFail(res);
     }
@@ -68,8 +68,8 @@ router.post('/login', function(req, res) {
 });
 
 router.post('/register', function(req, res) {
-    var username = req.body.username;
-    var password = req.body.password;
+    var username = req.body.username.trim();
+    var password = req.body.password.trim();
 
     Logger.logInfo('[BEGIN] register. username = ' + username);
     isExistsUsername(username)

@@ -44,6 +44,11 @@ struct Message {
     static let FAN_OFF_WHEN_TEMP_LESS_THAN = "Turn off Fan when the temperature is less than"
 }
 
+struct StoryboardIdentifier {
+    static let loginNavigationController = "LoginNavigationController"
+    static let tabbarViewController = "TabbarViewController"
+}
+
 enum AppStoryBoard: String {
     case Authorization
     case UnAuthorization

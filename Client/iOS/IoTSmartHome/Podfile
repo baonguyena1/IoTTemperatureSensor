@@ -9,5 +9,8 @@ target 'IoTSmartHome' do
   pod 'Alamofire'
   pod 'Socket.IO-Client-Swift'
   pod 'MBProgressHUD'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxAlamofire'
 
 end

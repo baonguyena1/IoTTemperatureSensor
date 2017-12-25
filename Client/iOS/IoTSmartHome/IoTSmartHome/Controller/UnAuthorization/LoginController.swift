@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import RxCocoa
+import RxSwift
 
 class LoginController: UIViewController {
     
@@ -18,6 +20,7 @@ class LoginController: UIViewController {
     }
 
     @IBAction func loginTapped(_ sender: UIButton) {
+        
     }
     
     fileprivate func login<S: Serviceable>(from service: S, with url: String) {
@@ -38,6 +41,7 @@ class LoginController: UIViewController {
                 }
                 // change root view controller
                 DispatchQueue.main.async { [unowned self] in
+                    User.save(userLogin)
                 }
                 
             case .error(let error):
