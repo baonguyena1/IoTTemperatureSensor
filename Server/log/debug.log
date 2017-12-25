@@ -1116,3 +1116,412 @@ Monday:12/25/2017|16:17:35:226 - [INFO]   - [IoTSmartHome][message]: [END] Get S
 Monday:12/25/2017|16:26:44:869 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
 Monday:12/25/2017|16:28:16:288 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
 Monday:12/25/2017|16:30:9:235 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Monday:12/25/2017|20:55:48:372 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Monday:12/25/2017|21:1:20:624 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: APcd0n-M7Gukl4SqAAAA
+Monday:12/25/2017|21:1:37:943 - [INFO]   - [IoTSmartHome][message]: [BEGIN] login, username = baonguyen
+Monday:12/25/2017|21:1:38:90 - [INFO]   - [IoTSmartHome][message]: Token = 5a3dd439d3059907345066d6___3fXLsiuInTdcnKHQD1AUqyO2ReE=
+Monday:12/25/2017|21:1:38:196 - [INFO]   - [IoTSmartHome][message]: [END] login
+Monday:12/25/2017|21:1:52:883 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|21:1:52:972 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|21:3:4:921 - [INFO]   - [IoTSmartHome][message]: APcd0n-M7Gukl4SqAAAAis disconnected
+Monday:12/25/2017|21:3:35:698 - [INFO]   - [IoTSmartHome][message]: [BEGIN] login, username = baonguyen
+Monday:12/25/2017|21:3:35:701 - [INFO]   - [IoTSmartHome][message]: Token = 5a3dd439d3059907345066d6___TAy/0w7JS32edycyTqqlRjxRtmg=
+Monday:12/25/2017|21:3:35:707 - [INFO]   - [IoTSmartHome][message]: [END] login
+Monday:12/25/2017|21:3:57:258 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Test
+Monday:12/25/2017|21:3:57:318 - [INFO]   - [IoTSmartHome][message]: [END] Test
+Monday:12/25/2017|21:4:16:99 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|21:4:16:105 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|21:4:28:168 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: jp0G2jnVeB2SbRssAAAB
+Monday:12/25/2017|21:4:31:239 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|21:4:31:250 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|21:5:5:559 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Monday:12/25/2017|21:5:17:875 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 40_SjDwwLtxLAdsVAAAA
+Monday:12/25/2017|21:9:13:43 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|21:9:13:71 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|21:9:23:842 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|21:9:23:853 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|21:9:57:971 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|21:9:57:980 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|21:10:3:159 - [INFO]   - [IoTSmartHome][message]: Setting: false
+Monday:12/25/2017|21:10:4:607 - [INFO]   - [IoTSmartHome][message]: Setting: true
+Monday:12/25/2017|21:10:18:635 - [INFO]   - [IoTSmartHome][message]: Setting: true
+Monday:12/25/2017|21:10:18:640 - [INFO]   - [IoTSmartHome][message]: Setting: false
+Monday:12/25/2017|21:10:59:512 - [INFO]   - [IoTSmartHome][message]: 40_SjDwwLtxLAdsVAAAAis disconnected
+Monday:12/25/2017|21:11:7:309 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: h-Zc9CRvxlOvdAmUAAAB
+Monday:12/25/2017|21:15:57:588 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: pnSPPGrgxvWFUmGkAAAC
+Monday:12/25/2017|21:16:10:709 - [INFO]   - [IoTSmartHome][message]: {"temp":25,"humi":88}
+Monday:12/25/2017|21:16:10:714 - [INFO]   - [IoTSmartHome][message]: {"temp":25,"humi":88}
+Monday:12/25/2017|21:16:10:724 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:16:10:732 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:16:15:801 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:16:20:818 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:16:25:836 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:16:30:758 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:16:39:622 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|21:16:39:627 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|21:16:42:507 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:16:45:655 - [INFO]   - [IoTSmartHome][message]: Setting: false
+Monday:12/25/2017|21:16:45:656 - [INFO]   - [IoTSmartHome][message]: Setting: true
+Monday:12/25/2017|21:16:47:545 - [INFO]   - [IoTSmartHome][message]: pnSPPGrgxvWFUmGkAAACis disconnected
+Monday:12/25/2017|21:19:34:75 - [INFO]   - [IoTSmartHome][message]: Setting: true
+Monday:12/25/2017|21:19:34:75 - [INFO]   - [IoTSmartHome][message]: Setting: false
+Monday:12/25/2017|21:19:37:912 - [INFO]   - [IoTSmartHome][message]: Setting: false
+Monday:12/25/2017|21:19:37:913 - [INFO]   - [IoTSmartHome][message]: Setting: true
+Monday:12/25/2017|21:19:49:991 - [INFO]   - [IoTSmartHome][message]: Setting: true
+Monday:12/25/2017|21:19:49:992 - [INFO]   - [IoTSmartHome][message]: Setting: false
+Monday:12/25/2017|21:22:5:220 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: JdOvwn9cXd3pJaYeAAAD
+Monday:12/25/2017|21:22:19:367 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: c9Vlh9E3OoIJt4rTAAAE
+Monday:12/25/2017|21:22:41:656 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:22:41:661 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:22:41:684 - [INFO]   - [IoTSmartHome][message]: JdOvwn9cXd3pJaYeAAADis disconnected
+Monday:12/25/2017|21:22:41:685 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:22:41:692 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:22:46:775 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:22:51:793 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:22:56:708 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:23:1:695 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:23:14:526 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:23:19:551 - [INFO]   - [IoTSmartHome][message]: c9Vlh9E3OoIJt4rTAAAEis disconnected
+Monday:12/25/2017|21:24:5:810 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: CFWf_q_n6NeJJvDQAAAF
+Monday:12/25/2017|21:24:28:50 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:24:28:66 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:24:28:86 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:24:28:94 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:24:32:818 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|21:24:32:826 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|21:24:33:168 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:24:38:187 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:24:43:203 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:24:45:54 - [INFO]   - [IoTSmartHome][message]: Setting: false
+Monday:12/25/2017|21:24:45:55 - [INFO]   - [IoTSmartHome][message]: Setting: true
+Monday:12/25/2017|21:24:48:107 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:25:0:919 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:25:13:418 - [INFO]   - [IoTSmartHome][message]: CFWf_q_n6NeJJvDQAAAFis disconnected
+Monday:12/25/2017|21:28:35:976 - [INFO]   - [IoTSmartHome][message]: Setting: true
+Monday:12/25/2017|21:28:35:977 - [INFO]   - [IoTSmartHome][message]: Setting: false
+Monday:12/25/2017|21:29:4:746 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: gArm4KmqAql62lyRAAAG
+Monday:12/25/2017|21:29:9:801 - [INFO]   - [IoTSmartHome][message]: h-Zc9CRvxlOvdAmUAAABis disconnected
+Monday:12/25/2017|21:29:22:28 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: OEz0RTJLurvNBoZ-AAAH
+Monday:12/25/2017|21:29:23:61 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:29:23:71 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:29:23:80 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:29:23:92 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:29:28:178 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:29:33:199 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:29:35:931 - [INFO]   - [IoTSmartHome][message]: OEz0RTJLurvNBoZ-AAAHis disconnected
+Monday:12/25/2017|21:29:38:91 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:29:43:129 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:29:47:921 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 4-GgHja0v6yrRW6aAAAI
+Monday:12/25/2017|21:29:52:244 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|21:29:52:250 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|21:29:54:694 - [INFO]   - [IoTSmartHome][message]: Setting: true
+Monday:12/25/2017|21:29:54:695 - [INFO]   - [IoTSmartHome][message]: Setting: false
+Monday:12/25/2017|21:30:6:169 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:30:11:181 - [INFO]   - [IoTSmartHome][message]: 4-GgHja0v6yrRW6aAAAIis disconnected
+Monday:12/25/2017|21:30:59:923 - [INFO]   - [IoTSmartHome][message]: gArm4KmqAql62lyRAAAGis disconnected
+Monday:12/25/2017|21:35:33:820 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: HOjcDA2HO-fQd1ZIAAAJ
+Monday:12/25/2017|21:35:49:918 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:35:49:928 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:35:49:932 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:35:49:942 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:35:54:946 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:36:0:55 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:36:0:196 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: Ei3Y51YGcZouL1UMAAAK
+Monday:12/25/2017|21:36:3:292 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|21:36:3:297 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|21:36:4:971 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:36:8:847 - [INFO]   - [IoTSmartHome][message]: Setting: true
+Monday:12/25/2017|21:36:9:988 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:36:14:283 - [INFO]   - [IoTSmartHome][message]: Setting: false
+Monday:12/25/2017|21:36:14:941 - [INFO]   - [IoTSmartHome][message]: {"temp":25,"humi":95}
+Monday:12/25/2017|21:36:17:344 - [INFO]   - [IoTSmartHome][message]: Setting: true
+Monday:12/25/2017|21:36:19:948 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:36:20:10 - [INFO]   - [IoTSmartHome][message]: Setting: false
+Monday:12/25/2017|21:36:23:683 - [INFO]   - [IoTSmartHome][message]: Setting: true
+Monday:12/25/2017|21:36:25:57 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:36:32:636 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|21:36:32:657 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|21:36:34:662 - [INFO]   - [IoTSmartHome][message]: Setting: true
+Monday:12/25/2017|21:36:36:444 - [INFO]   - [IoTSmartHome][message]: Setting: false
+Monday:12/25/2017|21:36:37:747 - [INFO]   - [IoTSmartHome][message]: Setting: true
+Monday:12/25/2017|21:36:44:11 - [INFO]   - [IoTSmartHome][message]: HOjcDA2HO-fQd1ZIAAAJis disconnected
+Monday:12/25/2017|21:36:51:265 - [INFO]   - [IoTSmartHome][message]: Ei3Y51YGcZouL1UMAAAKis disconnected
+Monday:12/25/2017|21:37:9:726 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: qx31PjL4HI91hg9lAAAL
+Monday:12/25/2017|21:37:41:728 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|21:37:41:734 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|21:37:45:698 - [INFO]   - [IoTSmartHome][message]: Setting: true
+Monday:12/25/2017|21:39:54:402 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 3GEAXzUODoVhNMrLAAAM
+Monday:12/25/2017|21:40:14:864 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:40:14:878 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:40:14:881 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:40:14:914 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:40:14:933 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:40:19:983 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:40:25:1 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:40:30:19 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:40:36:432 - [INFO]   - [IoTSmartHome][message]: Setting: true
+Monday:12/25/2017|21:40:42:307 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:40:47:326 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:40:51:266 - [INFO]   - [IoTSmartHome][message]: Setting: true
+Monday:12/25/2017|21:40:52:239 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:40:55:837 - [INFO]   - [IoTSmartHome][message]: Setting: true
+Monday:12/25/2017|21:41:9:389 - [INFO]   - [IoTSmartHome][message]: 3GEAXzUODoVhNMrLAAAMis disconnected
+Monday:12/25/2017|21:41:21:235 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Monday:12/25/2017|21:41:30:55 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: T5Y-Tw4m1vOPYucxAAAA
+Monday:12/25/2017|21:42:24:927 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: x98N-4az98zJnsQ1AAAB
+Monday:12/25/2017|21:42:39:217 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Monday:12/25/2017|21:42:47:995 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: ssKc-BuCuw43IcVDAAAA
+Monday:12/25/2017|21:43:4:55 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: ssKc-BuCuw43IcVDAAAA
+Monday:12/25/2017|21:43:9:87 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|21:43:9:118 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|21:43:18:121 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|21:43:18:131 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|21:43:38:663 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: Y53-jYarnZeHsckBAAAB
+Monday:12/25/2017|21:43:45:396 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: ssKc-BuCuw43IcVDAAAA
+Monday:12/25/2017|21:43:56:883 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:43:56:891 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:43:56:900 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:43:56:912 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:44:1:984 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:44:6:927 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:44:12:25 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:44:16:936 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:44:22:673 - [INFO]   - [IoTSmartHome][message]: ssKc-BuCuw43IcVDAAAAis disconnected
+Monday:12/25/2017|21:44:29:186 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:44:34:268 - [INFO]   - [IoTSmartHome][message]: Y53-jYarnZeHsckBAAABis disconnected
+Monday:12/25/2017|21:46:25:598 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: TJV6JGV8WCGyL0LUAAAC
+Monday:12/25/2017|21:46:38:800 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: MD4pyalP3_qnQUGCAAAD
+Monday:12/25/2017|21:46:43:876 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:46:43:890 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:46:43:899 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:46:43:908 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:46:44:117 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|21:46:44:127 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|21:46:49:1 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:46:51:847 - [INFO]   - [IoTSmartHome][message]: did update manual setting: true
+Monday:12/25/2017|21:46:54:22 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:46:58:936 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:47:3:948 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:47:36:317 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:47:36:920 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:47:36:920 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:47:36:920 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|21:47:41:341 - [INFO]   - [IoTSmartHome][message]: TJV6JGV8WCGyL0LUAAACis disconnected
+Monday:12/25/2017|21:48:30:724 - [INFO]   - [IoTSmartHome][message]: MD4pyalP3_qnQUGCAAADis disconnected
+Monday:12/25/2017|21:48:38:364 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: Su5KAeEiy-1d6IryAAAE
+Monday:12/25/2017|21:48:57:749 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: D7c8xvRrlQ-WEaCJAAAF
+Monday:12/25/2017|21:49:4:680 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|21:49:4:688 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|21:49:6:570 - [INFO]   - [IoTSmartHome][message]: did update manual setting: true
+Monday:12/25/2017|21:49:23:737 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: CQNEuuPRY3WHv37YAAAG
+Monday:12/25/2017|21:50:2:320 - [INFO]   - [IoTSmartHome][message]: did update manual setting: true
+Monday:12/25/2017|21:50:2:335 - [INFO]   - [IoTSmartHome][message]: D7c8xvRrlQ-WEaCJAAAFis disconnected
+Monday:12/25/2017|21:50:7:661 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: _E4bnIFyNXt4TQfJAAAH
+Monday:12/25/2017|21:51:2:14 - [INFO]   - [IoTSmartHome][message]: did update manual setting: true
+Monday:12/25/2017|21:51:2:25 - [INFO]   - [IoTSmartHome][message]: CQNEuuPRY3WHv37YAAAGis disconnected
+Monday:12/25/2017|21:51:25:884 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: ngM61jW3bGGhT91XAAAI
+Monday:12/25/2017|21:52:23:575 - [INFO]   - [IoTSmartHome][message]: _E4bnIFyNXt4TQfJAAAHis disconnected
+Monday:12/25/2017|21:52:51:936 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: M4V-hwQYB5rTtXS_AAAJ
+Monday:12/25/2017|21:53:15:888 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|21:53:15:897 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|21:53:18:968 - [INFO]   - [IoTSmartHome][message]: ngM61jW3bGGhT91XAAAIis disconnected
+Monday:12/25/2017|21:53:20:255 - [INFO]   - [IoTSmartHome][message]: did update manual setting: true
+Monday:12/25/2017|21:54:14:692 - [INFO]   - [IoTSmartHome][message]: M4V-hwQYB5rTtXS_AAAJis disconnected
+Monday:12/25/2017|21:56:15:273 - [INFO]   - [IoTSmartHome][message]: did update manual setting: true
+Monday:12/25/2017|21:56:26:179 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: I1iAyD95rrzGFbz1AAAK
+Monday:12/25/2017|21:56:31:63 - [INFO]   - [IoTSmartHome][message]: did update manual setting: true
+Monday:12/25/2017|21:56:44:589 - [INFO]   - [IoTSmartHome][message]: did update manual setting: true
+Monday:12/25/2017|21:57:51:183 - [INFO]   - [IoTSmartHome][message]: I1iAyD95rrzGFbz1AAAKis disconnected
+Monday:12/25/2017|21:58:30:937 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: eFa6dlG5mPD_JzMeAAAL
+Monday:12/25/2017|22:0:55:668 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: TkL1Nd_g5MO-ol79AAAM
+Monday:12/25/2017|22:1:29:336 - [INFO]   - [IoTSmartHome][message]: eFa6dlG5mPD_JzMeAAALis disconnected
+Monday:12/25/2017|22:1:47:227 - [INFO]   - [IoTSmartHome][message]: did update manual setting: true
+Monday:12/25/2017|22:1:52:765 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: r_MX0xLOqFTzhmwdAAAN
+Monday:12/25/2017|22:3:3:875 - [INFO]   - [IoTSmartHome][message]: TkL1Nd_g5MO-ol79AAAMis disconnected
+Monday:12/25/2017|22:4:32:531 - [INFO]   - [IoTSmartHome][message]: did update manual setting: true
+Monday:12/25/2017|22:4:37:769 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: wT1_Mi77sw62u6pTAAAO
+Monday:12/25/2017|22:4:46:182 - [INFO]   - [IoTSmartHome][message]: did update manual setting: true
+Monday:12/25/2017|22:4:46:194 - [INFO]   - [IoTSmartHome][message]: r_MX0xLOqFTzhmwdAAANis disconnected
+Monday:12/25/2017|22:4:57:404 - [INFO]   - [IoTSmartHome][message]: did update manual setting: true
+Monday:12/25/2017|22:5:6:176 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: Xz6ey_oEL_S7WMc0AAAP
+Monday:12/25/2017|22:6:22:793 - [INFO]   - [IoTSmartHome][message]: wT1_Mi77sw62u6pTAAAOis disconnected
+Monday:12/25/2017|22:6:42:396 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Monday:12/25/2017|22:6:42:745 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: Bjgxw8l801CMa4WVAAAA
+Monday:12/25/2017|22:6:55:562 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: Pz3OtIJhp1O4CmOuAAAB
+Monday:12/25/2017|22:7:9:694 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|22:7:9:716 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|22:7:12:756 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|22:7:16:736 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: tl2lbn4KhI9_dkd4AAAC
+Monday:12/25/2017|22:7:17:440 - [INFO]   - [IoTSmartHome][message]: Bjgxw8l801CMa4WVAAAAis disconnected
+Monday:12/25/2017|22:7:28:796 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|22:7:42:626 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: tMfHUX7V9uIv1MfUAAAD
+Monday:12/25/2017|22:9:1:754 - [INFO]   - [IoTSmartHome][message]: tl2lbn4KhI9_dkd4AAACis disconnected
+Monday:12/25/2017|22:10:14:560 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: wqzGaUM5fypViEooAAAE
+Monday:12/25/2017|22:10:17:942 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|22:10:17:958 - [INFO]   - [IoTSmartHome][message]: tMfHUX7V9uIv1MfUAAADis disconnected
+Monday:12/25/2017|22:10:29:679 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|22:10:48:251 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 0hkYN49rOxlvE1_FAAAF
+Monday:12/25/2017|22:11:54:521 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: OGhl48f_rYujLIetAAAG
+Monday:12/25/2017|22:11:59:638 - [INFO]   - [IoTSmartHome][message]: wqzGaUM5fypViEooAAAEis disconnected
+Monday:12/25/2017|22:12:3:238 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|22:12:3:353 - [INFO]   - [IoTSmartHome][message]: 0hkYN49rOxlvE1_FAAAFis disconnected
+Monday:12/25/2017|22:12:21:347 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: fQKWomj5zPQbqN3ZAAAH
+Monday:12/25/2017|22:13:39:577 - [INFO]   - [IoTSmartHome][message]: OGhl48f_rYujLIetAAAGis disconnected
+Monday:12/25/2017|22:14:24:628 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: cBdMffZo3VnxPMZDAAAI
+Monday:12/25/2017|22:14:33:880 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|22:14:33:935 - [INFO]   - [IoTSmartHome][message]: fQKWomj5zPQbqN3ZAAAHis disconnected
+Monday:12/25/2017|22:15:19:215 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: uav3pNlCX6l9rJyDAAAJ
+Monday:12/25/2017|22:16:10:412 - [INFO]   - [IoTSmartHome][message]: cBdMffZo3VnxPMZDAAAIis disconnected
+Monday:12/25/2017|22:16:21:982 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: RUgxPOzhqcb8ooL0AAAK
+Monday:12/25/2017|22:16:31:542 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|22:16:31:556 - [INFO]   - [IoTSmartHome][message]: uav3pNlCX6l9rJyDAAAJis disconnected
+Monday:12/25/2017|22:16:47:894 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: MVdEW5UgOYwUqOogAAAL
+Monday:12/25/2017|22:17:59:265 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: hitc0c5zfsWRAx86AAAM
+Monday:12/25/2017|22:18:7:40 - [INFO]   - [IoTSmartHome][message]: RUgxPOzhqcb8ooL0AAAKis disconnected
+Monday:12/25/2017|22:18:10:907 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|22:18:10:912 - [INFO]   - [IoTSmartHome][message]: MVdEW5UgOYwUqOogAAALis disconnected
+Monday:12/25/2017|22:20:46:173 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: lr9wgH7oZkjjE6pYAAAN
+Monday:12/25/2017|22:20:50:747 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|22:20:50:757 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|22:20:53:36 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|22:20:53:52 - [INFO]   - [IoTSmartHome][message]: hitc0c5zfsWRAx86AAAMis disconnected
+Monday:12/25/2017|22:22:33:564 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Monday:12/25/2017|22:22:35:353 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: PJ8PIeuyR9U1-BqIAAAA
+Monday:12/25/2017|22:22:42:297 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: AvmzoMRGw4OmZ_sxAAAB
+Monday:12/25/2017|22:22:55:311 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: AvmzoMRGw4OmZ_sxAAAB
+Monday:12/25/2017|22:23:6:789 - [INFO]   - [IoTSmartHome][message]: AvmzoMRGw4OmZ_sxAAABis disconnected
+Monday:12/25/2017|22:23:15:478 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: SFb6hd8uCz0gqhvfAAAC
+Monday:12/25/2017|22:23:19:279 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|22:23:19:309 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|22:23:32:1 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|22:23:32:25 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|22:23:36:391 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|22:23:36:402 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|22:23:56:955 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|22:23:56:967 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|22:24:5:184 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|22:25:9:450 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: L4IALjhFHofD65XlAAAD
+Monday:12/25/2017|22:25:19:109 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|22:25:19:122 - [INFO]   - [IoTSmartHome][message]: PJ8PIeuyR9U1-BqIAAAAis disconnected
+Monday:12/25/2017|22:25:39:47 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|22:25:45:607 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|22:25:55:310 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|22:27:39:968 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|22:27:42:75 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|22:28:28:924 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: Hcf9Q1YUeBxEWYsgAAAE
+Monday:12/25/2017|22:29:23:497 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: _8yorv3lY12mr5iwAAAF
+Monday:12/25/2017|22:29:28:819 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|22:29:28:864 - [INFO]   - [IoTSmartHome][message]: L4IALjhFHofD65XlAAADis disconnected
+Monday:12/25/2017|22:29:28:898 - [INFO]   - [IoTSmartHome][message]: Hcf9Q1YUeBxEWYsgAAAEis disconnected
+Monday:12/25/2017|22:30:10:531 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Monday:12/25/2017|22:30:12:79 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: GbFVqKSwkBUSVD0RAAAA
+Monday:12/25/2017|22:30:22:273 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: HdJxk3TBDGFKQPQeAAAB
+Monday:12/25/2017|22:30:35:94 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|22:30:35:124 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|22:30:38:89 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|22:31:31:978 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|22:35:48:953 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: fvrk1O6G0bPykmXVAAAC
+Monday:12/25/2017|22:35:56:855 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|22:35:56:878 - [INFO]   - [IoTSmartHome][message]: GbFVqKSwkBUSVD0RAAAAis disconnected
+Monday:12/25/2017|22:38:55:120 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: ueiIa9Uu1qwmPxstAAAD
+Monday:12/25/2017|22:39:4:94 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|22:39:4:106 - [INFO]   - [IoTSmartHome][message]: fvrk1O6G0bPykmXVAAACis disconnected
+Monday:12/25/2017|22:40:47:741 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 18fFcZjCB0x32ITmAAAE
+Monday:12/25/2017|22:40:54:781 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|22:40:55:409 - [INFO]   - [IoTSmartHome][message]: ueiIa9Uu1qwmPxstAAADis disconnected
+Monday:12/25/2017|22:41:28:597 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|22:41:39:302 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|23:4:1:730 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 3Bq3FU6aXmlmAP9FAAAF
+Monday:12/25/2017|23:4:3:412 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|23:4:3:424 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|23:4:16:863 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|23:4:18:862 - [INFO]   - [IoTSmartHome][message]: 18fFcZjCB0x32ITmAAAEis disconnected
+Monday:12/25/2017|23:8:35:64 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 1Nkfw3g602hLgm_fAAAG
+Monday:12/25/2017|23:9:48:458 - [INFO]   - [IoTSmartHome][message]: 3Bq3FU6aXmlmAP9FAAAFis disconnected
+Monday:12/25/2017|23:9:59:405 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: OOXo4KfnTMpwCWznAAAH
+Monday:12/25/2017|23:10:27:540 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|23:10:27:544 - [INFO]   - [IoTSmartHome][message]: 1Nkfw3g602hLgm_fAAAGis disconnected
+Monday:12/25/2017|23:12:9:991 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: a7lStzDZNckYsWY8AAAI
+Monday:12/25/2017|23:12:10:558 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|23:12:10:578 - [INFO]   - [IoTSmartHome][message]: OOXo4KfnTMpwCWznAAAHis disconnected
+Monday:12/25/2017|23:14:37:622 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: yFeC3J7Rne15qmWyAAAJ
+Monday:12/25/2017|23:14:42:293 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|23:14:42:301 - [INFO]   - [IoTSmartHome][message]: a7lStzDZNckYsWY8AAAIis disconnected
+Monday:12/25/2017|23:19:36:624 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: WLYE0aCvRXP1Wr7WAAAK
+Monday:12/25/2017|23:19:45:557 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|23:19:45:623 - [INFO]   - [IoTSmartHome][message]: yFeC3J7Rne15qmWyAAAJis disconnected
+Monday:12/25/2017|23:21:58:640 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: m0HryzrY9gSp744JAAAL
+Monday:12/25/2017|23:22:2:162 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|23:22:2:193 - [INFO]   - [IoTSmartHome][message]: WLYE0aCvRXP1Wr7WAAAKis disconnected
+Monday:12/25/2017|23:25:38:362 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: xdx8nNJqwsOZ1UKcAAAM
+Monday:12/25/2017|23:26:15:335 - [INFO]   - [IoTSmartHome][message]: m0HryzrY9gSp744JAAALis disconnected
+Monday:12/25/2017|23:26:42:4 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|23:30:43:979 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Monday:12/25/2017|23:30:59:985 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: Tm3b58vD8WOpdcaJAAAA
+Monday:12/25/2017|23:31:8:595 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|23:31:8:621 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|23:31:22:916 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: PLvmkt8FgmJFdo7bAAAB
+Monday:12/25/2017|23:31:27:428 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|23:32:49:99 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|23:33:24:178 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|23:36:1:532 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: aBqCi5wWSx0ToA-bAAAC
+Monday:12/25/2017|23:36:35:63 - [INFO]   - [IoTSmartHome][message]: PLvmkt8FgmJFdo7bAAABis disconnected
+Monday:12/25/2017|23:37:20:266 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: Ajd9YykyXPxj9hqWAAAD
+Monday:12/25/2017|23:37:26:377 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|23:37:26:384 - [INFO]   - [IoTSmartHome][message]: aBqCi5wWSx0ToA-bAAACis disconnected
+Monday:12/25/2017|23:37:42:722 - [INFO]   - [IoTSmartHome][message]: Response = 1
+Monday:12/25/2017|23:37:57:80 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 0
+Monday:12/25/2017|23:37:59:105 - [INFO]   - [IoTSmartHome][message]: Response = 0
+Monday:12/25/2017|23:38:8:440 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|23:38:9:448 - [INFO]   - [IoTSmartHome][message]: Response = 1
+Monday:12/25/2017|23:39:6:794 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Monday:12/25/2017|23:39:7:842 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: -fPXvIeQaw-8UYr9AAAA
+Monday:12/25/2017|23:39:13:676 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: W9ebfCAWRe4ncTR-AAAB
+Monday:12/25/2017|23:39:33:200 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 0
+Monday:12/25/2017|23:39:43:201 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 0
+Monday:12/25/2017|23:39:50:66 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 0
+Monday:12/25/2017|23:40:9:630 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Monday:12/25/2017|23:40:10:2 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: _UO2xI8evhRVlKthAAAA
+Monday:12/25/2017|23:40:13:362 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: nrj9PcfAUJkbsQ8CAAAB
+Monday:12/25/2017|23:40:21:320 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: nrj9PcfAUJkbsQ8CAAAB
+Monday:12/25/2017|23:40:44:677 - [INFO]   - [IoTSmartHome][message]: nrj9PcfAUJkbsQ8CAAABis disconnected
+Monday:12/25/2017|23:40:56:688 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: BkEraBXJv9N7G1x0AAAC
+Monday:12/25/2017|23:40:58:915 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|23:40:58:942 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|23:41:1:758 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|23:41:3:76 - [INFO]   - [IoTSmartHome][message]: Response = 1
+Monday:12/25/2017|23:41:43:553 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 0
+Monday:12/25/2017|23:41:45:817 - [INFO]   - [IoTSmartHome][message]: Response = 0
+Monday:12/25/2017|23:41:50:837 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|23:41:52:167 - [INFO]   - [IoTSmartHome][message]: Response = 1
+Monday:12/25/2017|23:41:55:890 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 0
+Monday:12/25/2017|23:41:56:467 - [INFO]   - [IoTSmartHome][message]: Response = 0
+Monday:12/25/2017|23:43:28:929 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: lB0N3M9wQVcaaQjXAAAD
+Monday:12/25/2017|23:43:34:226 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|23:43:34:243 - [INFO]   - [IoTSmartHome][message]: _UO2xI8evhRVlKthAAAAis disconnected
+Monday:12/25/2017|23:44:4:236 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|23:44:4:955 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|23:44:5:112 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|23:44:10:226 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|23:44:11:538 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|23:44:11:545 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|23:44:14:236 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|23:44:15:324 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|23:44:20:161 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|23:44:25:605 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|23:44:30:221 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|23:44:35:189 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|23:44:59:469 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|23:44:59:502 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|23:44:59:518 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|23:45:3:819 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|23:45:3:822 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|23:45:9:688 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|23:45:13:822 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|23:45:19:381 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|23:45:23:926 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|23:45:38:365 - [INFO]   - [IoTSmartHome][message]: {"temp":24,"humi":95}
+Monday:12/25/2017|23:45:43:408 - [INFO]   - [IoTSmartHome][message]: lB0N3M9wQVcaaQjXAAADis disconnected
+Monday:12/25/2017|23:46:46:89 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|23:47:56:758 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Monday:12/25/2017|23:54:59:590 - [INFO]   - [IoTSmartHome][message]: BkEraBXJv9N7G1x0AAACis disconnected

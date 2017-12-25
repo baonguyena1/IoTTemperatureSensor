@@ -43,7 +43,7 @@ router.get('/setting', function(req, res) {
             user_id: req.user_id
         })
         .exec((error, setting) => {
-            if (error) {
+            if (error || util.isNull(setting)) {
                 defer.reject(error);
             } else {
                 defer.resolve(setting);

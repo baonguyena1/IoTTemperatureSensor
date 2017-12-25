@@ -19,9 +19,28 @@ WiFiClient wifiClient;
 SocketIoClient webSocket;
 int manualSetting;
 
-float getValueFromEEPROMWithAddress(int address) {
-  float value = EEPROM.read(address);
-  return manualSetting;
+void writeEEPROM(int address, const char *data, size_t length) {
+  Serial.printf("writeEEPROM, data = %s, length = %d\n", data, length);
+  EEPROM.begin(512);
+  for (int i = 0; i < length; i++) {
+    EEPROM.write(address + i, data[i]);
+  }
+  EEPROM.commit();
+  EEPROM.end();
+}
+
+char* readEEPROM(int address) {
+  char *result = (char *)malloc(MAX_LENGTH);
+  EEPROM.begin(512);
+  for (int i = 0; i < MAX_LENGTH; i++) {
+    result[i] = char(EEPROM.read(address + i));
+    if (result[i] == '\0') {
+      break;
+    }
+  }
+  EEPROM.end();
+  Serial.printf("readEEPROM: %s\n", result);
+  return strdup(result);
 }
 
 /**
@@ -29,26 +48,22 @@ float getValueFromEEPROMWithAddress(int address) {
    payload: Int
 */
 void updateManualSetting(const char *payload, size_t length) {
-  int newSetting = atoi(payload);
-  Serial.printf("updateManualSetting: payload = %d", newSetting);
-  EEPROM.write(EEPROM_MANUAL_SETTING_ADD, newSetting);
-  manualSetting = (int)getValueFromEEPROMWithAddress(EEPROM_MANUAL_SETTING_ADD);
-  char *setting;
-  sprintf(setting, "%d", manualSetting);
-  delay(50);
+  writeEEPROM(EEPROM_MANUAL_SETTING_ADD, payload, sizeof(payload)/sizeof(const char *));
+  char *setting = readEEPROM(EEPROM_MANUAL_SETTING_ADD);
+  Serial.printf("updateManualSetting: setting = %s\n", setting);
   webSocket.emit(SOCKET_UPDATE_MANUAL_SETTING_RESPONSE, setting);
 }
 
 void setFanStatus(const char *payload, size_t length) {
   int fanStatus = atoi(payload);
-  Serial.printf("setFanStatus: payload = %d", fanStatus);
+  Serial.printf("setFanStatus: payload = %d", payload);
   EEPROM.write(EEPROM_FAN_STATUS, fanStatus);
-  // TODO: on/off relay
+  // TODO: on/off relay, emit success status
 }
 
-void setupSocket(SocketIoClient socket) {
-  socket.on(SOCKET_DID_UPDATE_TEMPERATURE, updateManualSetting);
-  socket.on(SOCKET_DID_UPDATE_FAN_STATUS, setFanStatus);
+void setupSocket() {
+  webSocket.on(SOCKET_DID_UPDATE_MANUAL_SETTING, updateManualSetting);
+  webSocket.on(SOCKET_DID_UPDATE_FAN_STATUS, setFanStatus);
 }
 
 /**
@@ -75,9 +90,9 @@ void dht11Process() {
   data += ", \"humi\": ";
   data += h;
   data += "}";
-  Serial.println(data);
+//  Serial.println(data);
   webSocket.emit(SOCKET_DID_UPDATE_TEMPERATURE, data.c_str());
-  delay(1000);
+  delay(2000);
 }
 
 void setup() {
@@ -94,10 +109,10 @@ void setup() {
   Serial.print("Wifi address:");
   Serial.println(WiFi.localIP());
 
-  setupSocket(webSocket);
+  webSocket.on(SOCKET_DID_UPDATE_MANUAL_SETTING, updateManualSetting);
 
   webSocket.begin(host, port);
-  manualSetting = (int)getValueFromEEPROMWithAddress(EEPROM_MANUAL_SETTING_ADD);
+  manualSetting = atoi(readEEPROM(EEPROM_MANUAL_SETTING_ADD));
   Serial.printf("Manual setting = %d\n", manualSetting);
   dht.begin();
 }
@@ -106,5 +121,5 @@ void loop() {
   webSocket.loop();
   dht11Process();
 
-  delay(500);
+  delay(2000);
 }

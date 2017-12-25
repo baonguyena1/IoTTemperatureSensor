@@ -61,7 +61,7 @@ class SettingController: UITableViewController {
         let setting = sender.isOn
         manualSwitch.isOn = !setting;
         Logger.log("manual setting = \(setting)")
-        SocketIOManager.shared.updateManualSetting(with: sender.isOn) { [weak self] (success) in
+        SocketIOManager.shared.updateManualSetting(with: setting) { [weak self] (success) in
             Logger.log("Response status = \(success)")
             self?.manualSwitch.isOn = success
         }

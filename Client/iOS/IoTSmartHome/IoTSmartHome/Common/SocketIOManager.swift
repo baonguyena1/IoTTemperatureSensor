@@ -19,7 +19,8 @@ class SocketIOManager: NSObject {
     override init() {
         super.init()
         Logger.log("")
-        manager = SocketManager(socketURL: URL(string: "http://localhost:9898")!, config: [.log(true), .compress])
+//        manager = SocketManager(socketURL: URL(string: "http://localhost:9898")!, config: [.log(true), .compress])
+        manager = SocketManager(socketURL: URL(string: "http://localhost:9898")!)
         socket = manager.defaultSocket
         
         socket.on(clientEvent: .connect) { (datas, ack) in
@@ -43,11 +44,10 @@ class SocketIOManager: NSObject {
     }
     
     func updateManualSetting(with manualSetting: Bool, completion: ((_ success: Bool) -> Void)?){
-        Logger.log("Manual setting = \(manualSetting)")
         socket.emit(SocketIOEvent.didUpdateManualSetting, manualSetting);
         socket.on(SocketIOEvent.updateManualSettingResponse) { (datas, ack) in
             let success = datas[0] as? Bool
-            Logger.log("Seccuss = \(success)")
+            Logger.log("Seccess = \(success)")
             completion?(success ?? false)
         }
     }

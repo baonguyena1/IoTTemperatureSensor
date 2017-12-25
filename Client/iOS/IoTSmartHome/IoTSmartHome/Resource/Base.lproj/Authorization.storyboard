@@ -241,7 +241,7 @@
                                                                 </userDefinedRuntimeAttribute>
                                                             </userDefinedRuntimeAttributes>
                                                             <connections>
-                                                                <action selector="manualSettingTapped:" destination="WFB-i2-s2z" eventType="valueChanged" id="G0P-Ab-fKa"/>
+                                                                <action selector="manualSettingTapped:" destination="WFB-i2-s2z" eventType="touchUpInside" id="keK-4Q-4wT"/>
                                                             </connections>
                                                         </switch>
                                                     </subviews>

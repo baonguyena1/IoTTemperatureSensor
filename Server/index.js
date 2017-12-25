@@ -49,13 +49,15 @@ io.on(constant.SocketIOEvent.CONNECTION, function(socket) {
     });
 
     socket.on(constant.SocketIOEvent.DID_UPDATE_MANUALSETTING, function(setting) {
-        
-        Logger.logInfo('Setting: ' + setting);
-        io.emit(constant.SocketIOEvent.DID_UPDATE_MANUALSETTING, setting);
-        socket.on(constant.SocketIOEvent.UPDATE_MANUAL_SETTING_RESPONSE, function(success) {
-            var success = parseInt(success);
-            io.emit(constant.SocketIOEvent.UPDATE_MANUAL_SETTING_RESPONSE, success);
-        });
+        var settingValue = setting ? 1 : 0;
+        Logger.logInfo('did update manual setting: ' + settingValue);
+        io.emit(constant.SocketIOEvent.DID_UPDATE_MANUALSETTING, settingValue.toString());
+    });
+
+    socket.on(constant.SocketIOEvent.UPDATE_MANUAL_SETTING_RESPONSE, function(success) {
+        var success = parseInt(success);
+        Logger.logInfo('Response = ' + success);
+        io.emit(constant.SocketIOEvent.UPDATE_MANUAL_SETTING_RESPONSE, success);
     });
 
 });
