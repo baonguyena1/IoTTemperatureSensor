@@ -15,5 +15,7 @@ struct ServerURL {
     
     static let register = "\(url)/auth/register"
     static let login = "\(url)/auth/login"
+    static let logout = "\(url)/auth/logout"
     static let getSetting = "\(url)/setting/setting"
+    
 }

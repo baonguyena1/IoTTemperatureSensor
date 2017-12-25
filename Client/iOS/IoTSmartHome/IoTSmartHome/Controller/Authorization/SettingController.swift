@@ -52,6 +52,7 @@ class SettingController: UITableViewController {
                 
             case .error(let error):
                 Logger.log("Error - \(error)")
+                showDefaultAlert()
             }
         }
     }
@@ -79,7 +80,25 @@ class SettingController: UITableViewController {
     }
     
     fileprivate func logout() {
-        User.delete()
-        appDelegate.redirectVC()
+        self.logout(from: Service.shared, with: ServerURL.logout)
+    }
+    
+    fileprivate func logout<S: Serviceable>(from service: S, with url: String) {
+        MBProgressHUD.showAdded(to: self.view, animated: true)
+        service.get(url) { (result) in
+            switch result {
+            case .success(let response):
+                Logger.log("JSON = \(response)")
+                let response = response as! Response
+                if response.success == true {
+                    User.delete()
+                    appDelegate.redirectVC()
+                }
+            case .error(let error):
+                Logger.log("Error - \(error)")
+                showDefaultAlert()
+            }
+            MBProgressHUD.hide(for: self.view, animated: true)
+        }
     }
 }

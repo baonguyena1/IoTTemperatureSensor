@@ -19,3 +19,12 @@ var appDelegate: AppDelegate {
 func showAlert(_ alert: UIAlertController) {
     rootViewController.present(alert, animated: true, completion: nil)
 }
+
+func showDefaultAlert() {
+    let alert = UIAlertControllerStyle.alert.controller(title: Language.shared.value(for: LanguageKey.message),
+                                                        message: Language.shared.value(for: LanguageKey.somethingWentWrong),
+                                                        actions: [
+                                                            Language.shared.value(for: LanguageKey.ok).alertAction(style: .default, handler: nil)
+        ])
+    showAlert(alert)
+}

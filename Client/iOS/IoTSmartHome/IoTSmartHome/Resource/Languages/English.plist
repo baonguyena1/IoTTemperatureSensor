@@ -10,6 +10,8 @@
 	<string>No</string>
 	<key>general.cancel</key>
 	<string>Cancel</string>
+	<key>general.message</key>
+	<string>Message</string>
 	<key>general.something-went-wrong</key>
 	<string>Something went wrong. Please try again.</string>
 	<key>general.logout-message</key>

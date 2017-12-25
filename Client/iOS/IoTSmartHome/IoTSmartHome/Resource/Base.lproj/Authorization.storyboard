@@ -341,15 +341,15 @@
                                             <outletCollection property="gestureRecognizers" destination="4BU-6I-PYW" appends="YES" id="TFD-Zl-xq7"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="40" id="3e7-k2-0af">
-                                        <rect key="frame" x="0.0" y="184" width="375" height="40"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="80" id="3e7-k2-0af">
+                                        <rect key="frame" x="0.0" y="184" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3e7-k2-0af" id="PMG-z6-6S6">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5hH-Xn-gCe">
-                                                    <rect key="frame" x="38" y="2.3333333333333321" width="300" height="36"/>
+                                                    <rect key="frame" x="38" y="47" width="300" height="33"/>
                                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                     <state key="normal" title="Logout">
                                                         <color key="titleColor" red="0.90196078430000004" green="0.4941176471" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
@@ -374,8 +374,7 @@
                                             <constraints>
                                                 <constraint firstItem="5hH-Xn-gCe" firstAttribute="width" secondItem="PMG-z6-6S6" secondAttribute="width" multiplier="0.8" id="Y3f-D9-c4N"/>
                                                 <constraint firstItem="5hH-Xn-gCe" firstAttribute="centerX" secondItem="PMG-z6-6S6" secondAttribute="centerX" id="cGM-G6-Yqg"/>
-                                                <constraint firstItem="5hH-Xn-gCe" firstAttribute="height" secondItem="PMG-z6-6S6" secondAttribute="height" multiplier="0.9" id="e24-VG-YhL"/>
-                                                <constraint firstItem="5hH-Xn-gCe" firstAttribute="centerY" secondItem="PMG-z6-6S6" secondAttribute="centerY" id="jyD-fp-OOu"/>
+                                                <constraint firstAttribute="bottom" secondItem="5hH-Xn-gCe" secondAttribute="bottom" id="xNX-Iy-BJX"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <gestureRecognizers/>

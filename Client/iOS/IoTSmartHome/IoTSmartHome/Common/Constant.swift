@@ -35,6 +35,7 @@ struct KeyString {
     
     static let username = "username"
     static let access_token = "access_token"
+    static let password = "password"
 }
 
 struct Message {

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MBProgressHUD
 
 class LoginController: UIViewController {
     
@@ -18,34 +19,33 @@ class LoginController: UIViewController {
     }
 
     @IBAction func loginTapped(_ sender: UIButton) {
-        
+        self.login(from: Service.shared, with: ServerURL.login)
     }
     
     fileprivate func login<S: Serviceable>(from service: S, with url: String) {
-        service.get(url) { [unowned self] (result) in
+        MBProgressHUD.showAdded(to: self.view, animated: true)
+        let parameters: JSON = [
+            KeyString.username: usernameTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) ?? "",
+            KeyString.password: passwordTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) ?? ""
+        ]
+        service.post(url, with: parameters) { (result) in
             switch result {
             case .success(let response):
                 Logger.log("JSON = \(response)")
                 let response = response as! Response
                 let user = User(with: response.results as! JSON)
                 if user == nil {
-                    self.showErrorMessage()
+                    showDefaultAlert()
                     return
                 }
                 User.save(user!)
                 appDelegate.redirectVC()
             case .error(let error):
                 Logger.log("Error - \(error)")
-                self.showErrorMessage()
+                showDefaultAlert()
             }
+            MBProgressHUD.hide(for: self.view, animated: true)
         }
-    }
-    
-    func showErrorMessage() {
-        let alert = UIAlertControllerStyle.alert.controller(title: nil, message: Language.shared.value(for: LanguageKey.somethingWentWrong), actions: [
-            Language.shared.value(for: LanguageKey.ok).alertAction(style: .destructive, handler: nil)
-            ])
-        showAlert(alert)
     }
     
 }

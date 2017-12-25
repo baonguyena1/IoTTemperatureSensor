@@ -1032,3 +1032,62 @@ Monday:12/25/2017|13:0:19:469 - [INFO]   - [IoTSmartHome][message]: [INFO]App li
 Monday:12/25/2017|13:0:49:839 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
 Monday:12/25/2017|13:1:0:132 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
 Monday:12/25/2017|13:2:11:940 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Monday:12/25/2017|13:20:18:884 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: lKfba_UfAClujZp8AAAA
+Monday:12/25/2017|13:20:28:697 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|13:20:28:701 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|13:20:28:721 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|13:20:28:727 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|13:20:33:968 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|13:20:38:839 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|13:20:44:63 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|13:20:48:971 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|13:20:53:894 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|13:20:58:735 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|13:21:4:109 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|13:22:29:112 - [INFO]   - [IoTSmartHome][message]: lKfba_UfAClujZp8AAAAis disconnected
+Monday:12/25/2017|13:52:33:54 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 04gYDh5UaU_78_SXAAAB
+Monday:12/25/2017|13:52:42:916 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|13:52:42:923 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|13:52:42:932 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|13:52:42:946 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|13:52:48:80 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|13:52:52:996 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|13:52:58:269 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|13:53:2:952 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|13:53:8:48 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":67}
+Monday:12/25/2017|13:53:13:886 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":67}
+Monday:12/25/2017|13:53:17:948 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":67}
+Monday:12/25/2017|13:54:9:384 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: wHSetwNIBCOGzk-qAAAC
+Monday:12/25/2017|13:54:31:44 - [INFO]   - [IoTSmartHome][message]: [BEGIN] login, username = baonguyen
+Monday:12/25/2017|13:54:31:82 - [INFO]   - [IoTSmartHome][message]: Token = 5a407da36a20ba3ea825f41a___BdVvnoB8SMYEW2fkEn+02noBqy8=
+Monday:12/25/2017|13:54:31:106 - [INFO]   - [IoTSmartHome][message]: [END] login
+Monday:12/25/2017|13:54:42:945 - [INFO]   - [IoTSmartHome][message]: 04gYDh5UaU_78_SXAAABis disconnected
+Monday:12/25/2017|13:58:16:567 - [INFO]   - [IoTSmartHome][message]: wHSetwNIBCOGzk-qAAACis disconnected
+Monday:12/25/2017|13:58:22:203 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 65_ZeIUjLFGcs5oCAAAD
+Monday:12/25/2017|13:58:24:205 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|13:58:24:211 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|14:1:34:685 - [INFO]   - [IoTSmartHome][message]: 65_ZeIUjLFGcs5oCAAADis disconnected
+Monday:12/25/2017|14:1:43:483 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: OCnhqMZLZO53iDS2AAAE
+Monday:12/25/2017|14:1:59:909 - [INFO]   - [IoTSmartHome][message]: OCnhqMZLZO53iDS2AAAEis disconnected
+Monday:12/25/2017|14:2:7:928 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 0lCg1WuOWGxaP_7rAAAF
+Monday:12/25/2017|14:2:18:165 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|14:2:18:170 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|14:2:20:917 - [INFO]   - [IoTSmartHome][message]: [BEGIN] logout
+Monday:12/25/2017|14:2:20:926 - [INFO]   - [IoTSmartHome][message]: [END] logout
+Monday:12/25/2017|14:2:28:957 - [INFO]   - [IoTSmartHome][message]: 0lCg1WuOWGxaP_7rAAAFis disconnected
+Monday:12/25/2017|14:2:34:693 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: Z2jVl0fdeagJmOODAAAG
+Monday:12/25/2017|14:3:6:246 - [INFO]   - [IoTSmartHome][message]: [BEGIN] login, username = baonguyen
+Monday:12/25/2017|14:3:6:249 - [INFO]   - [IoTSmartHome][message]: Token = 5a407da36a20ba3ea825f41a___5jdy3R4dd0RHFg6xznfVB+gCmyo=
+Monday:12/25/2017|14:3:6:253 - [INFO]   - [IoTSmartHome][message]: [END] login
+Monday:12/25/2017|14:3:8:164 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|14:3:8:172 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|14:3:11:334 - [INFO]   - [IoTSmartHome][message]: [BEGIN] logout
+Monday:12/25/2017|14:3:11:340 - [INFO]   - [IoTSmartHome][message]: [END] logout
+Monday:12/25/2017|14:3:18:252 - [INFO]   - [IoTSmartHome][message]: [BEGIN] login, username = baonguyen
+Monday:12/25/2017|14:3:18:254 - [INFO]   - [IoTSmartHome][message]: Token = 5a407da36a20ba3ea825f41a___S7SaZ6EaFWbGZTjR3kcJau26mSk=
+Monday:12/25/2017|14:3:18:256 - [INFO]   - [IoTSmartHome][message]: [END] login
+Monday:12/25/2017|14:4:30:245 - [INFO]   - [IoTSmartHome][message]: Z2jVl0fdeagJmOODAAAGis disconnected
+Monday:12/25/2017|14:5:46:579 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: _ylcBMs5fuTbxsDKAAAH
+Monday:12/25/2017|14:5:48:639 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Monday:12/25/2017|14:5:48:642 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Monday:12/25/2017|14:8:14:284 - [INFO]   - [IoTSmartHome][message]: _ylcBMs5fuTbxsDKAAAHis disconnected

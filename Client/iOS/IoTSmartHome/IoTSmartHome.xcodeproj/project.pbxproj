@@ -31,7 +31,6 @@
 		DCF74B7A1FF0936500D4DE60 /* Vietnamese.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCF74B791FF0936500D4DE60 /* Vietnamese.plist */; };
 		DCF74B7C1FF0938500D4DE60 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF74B7B1FF0938500D4DE60 /* Language.swift */; };
 		DCF74B7E1FF0980500D4DE60 /* GeneralFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF74B7D1FF0980500D4DE60 /* GeneralFunction.swift */; };
-		DCF74B801FF0995900D4DE60 /* AlertHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF74B7F1FF0995900D4DE60 /* AlertHandler.swift */; };
 		DCFE77001FE7BF7200B1049C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFE76FF1FE7BF7200B1049C /* AppDelegate.swift */; };
 		DCFE77051FE7BF7200B1049C /* Authorization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFE77031FE7BF7200B1049C /* Authorization.storyboard */; };
 		DCFE77071FE7BF7200B1049C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCFE77061FE7BF7200B1049C /* Assets.xcassets */; };
@@ -65,7 +64,6 @@
 		DCF74B791FF0936500D4DE60 /* Vietnamese.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Vietnamese.plist; sourceTree = "<group>"; };
 		DCF74B7B1FF0938500D4DE60 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
 		DCF74B7D1FF0980500D4DE60 /* GeneralFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralFunction.swift; sourceTree = "<group>"; };
-		DCF74B7F1FF0995900D4DE60 /* AlertHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHandler.swift; sourceTree = "<group>"; };
 		DCFE76FC1FE7BF7200B1049C /* IoTSmartHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IoTSmartHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFE76FF1FE7BF7200B1049C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCFE77041FE7BF7200B1049C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Authorization.storyboard; sourceTree = "<group>"; };
@@ -174,7 +172,6 @@
 				DCCB98B01FE7D38700D5E9B3 /* Extentions.swift */,
 				DC4AD2421FEB6AFD00007B07 /* Service.swift */,
 				DCF74B7B1FF0938500D4DE60 /* Language.swift */,
-				DCF74B7F1FF0995900D4DE60 /* AlertHandler.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -386,7 +383,6 @@
 				BF0482841FEE132100B9E612 /* User.swift in Sources */,
 				DCF74B7E1FF0980500D4DE60 /* GeneralFunction.swift in Sources */,
 				DC4AD2431FEB6AFD00007B07 /* Service.swift in Sources */,
-				DCF74B801FF0995900D4DE60 /* AlertHandler.swift in Sources */,
 				DC187C381FE8FF1900B99A65 /* SettingController.swift in Sources */,
 				DC4AD2411FEB613500007B07 /* Setting.swift in Sources */,
 				DCFE77001FE7BF7200B1049C /* AppDelegate.swift in Sources */,

@@ -36,39 +36,79 @@ struct Service: Serviceable {
     typealias completionHandler = (Result<Response>) -> Void
     
     func get(_ url: String, completion: @escaping completionHandler) {
-        
-        Alamofire.request(url, method: .get, parameters: nil, encoding: JSONEncoding.default, headers: nil)
+
+        Alamofire.request(url, method: .get, parameters: nil, encoding: JSONEncoding.default, headers: getHeaders())
             .responseJSON { (response) in
                 if let _ = response.result.error {
                     completion(.error(.responseUnsuccessful))
-                    self.showErrorMessage()
+                    self.showError()
                 } else if let result = response.result.value as? JSON {
+                    Logger.log("Response = \(response.result.value)")
                     let response =  Response(with: result)
                     if response.success == false {
                         completion(.error(.responseUnsuccessful))
-                        self.showErrorMessage()
+                        self.showError(with: response.message)
                     } else {
                         completion(.success(response))
                     }
                     
                 } else {
                     completion(.error(.invalidData))
-                    self.showErrorMessage()
+                    self.showError()
                 }
         }
     }
     
     func post(_ url: String, with jsonData: [String : Any], completion: @escaping completionHandler) {
         
+        Alamofire.request(url, method: .post, parameters: jsonData, encoding: JSONEncoding.default, headers: getHeaders())
+            .responseData { (response) in
+                
+                if let _ = response.result.error {
+                    completion(.error(.responseUnsuccessful))
+                    self.showError()
+                } else if let data = response.result.value {
+                    do {
+                        let json = try JSONSerialization.jsonObject(with: data, options: .allowFragments) as! JSON
+                        let response =  Response(with: json)
+                        if response.success == false {
+                            completion(.error(.responseUnsuccessful))
+                            self.showError(with: response.message)
+                        } else {
+                            completion(.success(response))
+                        }
+                    } catch {
+                        completion(.error(.jsonParsingFailure))
+                        self.showError()
+                    }
+                    
+                } else {
+                    completion(.error(.invalidData))
+                    self.showError()
+                }
+        }
     }
     
-    fileprivate func showErrorMessage() {
+    fileprivate func showError(with message: String? = nil) {
         
-        let alert = UIAlertControllerStyle.alert.controller(title: nil, message: Language.shared.value(for: LanguageKey.somethingWentWrong), actions: [
-            Language.shared.value(for: LanguageKey.ok).alertAction(style: .destructive, handler: nil)
+        let alert = UIAlertControllerStyle.alert.controller(title: Language.shared.value(for: LanguageKey.message),
+                                                            message: message ?? Language.shared.value(for: LanguageKey.somethingWentWrong),
+                                                            actions: [
+                                                                Language.shared.value(for: LanguageKey.ok).alertAction(style: .destructive, handler: nil)
             ])
         DispatchQueue.main.async {
             showAlert(alert)
         }
     }
+    
+    fileprivate func getHeaders() -> HTTPHeaders {
+        var headers: HTTPHeaders = [
+            "Content-Type": "application/json"
+        ]
+        if let access_token = User.access_token {
+            headers[KeyString.access_token] = access_token
+        }
+        return headers
+    }
+    
 }
