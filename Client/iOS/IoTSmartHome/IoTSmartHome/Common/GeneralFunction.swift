@@ -16,6 +16,6 @@ var appDelegate: AppDelegate {
     return UIApplication.shared.delegate as! AppDelegate
 }
 
-func show(alert: UIAlertController) {
+func showAlert(_ alert: UIAlertController) {
     rootViewController.present(alert, animated: true, completion: nil)
 }

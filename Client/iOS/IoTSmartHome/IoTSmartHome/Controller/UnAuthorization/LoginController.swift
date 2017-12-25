@@ -45,7 +45,7 @@ class LoginController: UIViewController {
         let alert = UIAlertControllerStyle.alert.controller(title: nil, message: Language.shared.value(for: LanguageKey.somethingWentWrong), actions: [
             Language.shared.value(for: LanguageKey.ok).alertAction(style: .destructive, handler: nil)
             ])
-        IoTSmartHome.show(alert: alert)
+        showAlert(alert)
     }
     
 }

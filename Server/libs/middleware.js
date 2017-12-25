@@ -6,11 +6,11 @@ var message = require('../config/message');
 
 var middleware = {
     access_token: function(req, res, next) {
-        var token = req.header[constant.access_token];
+        var token = req.headers['access_token'];
         if (!util.isNull(token)) {
             var user_id = token.split(constant.access_tokenizer, 1)[0];
             var tokenizer_index = (user_id + constant.access_tokenizer).length;
-            var access_token = token.substring(index);
+            var access_token = token.substring(tokenizer_index);
             req.user_id = user_id;
             req.access_token = access_token;
         } 
@@ -51,25 +51,19 @@ var middleware = {
         } else {
             if (req.access_token) {
                 User.findOne({
-                    $and: [
-                        { _id: req.user_id },
-                        { tokens: 
-                            { $$elemMatch: 
-                                { access_token: req.access_token }
-                            }
-                        }
-                    ]
+                    _id: req.user_id ,
+                    'tokens.access_token': req.access_token
                 })
                 .exec(function(error, user) {
                     if (error || util.isNull(user)) {
-                        util.responseFailWithMEssage(res, message.token_invalid);
+                        util.responseFailWithMessage(res, message.token_invalid);
                     } else {
 
                         var is_expired_curent_token = true;
                         var tokens = user.tokens;
                         for (var i = 0; i < tokens.length; i++) {
                             var token = tokens[i];
-                            var is_expired = checkIsExpiredToken(token);
+                            var is_expired = isExpiredToken(token);
                             if (token.access_token == req.access_token && is_expired === false) {
                                 is_expired_curent_token = false;
                                 tokens.splice(i, 1);
@@ -81,7 +75,7 @@ var middleware = {
                         user.tokens = tokens;
                         user.save();
                         if (is_expired_curent_token === false) {
-                            util.responseFailWithMEssage(res, message.token_expire);
+                            util.responseFailWithMessage(res, message.token_expire);
                         } else {
                             next();
                         }
@@ -90,7 +84,7 @@ var middleware = {
                 });
                 
             } else {
-                util.responseFailWithMEssage(res, message.token_expire);
+                util.responseFailWithMessage(res, message.token_expire);
             }
 
         }

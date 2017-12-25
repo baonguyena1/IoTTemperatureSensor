@@ -83,4 +83,5 @@ struct LanguageKey {
     static let no = "general.no"
     static let ok = "general.ok"
     static let cancel = "general.cancel"
+    static let logoutMessage = "general.logout-message"
 }

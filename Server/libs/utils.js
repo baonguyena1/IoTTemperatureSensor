@@ -10,9 +10,9 @@ var utils = {
         res.json(response);
     },
     responseFail: function(res) {
-        this.responseFailWithMEssage(res, 'Something went wrong. Please try again!!!');
+        this.responseFailWithMessage(res, 'Something went wrong. Please try again!!!');
     },
-    responseFailWithMEssage: function(res, message) {
+    responseFailWithMessage: function(res, message) {
         var response = {};
         response[constant.success] = false;
         response[constant.error_code] = 500

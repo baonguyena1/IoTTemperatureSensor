@@ -12,5 +12,7 @@
 	<string>Cancel</string>
 	<key>general.something-went-wrong</key>
 	<string>Something went wrong. Please try again.</string>
+	<key>general.logout-message</key>
+	<string>Are you sure want to logout?</string>
 </dict>
 </plist>

@@ -7,6 +7,7 @@ var util = require('../libs/utils');
 var Logger = require('../log/log');
 var constant = require('../config/constant');
 var User = require('../models/User');
+var message = require('../config/message');
 
 router.post('/login', function(req, res) {
     var username = req.body.username.trim();
@@ -74,7 +75,7 @@ router.post('/register', function(req, res) {
     isExistsUsername(username)
     .then(function(user) {
         Logger.logError('User is exists.');
-        util.responseFailWithMEssage(res, 'Username is exists. Please try with another username.');
+        util.responseFailWithMessage(res, 'Username is exists. Please try with another username.');
     })
     .catch(function(error) {
         password = crypto.createHash('sha1').update(password).digest('hex');
@@ -110,6 +111,44 @@ router.post('/register', function(req, res) {
         Logger.logInfo('[END] register');
     });
 });
+
+router.get('/logout', function(req, res) {
+    var access_token = req.access_token;
+    var user_id = req.user_id;
+    Logger.logInfo('[BEGIN] logout');
+    User.findOne({
+        _id: user_id,
+        'tokens.access_token': access_token
+    })
+    .exec(function(error, user) {
+        if (error || util.isNull(user)) {
+            util.responseFailWithMessage(res, message.token_invalid);
+        } else {
+            var tokens = user.tokens;
+            for (var i = 0; i < tokens.length; i++) {
+                var token = tokens[i];
+                if (token.access_token == access_token) {
+                    tokens.splice(i, 1);
+                    break;
+                }
+            }
+
+            user.tokens = tokens;
+            saveUser(user)
+            .then(function(user) {
+                util.responseSuccess(res, {});
+            })
+            .catch(function(error) {
+                Logger.logError(error);
+                util.responseFailWithMessage(res, message.token_invalid);
+            })
+            .then(function() {
+                Logger.logInfo('[END] logout');
+            });
+        }
+    });
+
+})
 
 function getUserByUsername(username) {
     var defer = Q.defer();
@@ -161,7 +200,6 @@ function isExistsUsername(username) {
 function saveUser(user) {
     var defer = Q.defer();
     user.save(function(error, object) {
-        console.log(error);
         if (error) {
             defer.reject(error);
         } else {

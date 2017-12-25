@@ -68,7 +68,7 @@ struct Service: Serviceable {
             Language.shared.value(for: LanguageKey.ok).alertAction(style: .destructive, handler: nil)
             ])
         DispatchQueue.main.async {
-            show(alert: alert)
+            showAlert(alert)
         }
     }
 }
