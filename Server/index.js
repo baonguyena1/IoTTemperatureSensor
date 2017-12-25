@@ -49,6 +49,7 @@ io.on(constant.SocketIOEvent.CONNECTION, function(socket) {
     });
 
     socket.on(constant.SocketIOEvent.DID_UPDATE_MANUALSETTING, function(setting) {
+        
         Logger.logInfo('Setting: ' + setting);
         io.emit(constant.SocketIOEvent.DID_UPDATE_MANUALSETTING, setting);
         socket.on(constant.SocketIOEvent.UPDATE_MANUAL_SETTING_RESPONSE, function(success) {

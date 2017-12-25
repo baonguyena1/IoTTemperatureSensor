@@ -19,6 +19,11 @@ WiFiClient wifiClient;
 SocketIoClient webSocket;
 int manualSetting;
 
+float getValueFromEEPROMWithAddress(int address) {
+  float value = EEPROM.read(address);
+  return manualSetting;
+}
+
 /**
    Description: Get new manual setting and save it to EEPROM
    payload: Int
@@ -27,16 +32,23 @@ void updateManualSetting(const char *payload, size_t length) {
   int newSetting = atoi(payload);
   Serial.printf("updateManualSetting: payload = %d", newSetting);
   EEPROM.write(EEPROM_MANUAL_SETTING_ADD, newSetting);
-  manualSetting = getManualSetting();
+  manualSetting = (int)getValueFromEEPROMWithAddress(EEPROM_MANUAL_SETTING_ADD);
   char *setting;
   sprintf(setting, "%d", manualSetting);
   delay(50);
   webSocket.emit(SOCKET_UPDATE_MANUAL_SETTING_RESPONSE, setting);
 }
 
-int getManualSetting() {
-  int manualSetting = EEPROM.read(EEPROM_MANUAL_SETTING_ADD);
-  return manualSetting;
+void setFanStatus(const char *payload, size_t length) {
+  int fanStatus = atoi(payload);
+  Serial.printf("setFanStatus: payload = %d", fanStatus);
+  EEPROM.write(EEPROM_FAN_STATUS, fanStatus);
+  // TODO: on/off relay
+}
+
+void setupSocket(SocketIoClient socket) {
+  socket.on(SOCKET_DID_UPDATE_TEMPERATURE, updateManualSetting);
+  socket.on(SOCKET_DID_UPDATE_FAN_STATUS, setFanStatus);
 }
 
 /**
@@ -82,13 +94,10 @@ void setup() {
   Serial.print("Wifi address:");
   Serial.println(WiFi.localIP());
 
-  /**
-     Register socket io event
-  */
-  webSocket.on(SOCKET_DID_UPDATE_TEMPERATURE, updateManualSetting);
+  setupSocket(webSocket);
 
   webSocket.begin(host, port);
-  manualSetting = getManualSetting();
+  manualSetting = (int)getValueFromEEPROMWithAddress(EEPROM_MANUAL_SETTING_ADD);
   Serial.printf("Manual setting = %d\n", manualSetting);
   dht.begin();
 }
