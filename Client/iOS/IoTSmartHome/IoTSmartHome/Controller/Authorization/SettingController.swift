@@ -58,17 +58,21 @@ class SettingController: UITableViewController {
     }
 
     @IBAction func manualSettingTapped(_ sender: UISwitch) {
+        MBProgressHUD.showAdded(to: self.view, animated: true)
         let setting = sender.isOn
         manualSwitch.isOn = !setting;
         Logger.log("manual setting = \(setting)")
-        SocketIOManager.shared.updateManualSetting(with: setting) { [weak self] (success) in
+        SocketIOManager.shared.updateManualSetting(with: setting) { [unowned self] (success) in
             Logger.log("Response status = \(success)")
-            self?.manualSwitch.isOn = success
+            UIView.animate(withDuration: 0.25, animations: {
+                self.manualSwitch.isOn = success
+            })
+            MBProgressHUD.hide(for: self.view, animated: true)
         }
     }
     
     @IBAction func logoutTapped(_ sender: UIButton) {
-        let alert = UIAlertControllerStyle.alert.controller(title: nil,
+        let alert = UIAlertControllerStyle.alert.controller(title: Language.shared.value(for: LanguageKey.message),
                                                             message: Language.shared.value(for: LanguageKey.logoutMessage),
                                                             actions: [
                                                                 Language.shared.value(for: LanguageKey.cancel).alertAction(style: .destructive, handler: nil),

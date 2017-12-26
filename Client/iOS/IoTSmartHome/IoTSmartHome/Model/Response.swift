@@ -15,9 +15,9 @@ struct Response {
     var message: String?
     
     init(with json: JSON) {
-        results = json[KeyString.Results]
-        success = json[KeyString.Success] as! Bool
-        error_code = json[KeyString.ErrorCode] as? Int
-        message = json[KeyString.Message] as? String
+        results = json[KeyString.results]
+        success = json[KeyString.success] as! Bool
+        error_code = json[KeyString.errorCode] as? Int
+        message = json[KeyString.message] as? String
     }
 }

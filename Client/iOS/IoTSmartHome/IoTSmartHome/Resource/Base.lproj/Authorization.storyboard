@@ -42,16 +42,16 @@
                         <sections>
                             <tableViewSection headerTitle="" id="7Ay-ag-2RH">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="hqn-qt-olv">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="20" id="hqn-qt-olv">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hqn-qt-olv" id="VrJ-mY-9ro">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="60" id="VhG-cg-yNE">
-                                        <rect key="frame" x="0.0" y="44" width="375" height="60"/>
+                                        <rect key="frame" x="0.0" y="20" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VhG-cg-yNE" id="hYG-C8-sSq">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
@@ -108,7 +108,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="128" id="yJg-hh-0pK">
-                                        <rect key="frame" x="0.0" y="104" width="375" height="128"/>
+                                        <rect key="frame" x="0.0" y="80" width="375" height="128"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="yJg-hh-0pK" id="4DO-nP-3hy">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="128"/>
@@ -154,7 +154,7 @@
                                                                                 <userDefinedRuntimeAttribute type="boolean" keyPath="maskToBounds" value="YES"/>
                                                                             </userDefinedRuntimeAttributes>
                                                                             <connections>
-                                                                                <action selector="fanSwitchTapped:" destination="XWB-K4-Iie" eventType="valueChanged" id="3x5-Yc-Io2"/>
+                                                                                <action selector="fanSwitchTapped:" destination="XWB-K4-Iie" eventType="touchUpInside" id="8Gy-XR-Wbf"/>
                                                                             </connections>
                                                                         </switch>
                                                                     </subviews>

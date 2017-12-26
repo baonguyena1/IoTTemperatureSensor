@@ -1525,3 +1525,1291 @@ Monday:12/25/2017|23:45:43:408 - [INFO]   - [IoTSmartHome][message]: lB0N3M9wQVc
 Monday:12/25/2017|23:46:46:89 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
 Monday:12/25/2017|23:47:56:758 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
 Monday:12/25/2017|23:54:59:590 - [INFO]   - [IoTSmartHome][message]: BkEraBXJv9N7G1x0AAACis disconnected
+Tuesday:12/26/2017|10:4:27:675 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|10:4:49:837 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|10:5:45:852 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 09WDDiuY8Q58PYprAAAA
+Tuesday:12/26/2017|10:6:25:986 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Tuesday:12/26/2017|10:6:26:6 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Tuesday:12/26/2017|10:8:30:575 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Tuesday:12/26/2017|10:8:49:770 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Tuesday:12/26/2017|10:10:56:136 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Tuesday:12/26/2017|10:10:56:141 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Tuesday:12/26/2017|10:10:59:977 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Tuesday:12/26/2017|10:13:40:544 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|10:13:47:615 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: N5Vsg3OO-VLsAh20AAAA
+Tuesday:12/26/2017|10:14:25:237 - [INFO]   - [IoTSmartHome][message]: N5Vsg3OO-VLsAh20AAAAis disconnected
+Tuesday:12/26/2017|10:20:0:290 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 6JefMqD3HwzlXm7fAAAB
+Tuesday:12/26/2017|10:20:8:899 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":74}
+Tuesday:12/26/2017|10:20:22:766 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":75}
+Tuesday:12/26/2017|10:20:38:907 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: oOHOQBP03bQUQXcNAAAC
+Tuesday:12/26/2017|10:20:43:178 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":75}
+Tuesday:12/26/2017|10:20:47:743 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Tuesday:12/26/2017|10:20:47:760 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Tuesday:12/26/2017|10:20:50:563 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Tuesday:12/26/2017|10:20:51:194 - [INFO]   - [IoTSmartHome][message]: Response = 1
+Tuesday:12/26/2017|10:21:4:248 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":75}
+Tuesday:12/26/2017|10:21:24:718 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":75}
+Tuesday:12/26/2017|10:21:45:305 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":75}
+Tuesday:12/26/2017|10:22:6:836 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:22:27:185 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:22:47:669 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:23:8:273 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:23:28:835 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:23:50:440 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:24:10:829 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:24:31:203 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:24:51:776 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:25:12:136 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:25:33:554 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:25:54:43 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:26:14:370 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:26:35:375 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":77}
+Tuesday:12/26/2017|10:26:55:822 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:27:17:347 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:27:37:976 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:27:58:582 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:28:19:136 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:28:40:28 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:29:1:532 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:29:21:942 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:29:42:535 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:30:2:899 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|10:30:23:292 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|10:30:44:779 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|10:31:5:248 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|10:31:25:915 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|10:31:46:486 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|10:32:7:92 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|10:32:28:394 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|10:32:49:182 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|10:33:9:753 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|10:33:30:326 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|10:33:50:917 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|10:34:12:671 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|10:34:33:618 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":73}
+Tuesday:12/26/2017|10:34:54:345 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":73}
+Tuesday:12/26/2017|10:35:14:783 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":73}
+Tuesday:12/26/2017|10:35:35:213 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":74}
+Tuesday:12/26/2017|10:35:56:868 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":74}
+Tuesday:12/26/2017|10:36:17:451 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":75}
+Tuesday:12/26/2017|10:36:37:872 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":75}
+Tuesday:12/26/2017|10:36:58:549 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":75}
+Tuesday:12/26/2017|10:37:20:122 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":75}
+Tuesday:12/26/2017|10:37:41:588 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":74}
+Tuesday:12/26/2017|10:38:2:521 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":74}
+Tuesday:12/26/2017|10:38:23:100 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":73}
+Tuesday:12/26/2017|10:38:43:987 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":73}
+Tuesday:12/26/2017|10:38:50:855 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 0
+Tuesday:12/26/2017|10:38:51:39 - [INFO]   - [IoTSmartHome][message]: Response = 0
+Tuesday:12/26/2017|10:38:54:195 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Tuesday:12/26/2017|10:38:55:358 - [INFO]   - [IoTSmartHome][message]: Response = 1
+Tuesday:12/26/2017|10:38:58:323 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 0
+Tuesday:12/26/2017|10:38:58:425 - [INFO]   - [IoTSmartHome][message]: Response = 0
+Tuesday:12/26/2017|10:39:0:989 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Tuesday:12/26/2017|10:39:1:498 - [INFO]   - [IoTSmartHome][message]: Response = 1
+Tuesday:12/26/2017|10:39:4:984 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":73}
+Tuesday:12/26/2017|10:39:8:932 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 0
+Tuesday:12/26/2017|10:39:9:63 - [INFO]   - [IoTSmartHome][message]: Response = 0
+Tuesday:12/26/2017|10:39:13:287 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Tuesday:12/26/2017|10:39:14:402 - [INFO]   - [IoTSmartHome][message]: Response = 1
+Tuesday:12/26/2017|10:39:17:758 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Tuesday:12/26/2017|10:39:17:764 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Tuesday:12/26/2017|10:39:26:819 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":73}
+Tuesday:12/26/2017|10:39:32:864 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Tuesday:12/26/2017|10:39:32:869 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Tuesday:12/26/2017|10:39:33:693 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Tuesday:12/26/2017|10:39:33:869 - [INFO]   - [IoTSmartHome][message]: Response = 1
+Tuesday:12/26/2017|10:39:35:988 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 0
+Tuesday:12/26/2017|10:39:36:931 - [INFO]   - [IoTSmartHome][message]: Response = 0
+Tuesday:12/26/2017|10:39:38:249 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Tuesday:12/26/2017|10:39:39:284 - [INFO]   - [IoTSmartHome][message]: Response = 1
+Tuesday:12/26/2017|10:39:40:960 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 0
+Tuesday:12/26/2017|10:39:41:333 - [INFO]   - [IoTSmartHome][message]: Response = 0
+Tuesday:12/26/2017|10:39:47:892 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":74}
+Tuesday:12/26/2017|10:40:8:299 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":74}
+Tuesday:12/26/2017|10:40:28:666 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":75}
+Tuesday:12/26/2017|10:40:49:54 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|10:41:10:948 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:41:31:417 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:41:51:856 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:42:12:557 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":77}
+Tuesday:12/26/2017|10:42:33:167 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:42:54:987 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:43:15:865 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":77}
+Tuesday:12/26/2017|10:43:36:451 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":77}
+Tuesday:12/26/2017|10:43:52:810 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|10:43:53:49 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: msxThnot6YnZI2kiAAAA
+Tuesday:12/26/2017|10:44:0:409 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":77}
+Tuesday:12/26/2017|10:44:2:149 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: CExEfqH8zoSVTnTDAAAB
+Tuesday:12/26/2017|10:44:10:226 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|10:44:10:539 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: o8R6EXaIcOenlpnKAAAA
+Tuesday:12/26/2017|10:44:12:615 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: jKNsjlERF28awmpCAAAB
+Tuesday:12/26/2017|10:44:17:921 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":77}
+Tuesday:12/26/2017|10:44:39:514 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":77}
+Tuesday:12/26/2017|10:45:0:320 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|10:45:20:952 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|10:45:41:551 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|10:46:2:80 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":77}
+Tuesday:12/26/2017|10:46:23:569 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|10:46:44:166 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|10:47:5:43 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|10:47:25:951 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":77}
+Tuesday:12/26/2017|10:47:46:820 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|10:48:8:190 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|10:48:29:232 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":77}
+Tuesday:12/26/2017|10:48:49:591 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|10:49:10:376 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|10:49:30:959 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|10:49:52:465 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|10:50:13:354 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|10:50:34:261 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|10:50:54:77 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|10:50:54:843 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: csWL63tWkh_YU4BVAAAA
+Tuesday:12/26/2017|10:51:1:919 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|10:51:3:375 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: G33ktOyhEzhRAsYCAAAB
+Tuesday:12/26/2017|10:51:15:716 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|10:51:37:227 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|10:51:57:802 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|10:52:18:474 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|10:52:39:304 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|10:52:59:856 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":73}
+Tuesday:12/26/2017|10:53:21:233 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":73}
+Tuesday:12/26/2017|10:53:37:260 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|10:53:37:345 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: xgZJYyS70fYcYj0XAAAA
+Tuesday:12/26/2017|10:53:44:627 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":73}
+Tuesday:12/26/2017|10:53:46:586 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: lIKSFMAj3Bc9tYHEAAAB
+Tuesday:12/26/2017|10:54:2:218 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":73}
+Tuesday:12/26/2017|10:54:22:800 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":72}
+Tuesday:12/26/2017|10:54:43:129 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":72}
+Tuesday:12/26/2017|10:55:4:888 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":72}
+Tuesday:12/26/2017|10:55:25:213 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":74}
+Tuesday:12/26/2017|10:55:45:794 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":74}
+Tuesday:12/26/2017|10:56:6:652 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":74}
+Tuesday:12/26/2017|10:56:27:215 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":75}
+Tuesday:12/26/2017|10:56:48:729 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":75}
+Tuesday:12/26/2017|10:57:9:302 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":75}
+Tuesday:12/26/2017|10:57:29:781 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":75}
+Tuesday:12/26/2017|10:57:50:270 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":75}
+Tuesday:12/26/2017|10:58:10:776 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:58:32:249 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:58:52:833 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:59:13:412 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:59:34:4 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|10:59:54:576 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|11:0:16:544 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|11:0:37:283 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|11:0:57:864 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|11:1:18:756 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|11:1:39:640 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|11:2:1:459 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":76}
+Tuesday:12/26/2017|11:2:22:125 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|11:2:42:928 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|11:3:3:603 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|11:3:24:397 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|11:3:45:992 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|11:4:6:791 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|11:4:27:115 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|11:4:47:955 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|11:5:8:542 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|11:5:30:45 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":73}
+Tuesday:12/26/2017|11:5:50:654 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|11:6:10:998 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":73}
+Tuesday:12/26/2017|11:6:31:618 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":73}
+Tuesday:12/26/2017|11:6:52:392 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":72}
+Tuesday:12/26/2017|11:7:13:880 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":73}
+Tuesday:12/26/2017|11:7:34:478 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":72}
+Tuesday:12/26/2017|11:7:49:400 - [INFO]   - [IoTSmartHome][message]: lIKSFMAj3Bc9tYHEAAABis disconnected
+Tuesday:12/26/2017|11:7:55:51 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":71}
+Tuesday:12/26/2017|11:8:15:633 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":71}
+Tuesday:12/26/2017|11:8:36:811 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":71}
+Tuesday:12/26/2017|11:8:58:653 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":72}
+Tuesday:12/26/2017|11:9:19:219 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":73}
+Tuesday:12/26/2017|11:9:39:573 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":73}
+Tuesday:12/26/2017|11:9:59:880 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":73}
+Tuesday:12/26/2017|11:10:20:378 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":74}
+Tuesday:12/26/2017|11:10:41:857 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":74}
+Tuesday:12/26/2017|11:11:2:436 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":74}
+Tuesday:12/26/2017|11:11:22:244 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: sLrxnYafs-X-XUoOAAAC
+Tuesday:12/26/2017|11:12:1:441 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: tGJ-ehpTqgIwyxz1AAAD
+Tuesday:12/26/2017|11:12:10:27 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":75}
+Tuesday:12/26/2017|11:12:10:35 - [INFO]   - [IoTSmartHome][message]: xgZJYyS70fYcYj0XAAAAis disconnected
+Tuesday:12/26/2017|11:12:23:541 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|11:12:29:154 - [INFO]   - [IoTSmartHome][message]: Set fan status = 1
+Tuesday:12/26/2017|11:12:40:464 - [INFO]   - [IoTSmartHome][message]: Set fan status = 0
+Tuesday:12/26/2017|11:12:44:126 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|11:12:47:427 - [INFO]   - [IoTSmartHome][message]: Set fan status = 1
+Tuesday:12/26/2017|11:12:50:128 - [INFO]   - [IoTSmartHome][message]: Set fan status = 0
+Tuesday:12/26/2017|11:13:4:713 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|11:13:11:231 - [INFO]   - [IoTSmartHome][message]: Set fan status = 1
+Tuesday:12/26/2017|11:13:12:593 - [INFO]   - [IoTSmartHome][message]: Set fan status = 0
+Tuesday:12/26/2017|11:13:13:730 - [INFO]   - [IoTSmartHome][message]: Set fan status = 1
+Tuesday:12/26/2017|11:13:15:902 - [INFO]   - [IoTSmartHome][message]: Set fan status = 0
+Tuesday:12/26/2017|11:13:17:14 - [INFO]   - [IoTSmartHome][message]: Set fan status = 1
+Tuesday:12/26/2017|11:13:19:456 - [INFO]   - [IoTSmartHome][message]: Set fan status = 0
+Tuesday:12/26/2017|11:13:20:524 - [INFO]   - [IoTSmartHome][message]: Set fan status = 1
+Tuesday:12/26/2017|11:13:25:336 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|11:13:46:183 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|11:13:53:824 - [INFO]   - [IoTSmartHome][message]: sLrxnYafs-X-XUoOAAACis disconnected
+Tuesday:12/26/2017|11:14:3:197 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 1dQA0L81AeiEHSzrAAAE
+Tuesday:12/26/2017|11:14:7:994 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|11:14:28:895 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|11:14:34:345 - [INFO]   - [IoTSmartHome][message]: Set fan status = 1
+Tuesday:12/26/2017|11:14:35:672 - [INFO]   - [IoTSmartHome][message]: Set fan status = 0
+Tuesday:12/26/2017|11:14:36:617 - [INFO]   - [IoTSmartHome][message]: Set fan status = 1
+Tuesday:12/26/2017|11:14:39:834 - [INFO]   - [IoTSmartHome][message]: Set fan status = 0
+Tuesday:12/26/2017|11:14:41:342 - [INFO]   - [IoTSmartHome][message]: Set fan status = 1
+Tuesday:12/26/2017|11:14:46:843 - [INFO]   - [IoTSmartHome][message]: Set fan status = 0
+Tuesday:12/26/2017|11:14:48:463 - [INFO]   - [IoTSmartHome][message]: Set fan status = 1
+Tuesday:12/26/2017|11:14:49:465 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|11:14:57:688 - [INFO]   - [IoTSmartHome][message]: Set fan status = 0
+Tuesday:12/26/2017|11:15:10:45 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|11:15:30:571 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|11:15:52:132 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|11:16:12:496 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|11:16:33:108 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|11:16:53:417 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|11:17:13:847 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|11:17:35:382 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|11:17:55:946 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":73}
+Tuesday:12/26/2017|11:18:3:797 - [INFO]   - [IoTSmartHome][message]: Set fan status = 1
+Tuesday:12/26/2017|11:18:16:530 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":73}
+Tuesday:12/26/2017|11:18:37:104 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":73}
+Tuesday:12/26/2017|11:18:57:683 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":73}
+Tuesday:12/26/2017|11:19:19:525 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":72}
+Tuesday:12/26/2017|11:19:40:698 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":72}
+Tuesday:12/26/2017|11:20:1:50 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":71}
+Tuesday:12/26/2017|11:20:21:558 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":71}
+Tuesday:12/26/2017|11:20:42:131 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":72}
+Tuesday:12/26/2017|11:21:3:782 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":72}
+Tuesday:12/26/2017|11:21:24:291 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":73}
+Tuesday:12/26/2017|11:21:44:993 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":73}
+Tuesday:12/26/2017|11:22:6:821 - [INFO]   - [IoTSmartHome][message]: 1dQA0L81AeiEHSzrAAAEis disconnected
+Tuesday:12/26/2017|11:22:12:994 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: T0XvHtvJ_AEDKVmoAAAF
+Tuesday:12/26/2017|11:22:47:205 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: y2iqbSHx0c5BBqKrAAAG
+Tuesday:12/26/2017|11:22:55:491 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":74}
+Tuesday:12/26/2017|11:22:55:496 - [INFO]   - [IoTSmartHome][message]: tGJ-ehpTqgIwyxz1AAADis disconnected
+Tuesday:12/26/2017|11:23:9:283 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":74}
+Tuesday:12/26/2017|11:23:29:917 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":74}
+Tuesday:12/26/2017|11:23:50:451 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|11:24:11:74 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|11:24:31:922 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|11:24:53:422 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":75}
+Tuesday:12/26/2017|11:25:14:10 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|11:25:34:600 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|11:25:55:194 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":75}
+Tuesday:12/26/2017|11:26:15:572 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|11:26:37:176 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|11:26:57:723 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|11:27:18:337 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|11:27:38:922 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|11:27:59:496 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|11:28:7:297 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Tuesday:12/26/2017|11:28:7:317 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Tuesday:12/26/2017|11:28:21:110 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|11:28:41:687 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|11:29:2:249 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|11:29:22:849 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|11:29:30:821 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|11:29:31:21 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: thv8o6xG1NDO0iCNAAAA
+Tuesday:12/26/2017|11:29:40:47 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: ZxKCIDS_8irj-hRwAAAB
+Tuesday:12/26/2017|11:29:43:441 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|11:30:4:942 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":73}
+Tuesday:12/26/2017|11:30:25:826 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":73}
+Tuesday:12/26/2017|11:30:46:148 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":72}
+Tuesday:12/26/2017|11:31:6:659 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":72}
+Tuesday:12/26/2017|11:31:28:195 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":72}
+Tuesday:12/26/2017|11:31:29:600 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|11:31:30:358 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: TPHZWXiVzc1poQTgAAAA
+Tuesday:12/26/2017|11:31:38:886 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: h22j5OULztX9_lIAAAAB
+Tuesday:12/26/2017|11:31:50:4 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":72}
+Tuesday:12/26/2017|11:32:10:658 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":72}
+Tuesday:12/26/2017|11:32:31:477 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":72}
+Tuesday:12/26/2017|11:32:52:367 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":72}
+Tuesday:12/26/2017|11:32:55:821 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|11:32:56:495 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 8Yyw5MTJuEP9qXBJAAAA
+Tuesday:12/26/2017|11:33:5:154 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: jiZcwXt0ScF6DrqLAAAB
+Tuesday:12/26/2017|11:33:13:254 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":72}
+Tuesday:12/26/2017|11:33:35:73 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":73}
+Tuesday:12/26/2017|11:33:55:667 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":73}
+Tuesday:12/26/2017|11:34:16:140 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":73}
+Tuesday:12/26/2017|11:34:36:762 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":73}
+Tuesday:12/26/2017|11:34:54:354 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|11:34:55:274 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|11:34:56:487 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: GLxHtW_K5Ec1vLlpAAAA
+Tuesday:12/26/2017|11:35:3:615 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: ijU5q5uJwpZ0tNEIAAAB
+Tuesday:12/26/2017|11:35:4:492 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|11:35:19:931 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|11:35:40:406 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|11:36:0:28 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|11:36:0:957 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: b-s7J8-sIvIvqWGAAAAA
+Tuesday:12/26/2017|11:36:7:966 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|11:36:9:367 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: ZwO-xJqFQuIGOJFVAAAB
+Tuesday:12/26/2017|11:36:21:365 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":74}
+Tuesday:12/26/2017|11:36:41:743 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|11:37:3:254 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|11:37:23:695 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|11:37:37:642 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|11:37:38:78 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: Z4YpoqyztZuWQfvWAAAA
+Tuesday:12/26/2017|11:37:45:439 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|11:37:46:993 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: jLuLLrDno_RI3G1iAAAB
+Tuesday:12/26/2017|11:38:6:359 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|11:38:26:911 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|11:38:48:415 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|11:39:8:946 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|11:39:29:575 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":73}
+Tuesday:12/26/2017|11:39:50:159 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":73}
+Tuesday:12/26/2017|11:40:10:599 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":73}
+Tuesday:12/26/2017|11:40:32:180 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":73}
+Tuesday:12/26/2017|11:40:52:902 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":73}
+Tuesday:12/26/2017|11:41:13:429 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":73}
+Tuesday:12/26/2017|11:41:34:68 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":72}
+Tuesday:12/26/2017|11:41:54:686 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":72}
+Tuesday:12/26/2017|11:42:16:848 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":72}
+Tuesday:12/26/2017|11:42:37:202 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":71}
+Tuesday:12/26/2017|11:42:58:230 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":71}
+Tuesday:12/26/2017|11:43:18:763 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":71}
+Tuesday:12/26/2017|11:43:39:344 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":71}
+Tuesday:12/26/2017|11:44:1:154 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":71}
+Tuesday:12/26/2017|11:44:3:200 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|11:44:3:328 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: PRcJaZ445Mt_IS6lAAAA
+Tuesday:12/26/2017|11:44:12:440 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: oeO7_BQb1RMvZeo2AAAB
+Tuesday:12/26/2017|11:44:20:272 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|11:44:20:557 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: H5gTaGc5O7h6fi2MAAAA
+Tuesday:12/26/2017|11:44:22:645 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: IScyxUgaJ2i0Sx4cAAAB
+Tuesday:12/26/2017|11:44:28:195 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":72}
+Tuesday:12/26/2017|11:44:42:836 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":72}
+Tuesday:12/26/2017|11:45:3:521 - [INFO]   - [IoTSmartHome][message]: {"temp":26,"humi":72}
+Tuesday:12/26/2017|11:45:24:307 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":73}
+Tuesday:12/26/2017|11:45:30:290 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|11:45:30:562 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: KJZdmFVrZXx6U7VMAAAA
+Tuesday:12/26/2017|11:45:39:598 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 6L8e-dPyyaPxZHohAAAB
+Tuesday:12/26/2017|11:45:45:904 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":73}
+Tuesday:12/26/2017|11:46:6:505 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|11:46:26:956 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|11:46:47:649 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|11:47:8:231 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|11:47:29:530 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|11:47:33:38 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|11:47:33:767 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 6pCSJaj5ojcf4m48AAAA
+Tuesday:12/26/2017|11:47:42:369 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: f5G01CSgpkjqHf3mAAAB
+Tuesday:12/26/2017|11:47:50:336 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:48:10:900 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:48:31:485 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:48:52:375 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:49:13:882 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:49:15:738 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|11:49:16:45 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: YU2MOnrLcow6xsZ1AAAA
+Tuesday:12/26/2017|11:49:24:998 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: aYRvxS6ru6O0SuT5AAAB
+Tuesday:12/26/2017|11:49:55:335 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:50:15:650 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:50:36:211 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:50:57:634 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:51:18:301 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:51:38:721 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:51:59:462 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:52:20:178 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:52:41:854 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:52:46:176 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|11:52:47:72 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: KXapFilSkv7e04z-AAAA
+Tuesday:12/26/2017|11:52:55:445 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: OPQH78HNY30ZAOVaAAAB
+Tuesday:12/26/2017|11:53:2:444 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:53:22:940 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:53:43:607 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:54:4:230 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:54:26:2 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:54:46:584 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:55:7:166 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:55:27:698 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:55:48:38 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:56:9:783 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:56:30:150 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:56:50:689 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:57:11:282 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:57:31:858 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|11:57:53:360 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:58:13:941 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:58:34:530 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|11:58:55:416 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|11:59:16:0 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|11:59:37:512 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|11:59:58:88 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:0:18:777 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:0:39:565 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:1:0:29 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:1:21:430 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:1:42:136 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:2:2:522 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:2:23:295 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:3:5:785 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:3:26:221 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:3:46:545 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:4:7:597 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:4:28:123 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:4:49:935 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:5:10:518 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:5:30:864 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:5:52:271 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:6:13:828 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:6:35:900 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:6:56:796 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:7:17:396 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:7:38:653 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:7:59:477 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:8:20:979 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:8:41:560 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:9:2:136 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:9:22:713 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:9:43:311 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:10:4:801 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:10:25:394 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:10:46:287 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:11:6:935 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:11:27:768 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:11:49:567 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:12:10:151 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:12:30:734 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:12:51:321 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:13:11:762 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:13:33:98 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:13:53:988 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:14:14:571 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:14:35:163 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:14:55:741 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:15:17:549 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:15:38:128 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:15:59:34 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:16:19:600 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:16:40:190 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:17:1:993 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:17:22:610 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:17:43:466 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:18:4:99 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:18:24:534 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:18:46:137 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:19:6:724 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:19:27:306 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:19:47:885 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:20:8:778 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:20:30:586 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:20:51:475 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:21:11:821 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:21:32:954 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:21:53:875 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:22:15:433 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:22:35:784 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:22:56:552 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:23:17:397 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:23:38:287 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:24:0:12 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:24:20:988 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:24:41:573 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:25:1:966 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:25:22:433 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:25:43:959 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:26:4:527 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:26:25:83 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:26:45:544 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:27:6:263 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:27:27:768 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:27:48:350 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:28:8:934 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:28:29:521 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:28:50:409 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:29:12:54 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:29:32:809 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:29:53:691 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:30:14:114 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:30:34:879 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:30:56:698 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:31:17:254 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:31:38:142 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:31:59:46 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:32:20:143 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:32:41:982 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:33:2:490 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:33:22:589 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:33:43:489 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:34:4:180 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:34:25:838 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:34:46:232 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:35:6:945 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:35:27:927 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:35:48:420 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:36:10:37 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:36:30:932 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:36:51:487 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:37:12:70 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:37:32:635 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:37:54:471 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:38:15:135 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:38:35:631 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:38:56:218 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:39:17:408 - [INFO]   - [IoTSmartHome][message]: 25
+Tuesday:12/26/2017|12:39:39:66 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:39:59:496 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:40:20:164 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:40:40:804 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:41:1:384 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:41:23:674 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:41:44:254 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:42:4:837 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:42:25:427 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:42:46:2 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:43:7:390 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:43:28:98 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:43:48:680 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:44:9:116 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:44:29:536 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:44:51:43 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:45:11:990 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:45:33:125 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:45:53:765 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:46:14:351 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:46:36:100 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:46:56:708 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:47:17:566 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:47:38:149 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:47:58:737 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:48:20:164 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:48:41:137 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:49:2:15 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:49:22:341 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:49:42:963 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:50:4:422 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:50:25:268 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:50:46:158 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:51:7:55 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:51:27:633 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:51:49:137 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:52:9:622 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:52:30:98 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:52:50:893 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:53:11:239 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:53:32:948 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:53:53:532 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:54:14:140 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:54:34:718 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:54:55:303 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:55:16:806 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:55:37:390 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|12:55:58:278 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:56:18:917 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:56:39:515 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:57:1:259 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:57:21:974 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:57:42:729 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:58:3:618 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:58:24:508 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:58:46:331 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:59:6:901 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:59:28:404 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|12:59:48:988 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:0:9:586 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:0:31:66 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:0:51:667 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:1:12:238 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:1:32:823 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:1:53:404 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:2:14:976 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:2:35:801 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:2:56:383 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:3:17:276 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:3:38:168 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:3:59:687 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:4:20:247 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:4:40:675 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:5:1:416 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:5:21:847 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:5:43:494 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:6:4:435 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:6:25:274 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:6:46:163 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:7:7:55 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:7:28:869 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:7:49:754 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:8:10:343 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:8:31:66 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:8:51:817 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:9:13:624 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:9:34:117 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:9:54:786 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:10:15:369 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:10:35:970 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:10:57:456 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:11:18:44 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:11:38:963 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:11:59:525 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:12:20:85 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:12:41:606 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:13:1:948 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:13:22:561 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:13:43:371 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:14:3:986 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:14:25:741 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:14:46:944 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:15:7:522 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:15:28:413 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:15:48:995 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:16:10:486 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:16:31:78 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:16:51:654 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:17:12:274 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:17:32:694 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:17:54:331 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:18:15:220 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:18:36:121 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:18:57:5 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:19:18:197 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:19:40:316 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:20:0:886 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:20:21:487 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:20:42:64 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:21:2:704 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:21:24:228 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:21:44:952 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:22:5:634 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:22:26:211 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:22:46:879 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:23:8:609 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:23:29:492 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:23:50:251 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:24:10:766 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:24:31:246 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:24:53:48 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:25:13:633 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:25:34:232 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:25:54:593 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:26:15:330 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:26:36:891 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:26:57:775 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:27:18:368 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:27:38:941 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:27:59:507 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:28:21:51 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:28:41:463 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:29:3:840 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:29:24:654 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:29:45:205 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:30:6:656 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:30:27:154 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:30:47:887 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:31:8:379 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:31:28:722 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:31:50:269 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:32:10:772 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:32:31:105 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:32:51:995 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:33:12:299 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:33:34:151 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:33:54:524 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:34:15:144 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:34:35:554 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:34:56:265 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:35:17:980 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:35:38:845 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:35:59:407 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:36:19:974 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:36:41:384 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:37:3:292 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:37:23:637 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:37:44:243 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:38:4:671 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:38:25:327 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:38:47:78 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:39:7:374 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:39:28:207 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:39:48:945 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:40:9:463 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:40:31:278 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:40:51:612 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:41:12:727 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:41:33:152 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:41:53:803 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:42:15:256 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:42:35:883 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:42:56:464 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:43:17:34 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:43:38:39 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:43:59:607 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:44:20:450 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:44:41:674 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:45:2:144 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:45:23:410 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:45:44:912 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:46:5:255 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:46:25:614 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:46:46:396 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:47:6:950 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:47:28:447 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:47:48:756 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:48:6:157 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|13:48:6:262 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: MVi13WNmQ36Ofyu0AAAA
+Tuesday:12/26/2017|13:48:13:614 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:48:15:440 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: TA8cTp9rMlm_D_0LAAAB
+Tuesday:12/26/2017|13:48:30:198 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:48:50:709 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:49:12:905 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:49:30:863 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|13:49:31:171 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: lifH4MQ987nKdIoMAAAA
+Tuesday:12/26/2017|13:49:38:696 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:49:39:500 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: K-m2QYdy1ByrCM6DAAAB
+Tuesday:12/26/2017|13:49:46:16 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Test
+Tuesday:12/26/2017|13:49:54:68 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:50:14:663 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:50:35:453 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:51:2:820 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|13:51:3:831 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 0q4jh8E22jWDdn84AAAA
+Tuesday:12/26/2017|13:51:5:751 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: Z8UEvqL8akoOcQprAAAB
+Tuesday:12/26/2017|13:51:8:328 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Test
+Tuesday:12/26/2017|13:51:8:429 - [INFO]   - [IoTSmartHome][message]: [END] Test
+Tuesday:12/26/2017|13:51:10:861 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:51:20:204 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:51:40:590 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:52:1:311 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:52:21:823 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:52:32:456 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|13:52:33:210 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 2PgqqhbuvWw1EU6_AAAA
+Tuesday:12/26/2017|13:52:41:787 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: -g5fptRZpek9-jamAAAB
+Tuesday:12/26/2017|13:52:43:950 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:53:4:381 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:53:24:954 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:53:45:562 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:54:6:226 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:54:27:846 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:54:48:684 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:55:9:222 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:55:30:464 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:55:51:340 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:56:12:684 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:56:34:82 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:56:38:687 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|13:56:39:299 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: pN-R3xFfEhLRpKAIAAAA
+Tuesday:12/26/2017|13:56:48:11 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: k6XIln1DVe18h7gfAAAB
+Tuesday:12/26/2017|13:56:55:458 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:57:16:465 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:57:37:342 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:57:59:447 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:58:20:333 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:58:40:917 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:59:1:916 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|13:59:22:398 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|13:59:44:850 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|14:0:5:220 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:0:26:99 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:0:46:995 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:1:7:471 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:1:29:878 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:1:50:528 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:2:11:52 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:2:31:696 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:2:52:279 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|14:2:52:578 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: jNqVtU_v6EqQQ7KzAAAA
+Tuesday:12/26/2017|14:2:59:887 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:3:1:604 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: kcYDAshg0nijkrSuAAAB
+Tuesday:12/26/2017|14:3:14:426 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:3:34:836 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:3:55:274 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:4:16:95 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:4:37:283 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:4:58:787 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:5:19:367 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:5:39:954 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:6:1:288 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:6:11:450 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|14:6:12:605 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: fP9OoDwE9DzzAkViAAAA
+Tuesday:12/26/2017|14:6:20:701 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: uJZt1nxS7rE4bLsFAAAB
+Tuesday:12/26/2017|14:6:22:36 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:6:43:611 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:7:4:573 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:7:13:622 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|14:7:13:679 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: iu5sZ38VIO1GlsYvAAAA
+Tuesday:12/26/2017|14:7:22:965 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: OJlyAR6UvWEH4vjQAAAB
+Tuesday:12/26/2017|14:7:24:945 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:7:45:291 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:8:5:875 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:8:28:148 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:8:49:177 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:9:9:785 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:9:30:663 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:9:51:555 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:10:13:183 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:10:33:959 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:10:54:515 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:11:15:720 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:11:36:55 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:11:57:521 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:12:18:736 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:12:39:171 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:12:59:777 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:13:20:443 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:13:30:98 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|14:13:31:215 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: i9tHkAGvNcAUE133AAAA
+Tuesday:12/26/2017|14:13:39:430 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: SeEpUDSpucpy4J4NAAAB
+Tuesday:12/26/2017|14:13:42:566 - [INFO]   - [IoTSmartHome][message]: 28
+Tuesday:12/26/2017|14:14:3:511 - [INFO]   - [IoTSmartHome][message]: 26
+Tuesday:12/26/2017|14:14:24:96 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:14:24:746 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|14:14:26:217 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: mshkTghz6LLImahFAAAA
+Tuesday:12/26/2017|14:14:34:215 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: hEYEE0I1ISyg3YwHAAAB
+Tuesday:12/26/2017|14:14:44:934 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:15:5:597 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:15:27:321 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:15:48:212 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:16:8:587 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:16:29:83 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:16:49:651 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:17:11:67 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:17:31:917 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:17:52:334 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:18:12:898 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:18:33:435 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:18:55:206 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:19:15:903 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:19:36:978 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:19:57:971 - [INFO]   - [IoTSmartHome][message]: 27
+Tuesday:12/26/2017|14:20:5:696 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|14:20:6:182 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: c__hmq4-gNE9WjeoAAAA
+Tuesday:12/26/2017|14:20:15:9 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: zrhyJGjfw_yw9y4EAAAB
+Tuesday:12/26/2017|14:20:18:563 - [INFO]   - [IoTSmartHome][message]: [object Object]
+Tuesday:12/26/2017|14:20:23:617 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|14:20:24:713 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: E2nsop2JMHt0LJO-AAAA
+Tuesday:12/26/2017|14:20:25:6 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: oRVgEgu-0rb3h9jbAAAB
+Tuesday:12/26/2017|14:20:41:35 - [INFO]   - [IoTSmartHome][message]: [object Object]
+Tuesday:12/26/2017|14:20:47:798 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|14:20:48:169 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: UZMAvXFLBui5bEC7AAAA
+Tuesday:12/26/2017|14:20:52:836 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|14:20:57:176 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 0faydegAYsFuu3wxAAAA
+Tuesday:12/26/2017|14:20:58:504 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: PEXzZKDXXnl3aTFlAAAB
+Tuesday:12/26/2017|14:21:5:862 - [INFO]   - [IoTSmartHome][message]: [object Object]
+Tuesday:12/26/2017|14:21:22:549 - [INFO]   - [IoTSmartHome][message]: [object Object]
+Tuesday:12/26/2017|14:22:30:574 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|14:22:31:918 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: l0fNOF6K2-R6y4txAAAA
+Tuesday:12/26/2017|14:22:34:62 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: pTtTrWxRuA1IwpmtAAAB
+Tuesday:12/26/2017|14:22:39:196 - [INFO]   - [IoTSmartHome][message]: [object Object]
+Tuesday:12/26/2017|14:22:39:198 - [INFO]   - [IoTSmartHome][message]: [object Object]
+Tuesday:12/26/2017|14:22:39:205 - [INFO]   - [IoTSmartHome][message]: [object Object]
+Tuesday:12/26/2017|14:22:54:914 - [INFO]   - [IoTSmartHome][message]: [object Object]
+Tuesday:12/26/2017|14:23:15:804 - [INFO]   - [IoTSmartHome][message]: [object Object]
+Tuesday:12/26/2017|14:23:36:291 - [INFO]   - [IoTSmartHome][message]: [object Object]
+Tuesday:12/26/2017|14:23:56:977 - [INFO]   - [IoTSmartHome][message]: [object Object]
+Tuesday:12/26/2017|14:24:18:524 - [INFO]   - [IoTSmartHome][message]: [object Object]
+Tuesday:12/26/2017|14:24:39:56 - [INFO]   - [IoTSmartHome][message]: [object Object]
+Tuesday:12/26/2017|14:24:59:398 - [INFO]   - [IoTSmartHome][message]: [object Object]
+Tuesday:12/26/2017|14:25:19:709 - [INFO]   - [IoTSmartHome][message]: [object Object]
+Tuesday:12/26/2017|14:25:40:195 - [INFO]   - [IoTSmartHome][message]: [object Object]
+Tuesday:12/26/2017|14:25:48:255 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|14:25:48:431 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: lbQGDHknoEwrh841AAAA
+Tuesday:12/26/2017|14:25:57:576 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: yK_UrDKCYChdgDoeAAAB
+Tuesday:12/26/2017|14:26:2:8 - [INFO]   - [IoTSmartHome][message]: [object Object]
+Tuesday:12/26/2017|14:26:22:445 - [INFO]   - [IoTSmartHome][message]: [object Object]
+Tuesday:12/26/2017|14:26:42:860 - [INFO]   - [IoTSmartHome][message]: [object Object]
+Tuesday:12/26/2017|14:27:2:814 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|14:27:3:402 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 4F3VVbTMY0agQkb-AAAA
+Tuesday:12/26/2017|14:27:10:518 - [INFO]   - [IoTSmartHome][message]: [object Object]
+Tuesday:12/26/2017|14:27:12:597 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: dA6r0ssTzfaMbYxZAAAB
+Tuesday:12/26/2017|14:27:23:828 - [INFO]   - [IoTSmartHome][message]: [object Object]
+Tuesday:12/26/2017|14:27:40:952 - [INFO]   - [IoTSmartHome][message]: [BEGIN] login, username = baonguyen
+Tuesday:12/26/2017|14:27:40:966 - [INFO]   - [IoTSmartHome][message]: Token = 5a407da36a20ba3ea825f41a___qhjWnX1r1cK2X2EWsiXdcJR4EHs=
+Tuesday:12/26/2017|14:27:40:994 - [INFO]   - [IoTSmartHome][message]: [END] login
+Tuesday:12/26/2017|14:27:45:540 - [INFO]   - [IoTSmartHome][message]: [object Object]
+Tuesday:12/26/2017|14:28:6:448 - [INFO]   - [IoTSmartHome][message]: [object Object]
+Tuesday:12/26/2017|14:28:27:310 - [INFO]   - [IoTSmartHome][message]: [object Object]
+Tuesday:12/26/2017|14:28:45:686 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|14:28:45:895 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: v9x0YnjJxAiyVjDWAAAA
+Tuesday:12/26/2017|14:28:53:420 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|14:28:55:33 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: lG8YCZkvlg6m1aexAAAB
+Tuesday:12/26/2017|14:29:9:92 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|14:29:30:599 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|14:29:48:185 - [INFO]   - [IoTSmartHome][message]: [BEGIN] login, username = baonguyen
+Tuesday:12/26/2017|14:29:48:207 - [INFO]   - [IoTSmartHome][message]: Token = 5a407da36a20ba3ea825f41a___c+k04nYq3oKLBAo0iWbzNS6W76E=
+Tuesday:12/26/2017|14:29:48:225 - [INFO]   - [IoTSmartHome][message]: [END] login
+Tuesday:12/26/2017|14:29:51:564 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|14:30:12:373 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|14:30:30:352 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Tuesday:12/26/2017|14:30:30:361 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Tuesday:12/26/2017|14:30:33:584 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|14:30:54:187 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|14:31:4:221 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|14:31:4:394 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: rpRJ3PuRFoKQgLGGAAAA
+Tuesday:12/26/2017|14:31:11:77 - [ERROR]   - [IoTSmartHome][message]: null
+Tuesday:12/26/2017|14:31:13:562 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: VUeJAuL7nTnDadBQAAAB
+Tuesday:12/26/2017|14:31:15:965 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|14:31:36:890 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|14:31:58:664 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|14:32:19:247 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|14:32:21:190 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Test
+Tuesday:12/26/2017|14:32:21:206 - [INFO]   - [IoTSmartHome][message]: [END] Test
+Tuesday:12/26/2017|14:32:39:829 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|14:33:1:704 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|14:33:22:531 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|14:33:43:213 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|14:33:45:906 - [INFO]   - [IoTSmartHome][message]: [BEGIN] login, username = baonguyen
+Tuesday:12/26/2017|14:33:45:909 - [ERROR]   - [IoTSmartHome][message]: TypeError: Cannot read property 'id' of null
+Tuesday:12/26/2017|14:33:45:910 - [INFO]   - [IoTSmartHome][message]: [END] login
+Tuesday:12/26/2017|14:33:52:340 - [INFO]   - [IoTSmartHome][message]: [BEGIN] register. username = baonguyen
+Tuesday:12/26/2017|14:33:52:345 - [INFO]   - [IoTSmartHome][message]: Token = 5a41fb602937ae1f664ea979___1Cwy7c1uOautF8vTHC06reNLLK4=
+Tuesday:12/26/2017|14:34:3:513 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|14:34:23:841 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|14:34:45:372 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":78}
+Tuesday:12/26/2017|14:34:57:623 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Test
+Tuesday:12/26/2017|14:34:57:626 - [INFO]   - [IoTSmartHome][message]: [END] Test
+Tuesday:12/26/2017|14:35:6:65 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|14:35:26:548 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|14:35:47:228 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|14:36:6:295 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|14:36:6:661 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: ZOkgId6RX6EbkxEWAAAA
+Tuesday:12/26/2017|14:36:12:707 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Test
+Tuesday:12/26/2017|14:36:12:741 - [INFO]   - [IoTSmartHome][message]: [END] Test
+Tuesday:12/26/2017|14:36:13:954 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|14:36:15:550 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: iBKG9qqsAUQLqTpFAAAB
+Tuesday:12/26/2017|14:36:16:952 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Tuesday:12/26/2017|14:36:16:958 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Tuesday:12/26/2017|14:36:29:382 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|14:36:50:517 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|14:37:11:126 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":78}
+Tuesday:12/26/2017|14:37:13:402 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|14:37:13:590 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: ab8f1l2jihodvPxjAAAA
+Tuesday:12/26/2017|14:37:22:729 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: Ih-l9JdUYQFzsK3sAAAB
+Tuesday:12/26/2017|14:37:32:31 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":78}
+Tuesday:12/26/2017|14:37:52:568 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:38:14:384 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":78}
+Tuesday:12/26/2017|14:38:35:274 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:38:55:744 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":78}
+Tuesday:12/26/2017|14:38:58:51 - [INFO]   - [IoTSmartHome][message]: Ih-l9JdUYQFzsK3sAAABis disconnected
+Tuesday:12/26/2017|14:39:7:856 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: PP9vjsLwqVQxVQJVAAAC
+Tuesday:12/26/2017|14:39:16:436 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:39:30:152 - [INFO]   - [IoTSmartHome][message]: PP9vjsLwqVQxVQJVAAACis disconnected
+Tuesday:12/26/2017|14:39:35:40 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: CRCwtzt-NfBpbk1nAAAD
+Tuesday:12/26/2017|14:39:37:365 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:40:0:93 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:40:20:586 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:40:41:201 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:41:0:38 - [INFO]   - [IoTSmartHome][message]: CRCwtzt-NfBpbk1nAAADis disconnected
+Tuesday:12/26/2017|14:41:1:748 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:41:22:390 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:41:27:637 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: u_TekdUhmQiqs4iIAAAE
+Tuesday:12/26/2017|14:41:44:196 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:41:46:612 - [INFO]   - [IoTSmartHome][message]: [BEGIN] login, username = baonguyen
+Tuesday:12/26/2017|14:41:46:616 - [INFO]   - [IoTSmartHome][message]: Token = 5a41fb602937ae1f664ea979___0ANbF89CeNeK48TXMPBPM2Hh8GQ=
+Tuesday:12/26/2017|14:41:46:626 - [INFO]   - [IoTSmartHome][message]: [END] login
+Tuesday:12/26/2017|14:42:4:805 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":78}
+Tuesday:12/26/2017|14:42:25:144 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:42:35:200 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|14:42:35:548 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 0zx6dPuJKfkDvZXUAAAA
+Tuesday:12/26/2017|14:42:45:846 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:42:49:794 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: y15L23TqPoCX4W20AAAB
+Tuesday:12/26/2017|14:43:6:526 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:43:28:83 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:43:48:715 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:43:55:464 - [INFO]   - [IoTSmartHome][message]: y15L23TqPoCX4W20AAABis disconnected
+Tuesday:12/26/2017|14:44:5:484 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: Bhms8-B-uKolZMgEAAAC
+Tuesday:12/26/2017|14:44:5:537 - [INFO]   - [IoTSmartHome][message]: connect user = 5a41fb602937ae1f664ea979
+Tuesday:12/26/2017|14:44:9:142 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:44:29:473 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:44:49:812 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:45:9:577 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|14:45:10:35 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: GuSE76rCC5er04o-AAAA
+Tuesday:12/26/2017|14:45:17:440 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:45:18:906 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: -n2wg9aKrfFcM5YJAAAB
+Tuesday:12/26/2017|14:45:18:927 - [INFO]   - [IoTSmartHome][message]: connect user = 5a41fb602937ae1f664ea979
+Tuesday:12/26/2017|14:45:32:169 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:45:50:47 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|14:45:50:629 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: EGZGDqjSESdwcuPdAAAA
+Tuesday:12/26/2017|14:45:57:983 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:46:0:51 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: PPAHw5XgHO8-XQXOAAAB
+Tuesday:12/26/2017|14:46:0:77 - [INFO]   - [IoTSmartHome][message]: connect user = 5a41fb602937ae1f664ea979
+Tuesday:12/26/2017|14:46:13:618 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|14:46:34:347 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:46:56:37 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:47:16:557 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:47:37:174 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:47:57:567 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:48:17:969 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:48:39:851 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:49:0:293 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:49:21:33 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:49:41:593 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:50:1:952 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:50:23:681 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:50:44:260 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:51:4:777 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:51:26:60 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:51:46:753 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:52:8:434 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:52:29:32 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:52:49:637 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:53:10:192 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":76}
+Tuesday:12/26/2017|14:53:30:609 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:53:52:270 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:54:12:590 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":76}
+Tuesday:12/26/2017|14:54:33:178 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":76}
+Tuesday:12/26/2017|14:54:54:23 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":76}
+Tuesday:12/26/2017|14:55:15:221 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":76}
+Tuesday:12/26/2017|14:55:37:344 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":76}
+Tuesday:12/26/2017|14:55:58:247 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|14:56:19:115 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":76}
+Tuesday:12/26/2017|14:56:39:717 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":76}
+Tuesday:12/26/2017|14:57:0:417 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":76}
+Tuesday:12/26/2017|14:57:22:399 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":76}
+Tuesday:12/26/2017|14:57:42:892 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":76}
+Tuesday:12/26/2017|14:58:3:427 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":76}
+Tuesday:12/26/2017|14:58:23:849 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":75}
+Tuesday:12/26/2017|14:58:44:242 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":75}
+Tuesday:12/26/2017|14:59:5:631 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":74}
+Tuesday:12/26/2017|14:59:26:206 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":73}
+Tuesday:12/26/2017|14:59:46:650 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":74}
+Tuesday:12/26/2017|15:0:7:416 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":73}
+Tuesday:12/26/2017|15:0:27:955 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":72}
+Tuesday:12/26/2017|15:0:49:770 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":73}
+Tuesday:12/26/2017|15:1:10:342 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|15:1:31:232 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|15:1:51:826 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|15:2:12:817 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|15:2:34:726 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|15:2:55:101 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|15:3:15:683 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|15:3:36:262 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":75}
+Tuesday:12/26/2017|15:3:57:170 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|15:4:18:666 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|15:4:38:967 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|15:5:0:29 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|15:5:20:405 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|15:5:40:994 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|15:6:2:801 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|15:6:23:384 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|15:6:43:980 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|15:7:4:584 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|15:7:25:32 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|15:7:46:655 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|15:8:7:224 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|15:8:27:537 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|15:8:48:84 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|15:9:8:462 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|15:9:30:169 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|15:9:50:751 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|15:10:11:335 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|15:10:31:647 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|15:10:52:82 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|15:11:14:306 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|15:11:34:890 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|15:11:55:780 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|15:11:56:671 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|15:11:57:954 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: XKJhzHrkn1b5Fej_AAAA
+Tuesday:12/26/2017|15:12:5:925 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: -PlEUPIkSnxp9lnZAAAB
+Tuesday:12/26/2017|15:12:5:956 - [INFO]   - [IoTSmartHome][message]: connect user = 5a41fb602937ae1f664ea979
+Tuesday:12/26/2017|15:12:11:639 - [INFO]   - [IoTSmartHome][message]: -PlEUPIkSnxp9lnZAAABis disconnected
+Tuesday:12/26/2017|15:12:16:723 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":77}
+Tuesday:12/26/2017|15:12:21:212 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: rolp5kx2NobBdFg8AAAC
+Tuesday:12/26/2017|15:12:21:257 - [INFO]   - [IoTSmartHome][message]: connect user = 5a41fb602937ae1f664ea979
+Tuesday:12/26/2017|15:12:32:368 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|15:12:33:169 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: JEqtQc41dv0QsjmmAAAA
+Tuesday:12/26/2017|15:12:40:628 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":78}
+Tuesday:12/26/2017|15:12:59:372 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|15:13:19:687 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|15:13:28:610 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|15:13:29:819 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: udkeuv0whblzKuPnAAAA
+Tuesday:12/26/2017|15:13:40:122 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|15:14:0:454 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|15:14:21:88 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":78}
+Tuesday:12/26/2017|15:14:42:903 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|15:15:3:356 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|15:15:24:1 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|15:15:44:651 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|15:16:4:998 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: GFrkmCmZueODFxZ3AAAB
+Tuesday:12/26/2017|15:16:5:52 - [INFO]   - [IoTSmartHome][message]: connect user = 5a41fb602937ae1f664ea979
+Tuesday:12/26/2017|15:16:5:52 - [INFO]   - [IoTSmartHome][message]: 5a41fb602937ae1f664ea979
+Tuesday:12/26/2017|15:16:5:187 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":76}
+Tuesday:12/26/2017|15:16:5:214 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":0,"temperature":0}
+Tuesday:12/26/2017|15:16:26:764 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|15:16:26:768 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":0,"temperature":0}
+Tuesday:12/26/2017|15:16:26:971 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Tuesday:12/26/2017|15:16:26:983 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Tuesday:12/26/2017|15:16:47:323 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":77}
+Tuesday:12/26/2017|15:16:47:326 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":0,"temperature":0}
+Tuesday:12/26/2017|15:17:7:899 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":76}
+Tuesday:12/26/2017|15:17:7:905 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":0,"temperature":0}
+Tuesday:12/26/2017|15:17:28:344 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":76}
+Tuesday:12/26/2017|15:17:28:348 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":0,"temperature":0}
+Tuesday:12/26/2017|15:17:49:68 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":76}
+Tuesday:12/26/2017|15:17:49:72 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":0,"temperature":0}
+Tuesday:12/26/2017|15:18:7:425 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|15:18:8:432 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: eJQIy-xAgZjCrqT7AAAA
+Tuesday:12/26/2017|15:18:15:809 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":76}
+Tuesday:12/26/2017|15:18:16:742 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 137knP5pVKcWso1dAAAB
+Tuesday:12/26/2017|15:18:16:760 - [INFO]   - [IoTSmartHome][message]: connect user = 5a41fb602937ae1f664ea979
+Tuesday:12/26/2017|15:18:16:760 - [INFO]   - [IoTSmartHome][message]: 5a41fb602937ae1f664ea979
+Tuesday:12/26/2017|15:18:31:464 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":76}
+Tuesday:12/26/2017|15:18:31:505 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":0,"temperature":0}
+Tuesday:12/26/2017|15:18:52:352 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":76}
+Tuesday:12/26/2017|15:18:52:357 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":0,"temperature":0}
+Tuesday:12/26/2017|15:19:13:23 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":76}
+Tuesday:12/26/2017|15:19:13:26 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":0,"temperature":0}
+Tuesday:12/26/2017|15:19:22:986 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|15:19:23:389 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 5kUnXYDGKVdqFPVRAAAA
+Tuesday:12/26/2017|15:19:32:334 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: oaWpeOhit8B026ZpAAAB
+Tuesday:12/26/2017|15:19:32:362 - [INFO]   - [IoTSmartHome][message]: connect user = 5a41fb602937ae1f664ea979
+Tuesday:12/26/2017|15:19:33:856 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":76}
+Tuesday:12/26/2017|15:19:33:886 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":76,"temperature":28}
+Tuesday:12/26/2017|15:19:43:7 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|15:19:43:88 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: AVj7ZZ33YYzc_WkLAAAA
+Tuesday:12/26/2017|15:19:52:397 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: y6XJ5U1gTWhFuO7fAAAB
+Tuesday:12/26/2017|15:19:52:425 - [INFO]   - [IoTSmartHome][message]: connect user = 5a41fb602937ae1f664ea979
+Tuesday:12/26/2017|15:19:56:514 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":76}
+Tuesday:12/26/2017|15:19:56:523 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":76,"temperature":28}
+Tuesday:12/26/2017|15:20:37:420 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":76}
+Tuesday:12/26/2017|15:20:37:425 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":76,"temperature":28}
+Tuesday:12/26/2017|15:20:58:8 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":76}
+Tuesday:12/26/2017|15:20:58:11 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":76,"temperature":28}
+Tuesday:12/26/2017|15:21:18:884 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":75}
+Tuesday:12/26/2017|15:21:18:890 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":75,"temperature":28}
+Tuesday:12/26/2017|15:21:40:259 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":75}
+Tuesday:12/26/2017|15:21:40:262 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":75,"temperature":28}
+Tuesday:12/26/2017|15:22:1:847 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":75}
+Tuesday:12/26/2017|15:22:1:850 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":75,"temperature":28}
+Tuesday:12/26/2017|15:22:22:783 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":75}
+Tuesday:12/26/2017|15:22:22:787 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":75,"temperature":28}
+Tuesday:12/26/2017|15:22:43:362 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":75}
+Tuesday:12/26/2017|15:22:43:366 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":75,"temperature":28}
+Tuesday:12/26/2017|15:23:3:950 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":75}
+Tuesday:12/26/2017|15:23:3:953 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":75,"temperature":28}
+Tuesday:12/26/2017|15:23:25:759 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":75}
+Tuesday:12/26/2017|15:23:25:761 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":75,"temperature":28}
+Tuesday:12/26/2017|15:23:46:346 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":75}
+Tuesday:12/26/2017|15:23:46:349 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":75,"temperature":28}
+Tuesday:12/26/2017|15:24:7:13 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":75}
+Tuesday:12/26/2017|15:24:7:15 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":75,"temperature":28}
+Tuesday:12/26/2017|15:24:27:825 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":75}
+Tuesday:12/26/2017|15:24:27:829 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":75,"temperature":28}
+Tuesday:12/26/2017|15:24:48:405 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|15:24:48:409 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":74,"temperature":27}
+Tuesday:12/26/2017|15:25:9:811 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|15:25:9:814 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":74,"temperature":27}
+Tuesday:12/26/2017|15:25:30:180 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":75}
+Tuesday:12/26/2017|15:25:30:184 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":75,"temperature":28}
+Tuesday:12/26/2017|15:25:50:622 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":75}
+Tuesday:12/26/2017|15:25:50:625 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":75,"temperature":28}
+Tuesday:12/26/2017|15:26:11:649 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":75}
+Tuesday:12/26/2017|15:26:11:652 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":75,"temperature":28}
+Tuesday:12/26/2017|15:26:32:541 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|15:26:32:544 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":74,"temperature":27}
+Tuesday:12/26/2017|15:26:54:362 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":75}
+Tuesday:12/26/2017|15:26:54:368 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":75,"temperature":28}
+Tuesday:12/26/2017|15:27:14:706 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":75}
+Tuesday:12/26/2017|15:27:14:710 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":75,"temperature":28}
+Tuesday:12/26/2017|15:27:35:261 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":75}
+Tuesday:12/26/2017|15:27:35:264 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":75,"temperature":28}
+Tuesday:12/26/2017|15:27:56:174 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|15:27:56:178 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":74,"temperature":27}
+Tuesday:12/26/2017|15:28:16:682 - [INFO]   - [IoTSmartHome][message]: {"temp":27,"humi":74}
+Tuesday:12/26/2017|15:28:16:685 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":74,"temperature":27}
+Tuesday:12/26/2017|15:28:38:493 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":75}
+Tuesday:12/26/2017|15:28:38:496 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":75,"temperature":28}
+Tuesday:12/26/2017|15:28:58:845 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":75}
+Tuesday:12/26/2017|15:28:58:848 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":75,"temperature":28}
+Tuesday:12/26/2017|15:29:19:672 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":75}
+Tuesday:12/26/2017|15:29:19:677 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":75,"temperature":28}
+Tuesday:12/26/2017|15:29:40:428 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":75}
+Tuesday:12/26/2017|15:29:40:430 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":75,"temperature":28}
+Tuesday:12/26/2017|15:30:1:167 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":75}
+Tuesday:12/26/2017|15:30:1:169 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":75,"temperature":28}
+Tuesday:12/26/2017|15:30:22:719 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":75}
+Tuesday:12/26/2017|15:30:22:725 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":75,"temperature":28}
+Tuesday:12/26/2017|15:30:43:526 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":75}
+Tuesday:12/26/2017|15:30:43:530 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":75,"temperature":28}
+Tuesday:12/26/2017|15:31:4:13 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":75}
+Tuesday:12/26/2017|15:31:4:15 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":75,"temperature":28}
+Tuesday:12/26/2017|15:31:25:2 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":75}
+Tuesday:12/26/2017|15:31:25:4 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":75,"temperature":28}
+Tuesday:12/26/2017|15:31:45:523 - [INFO]   - [IoTSmartHome][message]: {"temp":28,"humi":75}
+Tuesday:12/26/2017|15:31:45:526 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false,"humidity":75,"temperature":28}
+Tuesday:12/26/2017|15:31:50:980 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|15:31:51:742 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: YSXVBJi6FRxjk00VAAAA
+Tuesday:12/26/2017|15:32:0:311 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: OyCpGtB5bt4fm-U-AAAB
+Tuesday:12/26/2017|15:32:0:339 - [INFO]   - [IoTSmartHome][message]: connect user = 5a41fb602937ae1f664ea979
+Tuesday:12/26/2017|15:32:1:462 - [INFO]   - [IoTSmartHome][message]: OyCpGtB5bt4fm-U-AAABis disconnected
+Tuesday:12/26/2017|15:32:10:584 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: brdSJ26K2cK394TRAAAC
+Tuesday:12/26/2017|15:32:19:45 - [INFO]   - [IoTSmartHome][message]: connect user = 5a41fb602937ae1f664ea979
+Tuesday:12/26/2017|15:32:41:869 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: spr5Zys5FIx2cbhsAAAD
+Tuesday:12/26/2017|15:32:51:23 - [INFO]   - [IoTSmartHome][message]: {"temperature":28,"humidity":75}
+Tuesday:12/26/2017|15:32:51:32 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":false}
+Tuesday:12/26/2017|15:32:51:149 - [INFO]   - [IoTSmartHome][message]: YSXVBJi6FRxjk00VAAAAis disconnected
+Tuesday:12/26/2017|15:32:59:620 - [INFO]   - [IoTSmartHome][message]: Set fan status = 1
+Tuesday:12/26/2017|15:32:59:624 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true,"humidity":0,"temperature":0}
+Tuesday:12/26/2017|15:33:4:847 - [INFO]   - [IoTSmartHome][message]: {"temperature":28,"humidity":75}
+Tuesday:12/26/2017|15:33:4:850 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true}
+Tuesday:12/26/2017|15:33:11:438 - [INFO]   - [IoTSmartHome][message]: brdSJ26K2cK394TRAAACis disconnected
+Tuesday:12/26/2017|15:33:20:884 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: xTECp_1iXpjG9ED2AAAE
+Tuesday:12/26/2017|15:33:20:921 - [INFO]   - [IoTSmartHome][message]: connect user = 5a41fb602937ae1f664ea979
+Tuesday:12/26/2017|15:33:25:200 - [INFO]   - [IoTSmartHome][message]: {"temperature":28,"humidity":75}
+Tuesday:12/26/2017|15:33:25:204 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true}
+Tuesday:12/26/2017|15:33:46:518 - [INFO]   - [IoTSmartHome][message]: {"temperature":28,"humidity":76}
+Tuesday:12/26/2017|15:33:46:521 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true}
+Tuesday:12/26/2017|15:34:6:972 - [INFO]   - [IoTSmartHome][message]: {"temperature":28,"humidity":76}
+Tuesday:12/26/2017|15:34:6:975 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true}
+Tuesday:12/26/2017|15:34:27:500 - [INFO]   - [IoTSmartHome][message]: {"temperature":28,"humidity":76}
+Tuesday:12/26/2017|15:34:27:504 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true}
+Tuesday:12/26/2017|15:34:48:992 - [INFO]   - [IoTSmartHome][message]: {"temperature":28,"humidity":76}
+Tuesday:12/26/2017|15:34:48:994 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true}
+Tuesday:12/26/2017|15:35:9:689 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Tuesday:12/26/2017|15:35:9:695 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true}
+Tuesday:12/26/2017|15:35:30:462 - [INFO]   - [IoTSmartHome][message]: {"temperature":28,"humidity":76}
+Tuesday:12/26/2017|15:35:30:465 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T07:34:57.623Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true}
+Tuesday:12/26/2017|15:35:45:914 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Tuesday:12/26/2017|15:35:46:34 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: qElSsuUeggesIPqfAAAA
+Tuesday:12/26/2017|15:35:53:343 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Tuesday:12/26/2017|15:35:54:135 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: NWvpKDk_vmA-pd4cAAAB
+Tuesday:12/26/2017|15:35:54:154 - [INFO]   - [IoTSmartHome][message]: connect user = 5a41fb602937ae1f664ea979
+Tuesday:12/26/2017|15:36:12:778 - [INFO]   - [IoTSmartHome][message]: {"temperature":28,"humidity":76}
+Tuesday:12/26/2017|15:36:12:808 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T08:36:12.798Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true}
+Tuesday:12/26/2017|15:36:35:295 - [INFO]   - [IoTSmartHome][message]: {"temperature":28,"humidity":76}
+Tuesday:12/26/2017|15:36:35:301 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T08:36:35.299Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true}
+Tuesday:12/26/2017|15:36:55:862 - [INFO]   - [IoTSmartHome][message]: {"temperature":28,"humidity":76}
+Tuesday:12/26/2017|15:36:55:873 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T08:36:55.864Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true}
+Tuesday:12/26/2017|15:37:16:760 - [INFO]   - [IoTSmartHome][message]: {"temperature":28,"humidity":76}
+Tuesday:12/26/2017|15:37:16:763 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T08:37:16.761Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true}
+Tuesday:12/26/2017|15:37:27:413 - [INFO]   - [IoTSmartHome][message]: Set fan status = 1
+Tuesday:12/26/2017|15:37:27:418 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T08:37:27.417Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true,"humidity":0,"temperature":0}
+Tuesday:12/26/2017|15:37:37:642 - [INFO]   - [IoTSmartHome][message]: {"temperature":28,"humidity":76}
+Tuesday:12/26/2017|15:37:37:645 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T08:37:37.643Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true}
+Tuesday:12/26/2017|15:37:38:204 - [INFO]   - [IoTSmartHome][message]: NWvpKDk_vmA-pd4cAAABis disconnected
+Tuesday:12/26/2017|15:37:58:405 - [INFO]   - [IoTSmartHome][message]: {"temperature":28,"humidity":76}
+Tuesday:12/26/2017|15:37:58:409 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T08:37:58.408Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true}
+Tuesday:12/26/2017|15:38:0:587 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: XBE3DRxzdRjAPy3lAAAC
+Tuesday:12/26/2017|15:38:0:633 - [INFO]   - [IoTSmartHome][message]: connect user = 5a41fb602937ae1f664ea979
+Tuesday:12/26/2017|15:38:20:34 - [INFO]   - [IoTSmartHome][message]: {"temperature":28,"humidity":76}
+Tuesday:12/26/2017|15:38:20:41 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T08:38:20.036Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true}
+Tuesday:12/26/2017|15:38:40:361 - [INFO]   - [IoTSmartHome][message]: {"temperature":28,"humidity":76}
+Tuesday:12/26/2017|15:38:40:364 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T08:38:40.363Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true}
+Tuesday:12/26/2017|15:39:1:194 - [INFO]   - [IoTSmartHome][message]: {"temperature":28,"humidity":76}
+Tuesday:12/26/2017|15:39:1:197 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T08:39:01.195Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true}
+Tuesday:12/26/2017|15:39:11:199 - [INFO]   - [IoTSmartHome][message]: XBE3DRxzdRjAPy3lAAACis disconnected
+Tuesday:12/26/2017|15:39:21:775 - [INFO]   - [IoTSmartHome][message]: {"temperature":28,"humidity":76}
+Tuesday:12/26/2017|15:39:21:778 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T08:39:21.777Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true}
+Tuesday:12/26/2017|15:39:42:690 - [INFO]   - [IoTSmartHome][message]: {"temperature":28,"humidity":76}
+Tuesday:12/26/2017|15:39:42:694 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T08:39:42.692Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true}
+Tuesday:12/26/2017|15:40:4:508 - [INFO]   - [IoTSmartHome][message]: {"temperature":28,"humidity":76}
+Tuesday:12/26/2017|15:40:4:512 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T08:40:04.510Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true}
+Tuesday:12/26/2017|15:40:18:623 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: YfL5N23REpkjh747AAAD
+Tuesday:12/26/2017|15:40:18:649 - [INFO]   - [IoTSmartHome][message]: connect user = 5a41fb602937ae1f664ea979
+Tuesday:12/26/2017|15:40:24:928 - [INFO]   - [IoTSmartHome][message]: {"temperature":28,"humidity":76}
+Tuesday:12/26/2017|15:40:24:932 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T08:40:24.930Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true}
+Tuesday:12/26/2017|15:40:33:485 - [INFO]   - [IoTSmartHome][message]: YfL5N23REpkjh747AAADis disconnected
+Tuesday:12/26/2017|15:40:45:299 - [INFO]   - [IoTSmartHome][message]: {"temperature":28,"humidity":76}
+Tuesday:12/26/2017|15:40:45:304 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T08:40:45.301Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true}
+Tuesday:12/26/2017|15:40:49:375 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 37rj1oWszY0AQ1P8AAAE
+Tuesday:12/26/2017|15:40:49:513 - [INFO]   - [IoTSmartHome][message]: connect user = 5a41fb602937ae1f664ea979
+Tuesday:12/26/2017|15:41:5:959 - [INFO]   - [IoTSmartHome][message]: {"temperature":28,"humidity":76}
+Tuesday:12/26/2017|15:41:5:976 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T08:41:05.973Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true}
+Tuesday:12/26/2017|15:41:21:597 - [INFO]   - [IoTSmartHome][message]: 37rj1oWszY0AQ1P8AAAEis disconnected
+Tuesday:12/26/2017|15:41:26:499 - [INFO]   - [IoTSmartHome][message]: {"temperature":28,"humidity":76}
+Tuesday:12/26/2017|15:41:26:504 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T08:41:26.503Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true}
+Tuesday:12/26/2017|15:41:48:25 - [INFO]   - [IoTSmartHome][message]: {"temperature":28,"humidity":76}
+Tuesday:12/26/2017|15:41:48:28 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T08:41:48.027Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true}
+Tuesday:12/26/2017|15:42:8:487 - [INFO]   - [IoTSmartHome][message]: {"temperature":28,"humidity":75}
+Tuesday:12/26/2017|15:42:8:492 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T08:42:08.489Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true}
+Tuesday:12/26/2017|15:42:28:865 - [INFO]   - [IoTSmartHome][message]: {"temperature":28,"humidity":75}
+Tuesday:12/26/2017|15:42:28:868 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T08:42:28.867Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true}
+Tuesday:12/26/2017|15:42:49:337 - [INFO]   - [IoTSmartHome][message]: {"temperature":28,"humidity":75}
+Tuesday:12/26/2017|15:42:49:348 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T08:42:49.343Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true}
+Tuesday:12/26/2017|15:43:10:22 - [INFO]   - [IoTSmartHome][message]: {"temperature":28,"humidity":75}
+Tuesday:12/26/2017|15:43:10:26 - [INFO]   - [IoTSmartHome][message]: {"_id":"5a41fba12937ae1f664ea97b","user_id":"5a41fb602937ae1f664ea979","__v":0,"updated_at":"2017-12-26T08:43:10.024Z","created_at":"2017-12-26T07:34:57.623Z","fanStatus":true}

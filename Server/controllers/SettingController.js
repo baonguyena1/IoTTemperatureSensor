@@ -6,6 +6,7 @@ var util = require('../libs/utils');
 var Logger = require('../log/log');
 var constant = require('../config/constant');
 var Setting = require('../models/Setting');
+const Status = require('../models/Status');
 
 router.get('/test', function(req, res) {
     Logger.logInfo('[BEGIN] Test');
@@ -14,6 +15,20 @@ router.get('/test', function(req, res) {
         var setting = new Setting();
         setting.user_id = req.user_id;
         setting.save(function(error, object) {
+            if (error) {
+                defer.reject(error);
+            } else {
+                defer.resolve(object);
+            }
+        });
+        return defer.promise;
+    }
+
+    function createNewStatus(req) {
+        const defer = Q.defer();
+        const status = new Status();
+        status.user_id = req.user_id;
+        status.save(function(error, object) {
             if (error) {
                 defer.reject(error);
             } else {
@@ -34,6 +49,17 @@ router.get('/test', function(req, res) {
     .then(function() {
         Logger.logInfo('[END] Test');
     })
+    // createNewStatus(req)
+    // .then(function(status) {
+    //     util.responseSuccess(res, status);
+    // })
+    // .catch(function(error) {
+    //     Logger.logError(JSON.stringify(error));
+    //     util.responseFail(res);
+    // })
+    // .then(function() {
+    //     Logger.logInfo('[END] Test');
+    // })
 });
 
 router.get('/setting', function(req, res) {

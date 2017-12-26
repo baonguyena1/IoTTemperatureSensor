@@ -18,13 +18,13 @@ class SocketIOManager: NSObject {
     
     override init() {
         super.init()
-        Logger.log("")
 //        manager = SocketManager(socketURL: URL(string: "http://localhost:9898")!, config: [.log(true), .compress])
         manager = SocketManager(socketURL: URL(string: "http://localhost:9898")!)
         socket = manager.defaultSocket
         
         socket.on(clientEvent: .connect) { (datas, ack) in
             Logger.log("Socket is connected")
+            SocketIOManager.shared.connectServer(with: User.id!)
         }
         socket.on(clientEvent: .disconnect) { (datas, ack) in
             Logger.log("Socket is disconnected")
@@ -43,13 +43,20 @@ class SocketIOManager: NSObject {
         socket.disconnect()
     }
     
+    func connectServer(with userId: String) {
+        socket.emit(SocketIOEvent.connectUser, userId);
+    }
+    
     func updateManualSetting(with manualSetting: Bool, completion: ((_ success: Bool) -> Void)?){
-        socket.emit(SocketIOEvent.didUpdateManualSetting, manualSetting);
+        socket.emit(SocketIOEvent.didUpdateManualSetting, manualSetting)
         socket.on(SocketIOEvent.updateManualSettingResponse) { (datas, ack) in
             let success = datas[0] as? Bool
-            Logger.log("Seccess = \(success)")
             completion?(success ?? false)
         }
+    }
+    
+    func updateFan(with status: Bool) {
+        socket.emit(SocketIOEvent.didUpdateFanStatus, status)
     }
     
 }

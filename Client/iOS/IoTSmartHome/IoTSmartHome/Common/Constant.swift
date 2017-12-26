@@ -11,18 +11,22 @@ import UIKit
 typealias JSON = [String: Any]
 
 struct SocketIOEvent {
+    static let connectUser = "connectUser"
     static let didUpdateTemperature = "didUpdateTemperature"
     static let didUpdateManualSetting = "didUpdateManualSetting"
     static let updateManualSettingResponse = "updateManualSettingResponse"
+    static let didUpdateFanStatus = "didUpdateFanStatus"
+    static let didUpdateFanStatusResponse = "didUpdateFanStatusResponse"
 }
 
 struct KeyString {
-    static let Temperature = "temp"
-    static let Humidity = "humi"
-    static let Results = "results"
-    static let Success = "success"
-    static let ErrorCode = "error_code"
-    static let Message = "message"
+    static let temperature = "temperature"
+    static let humidity = "humidity"
+    static let fanStatus = "fanStatus"
+    static let results = "results"
+    static let success = "success"
+    static let errorCode = "error_code"
+    static let message = "message"
     
     static let id = "_id"
     static let manualSetting = "manualSetting"
@@ -36,6 +40,7 @@ struct KeyString {
     static let username = "username"
     static let access_token = "access_token"
     static let password = "password"
+    static let userId = "user_id"
 }
 
 struct Message {

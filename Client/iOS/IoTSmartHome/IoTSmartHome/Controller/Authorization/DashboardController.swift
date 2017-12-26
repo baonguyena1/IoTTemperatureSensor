@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import SocketIO
+import MBProgressHUD
 
 class DashboardController: UITableViewController {
     
@@ -23,28 +23,67 @@ class DashboardController: UITableViewController {
         static let FanOffImage = #imageLiteral(resourceName: "Fan_Off")
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    fileprivate var status: Status! {
+        didSet {
+            DispatchQueue.main.async { [unowned self] in
+                self.temperatureLabel.text = "\(self.status.temperature)\(Message.TEMP_SYMBOL)C"
+                self.humidityLabel.text = "\(self.status.humidity)%"
+                self.fanImageView.image = self.status.fanStatus ? FanImage.FanOnImage : FanImage.FanOffImage
+                self.fanStatusLabel.text = self.status.fanStatus ? "Fan On" : "Fan Off"
+                self.fanSwitch.isOn = self.status.fanStatus
+            }
+        }
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
         SocketIOManager.shared.didUpdateTemperature = { [weak self] datas in
             guard let strongSelf = self, let datas = datas else {
                 return
             }
-            let temp: Float = datas[KeyString.Temperature] as! Float
-            let humidity: Float = datas[KeyString.Humidity] as! Float
+            let temp: Float = datas[KeyString.temperature] as! Float
+            let humidity: Float = datas[KeyString.humidity] as! Float
             DispatchQueue.main.async {
                 strongSelf.temperatureLabel.text = "\(temp)\(Message.TEMP_SYMBOL)C"
                 strongSelf.humidityLabel.text = "\(humidity)%"
             }
         }
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.getStatus(from: Service.shared, with: ServerURL.getStatus)
     }
 
     @IBAction func fanSwitchTapped(_ sender: UISwitch) {
-        Logger.log("Status = \(sender.isOn)")
-        fanImageView.image = sender.isOn ? FanImage.FanOnImage : FanImage.FanOffImage
-        fanStatusLabel.text = sender.isOn ? "Fan On" : "Fan Off"
+        let status = sender.isOn
+        SocketIOManager.shared.updateFan(with: status)
+        self.fanImageView.image = status ? FanImage.FanOnImage : FanImage.FanOffImage
+        self.fanStatusLabel.text = status ? "Fan On" : "Fan Off"
+    }
+    
+    fileprivate func getStatus<S: Serviceable>(from service: S, with url: String) {
+        service.get(url) { (result) in
+            switch result {
+            case .success(let response):
+                Logger.log("JSON = \(response)")
+                guard let response = response as? Response else {
+                    return
+                }
+                if response.success == false {
+                    return
+                }
+                let status = Status(with: response.results as! JSON)
+                DispatchQueue.main.async { [unowned self] in
+                    self.status = status
+                }
+                
+            case .error(let error):
+                Logger.log("Error - \(error)")
+                showDefaultAlert()
+            }
+        }
     }
 }

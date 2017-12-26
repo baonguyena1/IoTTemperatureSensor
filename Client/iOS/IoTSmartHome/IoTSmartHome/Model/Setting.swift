@@ -10,6 +10,7 @@ import UIKit
 
 struct Setting {
     var id: String
+    var userId: String
     var manualSetting: Bool
     var highTempEnable: Bool
     var highTemp: Float
@@ -20,6 +21,7 @@ struct Setting {
     
     init(with json: JSON) {
         id = json[KeyString.id] as! String
+        userId = json[KeyString.userId] as! String
         manualSetting = json[KeyString.manualSetting] as! Bool
         highTempEnable = json[KeyString.highTempEnable] as! Bool
         highTemp = json[KeyString.highTemp] as! Float

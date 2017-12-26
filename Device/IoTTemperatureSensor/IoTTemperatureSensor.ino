@@ -18,6 +18,7 @@ DHT dht(DHTPIN, DHTTYPE);
 WiFiClient wifiClient;
 SocketIoClient webSocket;
 int manualSetting;
+int fanStatus;
 
 void writeEEPROM(int address, const char *data, size_t length) {
   Serial.printf("writeEEPROM, data = %s, length = %d\n", data, length);
@@ -51,19 +52,12 @@ void updateManualSetting(const char *payload, size_t length) {
   writeEEPROM(EEPROM_MANUAL_SETTING_ADD, payload, sizeof(payload)/sizeof(const char *));
   char *setting = readEEPROM(EEPROM_MANUAL_SETTING_ADD);
   Serial.printf("updateManualSetting: setting = %s\n", setting);
-  webSocket.emit(SOCKET_UPDATE_MANUAL_SETTING_RESPONSE, setting);
+  webSocket.emit(SOCKET_DID_UPDATE_MANUAL_SETTING_RESPONSE, setting);
 }
 
-void setFanStatus(const char *payload, size_t length) {
-  int fanStatus = atoi(payload);
-  Serial.printf("setFanStatus: payload = %d", payload);
-  EEPROM.write(EEPROM_FAN_STATUS, fanStatus);
-  // TODO: on/off relay, emit success status
-}
-
-void setupSocket() {
-  webSocket.on(SOCKET_DID_UPDATE_MANUAL_SETTING, updateManualSetting);
-  webSocket.on(SOCKET_DID_UPDATE_FAN_STATUS, setFanStatus);
+void updateFanStatus(const char *payload, size_t length) {
+  writeEEPROM(EEPROM_FAN_STATUS, payload, sizeof(payload)/sizeof(const char *));
+  // on/off replay
 }
 
 /**
@@ -71,6 +65,13 @@ void setupSocket() {
    And send data to server
 */
 void dht11Process() {
+  // Read temperature after 20 seconds.
+  if (temperatureSequence++ % 20 != 0) {
+    if (temperatureSequence > 100) {
+      temperatureSequence = 1;
+    }
+    return;
+  }
   float h = dht.readHumidity();
   float t = dht.readTemperature();
 
@@ -85,14 +86,19 @@ void dht11Process() {
   Serial.print("Temperature: ");
   Serial.print(t);
   Serial.println(" *C ");
-  String data = "{\"temp\": ";
+  String data = "{\"temperature\": ";
   data += t;
-  data += ", \"humi\": ";
+  data += ", \"humidity\": ";
   data += h;
   data += "}";
-//  Serial.println(data);
+
   webSocket.emit(SOCKET_DID_UPDATE_TEMPERATURE, data.c_str());
-  delay(2000);
+}
+
+void readInitialData() {
+  manualSetting = atoi(readEEPROM(EEPROM_MANUAL_SETTING_ADD));
+  fanStatus = atoi(readEEPROM(EEPROM_FAN_STATUS));
+  Serial.printf("Manual setting = %d, fan sstatus = %d\n", manualSetting, fanStatus);
 }
 
 void setup() {
@@ -110,10 +116,10 @@ void setup() {
   Serial.println(WiFi.localIP());
 
   webSocket.on(SOCKET_DID_UPDATE_MANUAL_SETTING, updateManualSetting);
+  webSocket.on(SOCKET_DID_UPDATE_FAN_STATUS, updateFanStatus);
 
   webSocket.begin(host, port);
-  manualSetting = atoi(readEEPROM(EEPROM_MANUAL_SETTING_ADD));
-  Serial.printf("Manual setting = %d\n", manualSetting);
+  readInitialData();
   dht.begin();
 }
 
@@ -121,5 +127,5 @@ void loop() {
   webSocket.loop();
   dht11Process();
 
-  delay(2000);
+  delay(1000);
 }

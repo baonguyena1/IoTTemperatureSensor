@@ -56,6 +56,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     fileprivate func showDashboard() {
         let tabbar =  AppStoryBoard.Authorization.instance.instantiateViewController(withIdentifier: StoryboardIdentifier.tabbarViewController)
         setRootViewController(tabbar)
+        SocketIOManager.shared.connectServer(with: User.id!)
     }
 
     private func setRootViewController(_ viewController: UIViewController) {
