@@ -24,6 +24,7 @@ class SocketIOManager: NSObject {
         
         socket.on(clientEvent: .connect) { (datas, ack) in
             Logger.log("Socket is connected")
+            // Enhance here
             SocketIOManager.shared.connectServer(with: User.id!)
         }
         socket.on(clientEvent: .disconnect) { (datas, ack) in
@@ -47,16 +48,16 @@ class SocketIOManager: NSObject {
         socket.emit(SocketIOEvent.connectUser, userId);
     }
     
-    func updateManualSetting(with manualSetting: Bool, completion: ((_ success: Bool) -> Void)?){
+    func updateManualSetting(with manualSetting: Bool) {
         socket.emit(SocketIOEvent.didUpdateManualSetting, manualSetting)
-        socket.on(SocketIOEvent.updateManualSettingResponse) { (datas, ack) in
-            let success = datas[0] as? Bool
-            completion?(success ?? false)
-        }
     }
     
     func updateFan(with status: Bool) {
         socket.emit(SocketIOEvent.didUpdateFanStatus, status)
+    }
+    
+    func updateSetting(with data: JSON) {
+        socket.emit(SocketIOEvent.didUpdateSetting, data)
     }
     
 }

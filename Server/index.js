@@ -3,6 +3,7 @@ var bodyParser = require('body-parser');
 var express = require('express');
 var mongoose = require('mongoose');
 const Q = require('q');
+var _ = require('underscore');
 
 var app = express();
 var server = require('http').createServer(app);
@@ -17,6 +18,7 @@ const util = require('./libs/utils');
 
 const Status = require('./models/Status');
 const User = require('./models/User');
+const Setting = require('./models/Setting');
 
 var settingController = require('./controllers/SettingController');
 var authController = require('./controllers/AuthController');
@@ -72,13 +74,14 @@ io.on(constant.SocketIOEvent.CONNECTION, function(socket) {
     socket.on(constant.SocketIOEvent.DID_UPDATE_MANUALSETTING, function(setting) {
         var settingValue = setting ? 1 : 0;
         Logger.logInfo('did update manual setting: ' + settingValue);
-        io.emit(constant.SocketIOEvent.DID_UPDATE_MANUALSETTING, settingValue.toString());
-    });
-
-    socket.on(constant.SocketIOEvent.DID_UPDATE_MANUAL_SETTING_RESPONSE, function(success) {
-        var success = parseInt(success);
-        Logger.logInfo('Response = ' + success);
-        io.emit(constant.SocketIOEvent.DID_UPDATE_MANUAL_SETTING_RESPONSE, success);
+        if (userId) {
+            updateSettingOfUserId(userId, { 'manualSetting': setting })
+            .then(() => {
+                io.emit(constant.SocketIOEvent.DID_UPDATE_MANUALSETTING, settingValue.toString());
+            })
+        } else {
+            io.emit(constant.SocketIOEvent.DID_UPDATE_MANUALSETTING, settingValue.toString());
+        }
     });
 
     socket.on(constant.SocketIOEvent.DID_UPDATE_FAN_STATUS, function(status) {
@@ -91,7 +94,19 @@ io.on(constant.SocketIOEvent.CONNECTION, function(socket) {
         if (userId) {
             updateStatusOfUserId(userId, data);
         }
-    })
+    });
+
+    socket.on(constant.SocketIOEvent.DID_UPDATE_SETTING, (data) => {
+        Logger.logInfo('did update setting, data = ' + JSON.stringify(data));
+        if (userId) {
+            updateSettingOfUserId(userId, data)
+            .then(() => {
+                io.emit(constant.SocketIOEvent.DID_UPDATE_SETTING, data);
+            })
+        } else {
+            io.emit(constant.SocketIOEvent.DID_UPDATE_SETTING, data);
+        }
+    });
 
 });
 
@@ -141,15 +156,30 @@ function getUserById(userId) {
     return defer.promise;
 }
 
+function getSettingByUserId(userId) {
+    var defer = Q.defer()
+    Setting.findOne({
+        user_id: userId
+    })
+    .exec((error, setting) => {
+        if (error || util.isNull(setting)) {
+            defer.reject(error);
+        } else {
+            defer.resolve(setting);
+        }
+    });
+    return defer.promise;
+}
+
 function updateStatusOfUserId(userId, data) {
     const defer = Q.defer();
     getStatusByUserId(userId)
     .then((status) => {
         if (data.temperature) {
-            status.temperature = data.temp;
+            status.temperature = data.temperature;
         }
         if (data.humidity) {
-            status.humidity = data.humi;
+            status.humidity = data.humidity;
         }
         if (data.fanStatus) {
             status.fanStatus = data.fanStatus;
@@ -157,9 +187,34 @@ function updateStatusOfUserId(userId, data) {
         status.updated_at = new Date();
         return saveModel(status);
     })
-    .then((status) => {
-        Logger.logInfo(JSON.stringify(status));
-        defer.resolve(status);
+    .then((result) => {
+        defer.resolve(result);
+    })
+    .catch((error) => {
+        Logger.logError(error);
+        defer.reject(error);
+    })
+    return defer.promise;
+}
+
+function updateSettingOfUserId(userId, data) {
+    const defer = Q.defer();
+    getSettingByUserId(userId)
+    .then((setting) => {
+        if (!_.isNull(data.manualSetting) && !_.isUndefined(data.manualSetting)) {
+            setting.manualSetting = data.manualSetting;
+        }
+        if (!_.isNull(data.highTempEnable) && !_.isUndefined(data.highTempEnable)) {
+            setting.highTempEnable = data.highTempEnable;
+        }
+        if (data.highTemp) {
+            setting.highTemp = data.highTemp;
+        }
+        setting.updated_at = new Date();
+        return saveModel(setting);
+    })
+    .then((result) => {
+        defer.resolve(result);
     })
     .catch((error) => {
         Logger.logError(error);

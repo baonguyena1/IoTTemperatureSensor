@@ -9,6 +9,8 @@
 #define EEPROM_FAN_STATUS           30
 
 #define MAX_LENGTH                  10
+#define HIGH_TEMP                   "highTemp"
+#define LOW_TEMP                    "lowTemp"
 
 /**
  *  SocketIOEvent 
@@ -18,6 +20,7 @@ const char *SOCKET_DID_UPDATE_TEMPERATURE = "didUpdateTemperature";
 const char *SOCKET_DID_UPDATE_MANUAL_SETTING_RESPONSE = "didUpdateManualSettingResponse";
 const char *SOCKET_DID_UPDATE_FAN_STATUS = "didUpdateFanStatus";
 const char *SOCKET_DID_UPDATE_FAN_STATUS_RESPONSE = "didUpdateFanStatusResponse";
+const char *SOCKET_DID_UPDATE_SETTING = "didUpdateSetting";
 
 /**
  * Global define

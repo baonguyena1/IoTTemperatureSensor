@@ -3,6 +3,7 @@
 #include <ESP8266WiFi.h>
 #include <SocketIoClient.h>
 #include <EEPROM.h>
+#include <ArduinoJson.h>
 #include "constant.h"
 
 /**
@@ -20,10 +21,9 @@ SocketIoClient webSocket;
 int manualSetting;
 int fanStatus;
 
-void writeEEPROM(int address, const char *data, size_t length) {
-  Serial.printf("writeEEPROM, data = %s, length = %d\n", data, length);
-  EEPROM.begin(512);
-  for (int i = 0; i < length; i++) {
+void writeEEPROM(int address, const char *data) {
+  Serial.printf("writeEEPROM, data = %s, length = %d\n", data, strlen(data));
+  for (int i = 0; i < strlen(data); i++) {
     EEPROM.write(address + i, data[i]);
   }
   EEPROM.commit();
@@ -49,15 +49,32 @@ char* readEEPROM(int address) {
    payload: Int
 */
 void updateManualSetting(const char *payload, size_t length) {
-  writeEEPROM(EEPROM_MANUAL_SETTING_ADD, payload, sizeof(payload)/sizeof(const char *));
+  Serial.printf("payload = %s, size = %d\n", payload, length);
+  writeEEPROM(EEPROM_MANUAL_SETTING_ADD, payload);
   char *setting = readEEPROM(EEPROM_MANUAL_SETTING_ADD);
-  Serial.printf("updateManualSetting: setting = %s\n", setting);
-  webSocket.emit(SOCKET_DID_UPDATE_MANUAL_SETTING_RESPONSE, setting);
+  manualSetting = atoi(setting);
 }
 
 void updateFanStatus(const char *payload, size_t length) {
-  writeEEPROM(EEPROM_FAN_STATUS, payload, sizeof(payload)/sizeof(const char *));
+  Serial.printf("payload = %s, size = %d\n", payload, length);
+  writeEEPROM(EEPROM_FAN_STATUS, payload);
   // on/off replay
+}
+
+void updateSetting(const char *payload, size_t length) {
+  Serial.printf("payload = %s, size = %d\n", payload, length);
+  StaticJsonBuffer<200> jsonBuffer;
+  JsonObject &json = jsonBuffer.parseObject(payload);
+  const char *highTemp = json[HIGH_TEMP];
+  const char *lowTemp = json[LOW_TEMP];
+  if (highTemp != NULL) {
+     writeEEPROM(EEPROM_HIGH_TEMPERATURE, highTemp);
+     const char *value = readEEPROM(EEPROM_HIGH_TEMPERATURE);
+  }
+  if (lowTemp != NULL) {
+    writeEEPROM(EEPROM_LOW_TEMPERATURE, lowTemp);
+    const char *value = readEEPROM(EEPROM_LOW_TEMPERATURE);
+  }
 }
 
 /**
@@ -98,7 +115,7 @@ void dht11Process() {
 void readInitialData() {
   manualSetting = atoi(readEEPROM(EEPROM_MANUAL_SETTING_ADD));
   fanStatus = atoi(readEEPROM(EEPROM_FAN_STATUS));
-  Serial.printf("Manual setting = %d, fan sstatus = %d\n", manualSetting, fanStatus);
+  Serial.printf("Manual setting = %d, fan status = %d\n", manualSetting, fanStatus);
 }
 
 void setup() {
@@ -117,6 +134,7 @@ void setup() {
 
   webSocket.on(SOCKET_DID_UPDATE_MANUAL_SETTING, updateManualSetting);
   webSocket.on(SOCKET_DID_UPDATE_FAN_STATUS, updateFanStatus);
+  webSocket.on(SOCKET_DID_UPDATE_SETTING, updateSetting);
 
   webSocket.begin(host, port);
   readInitialData();

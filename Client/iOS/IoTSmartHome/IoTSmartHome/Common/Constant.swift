@@ -14,9 +14,8 @@ struct SocketIOEvent {
     static let connectUser = "connectUser"
     static let didUpdateTemperature = "didUpdateTemperature"
     static let didUpdateManualSetting = "didUpdateManualSetting"
-    static let updateManualSettingResponse = "updateManualSettingResponse"
     static let didUpdateFanStatus = "didUpdateFanStatus"
-    static let didUpdateFanStatusResponse = "didUpdateFanStatusResponse"
+    static let didUpdateSetting = "didUpdateSetting"
 }
 
 struct KeyString {

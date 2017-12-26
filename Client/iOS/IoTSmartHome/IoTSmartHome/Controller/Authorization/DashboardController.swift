@@ -25,13 +25,11 @@ class DashboardController: UITableViewController {
     
     fileprivate var status: Status! {
         didSet {
-            DispatchQueue.main.async { [unowned self] in
-                self.temperatureLabel.text = "\(self.status.temperature)\(Message.TEMP_SYMBOL)C"
-                self.humidityLabel.text = "\(self.status.humidity)%"
-                self.fanImageView.image = self.status.fanStatus ? FanImage.FanOnImage : FanImage.FanOffImage
-                self.fanStatusLabel.text = self.status.fanStatus ? "Fan On" : "Fan Off"
-                self.fanSwitch.isOn = self.status.fanStatus
-            }
+            self.temperatureLabel.text = "\(self.status.temperature)\(Message.TEMP_SYMBOL)C"
+            self.humidityLabel.text = "\(self.status.humidity)%"
+            self.fanImageView.image = self.status.fanStatus ? FanImage.FanOnImage : FanImage.FanOffImage
+            self.fanStatusLabel.text = self.status.fanStatus ? "Fan On" : "Fan Off"
+            self.fanSwitch.isOn = self.status.fanStatus
         }
     }
     
@@ -52,8 +50,8 @@ class DashboardController: UITableViewController {
         
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         self.getStatus(from: Service.shared, with: ServerURL.getStatus)
     }
 
@@ -65,7 +63,7 @@ class DashboardController: UITableViewController {
     }
     
     fileprivate func getStatus<S: Serviceable>(from service: S, with url: String) {
-        service.get(url) { (result) in
+        service.get(url) { [unowned self] (result) in
             switch result {
             case .success(let response):
                 Logger.log("JSON = \(response)")

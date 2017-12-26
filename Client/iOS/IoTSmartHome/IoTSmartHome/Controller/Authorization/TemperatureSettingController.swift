@@ -11,6 +11,8 @@ import UIKit
 class TemperatureSettingController: UITableViewController {
 
     fileprivate var temperatureController: TemperatureController?
+    @IBOutlet weak var enableSwitch: UISwitch!
+    @IBOutlet weak var temperatureLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,8 +29,13 @@ class TemperatureSettingController: UITableViewController {
             }
         }
     }
-    @IBAction func switchTapped(_ sender: UISwitch) {
-        
+    
+    @IBAction func saveTapped(_ sender: UIButton) {
+        let data: JSON = [
+            KeyString.highTempEnable: enableSwitch.isOn,
+            KeyString.highTemp: temperatureLabel.text!
+        ]
+        SocketIOManager.shared.updateSetting(with: data)
     }
 }
 
@@ -43,6 +50,12 @@ extension TemperatureSettingController: TemperatureDelegate {
     }
     
     func temperature(_ temperatureController: TemperatureController, didSelected value: String) {
-        
+        temperatureLabel.text = value
+        if let tempController = self.temperatureController {
+            tempController.willMove(toParentViewController: self)
+            tempController.view.removeFromSuperview()
+            tempController.removeFromParentViewController()
+        }
+        self.temperatureController = nil
     }
 }

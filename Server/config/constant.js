@@ -14,10 +14,9 @@ var constant = {
         DISCONNECT: 'disconnect',
         DID_UPDATE_TEMPERATURE: 'didUpdateTemperature',
         DID_UPDATE_MANUALSETTING: 'didUpdateManualSetting',
-        DID_UPDATE_MANUAL_SETTING_RESPONSE: 'didUpdateManualSettingResponse',
         DID_UPDATE_FAN_STATUS: 'didUpdateFanStatus',
-        DID_UPDATE_FAN_STATUS_RESPONSE: 'didUpdateFanStatusResponse',
-        CONNECT_USER: 'connectUser'
+        CONNECT_USER: 'connectUser',
+        DID_UPDATE_SETTING: 'didUpdateSetting'
     },
     success: 'success',
     status: 'status',
