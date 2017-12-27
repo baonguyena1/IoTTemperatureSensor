@@ -3433,3 +3433,381 @@ Tuesday:12/26/2017|17:49:54:765 - [INFO]   - [IoTSmartHome][message]: {"temperat
 Tuesday:12/26/2017|17:50:15:93 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":69}
 Tuesday:12/26/2017|17:50:35:932 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":69}
 Tuesday:12/26/2017|17:50:56:820 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":69}
+Wednesday:12/27/2017|10:0:11:509 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/27/2017|10:2:58:367 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 3ZR_O8GGsP2lKVn1AAAA
+Wednesday:12/27/2017|10:2:58:579 - [INFO]   - [IoTSmartHome][message]: connect user = 5a41fb602937ae1f664ea979
+Wednesday:12/27/2017|10:9:18:884 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: LacU3qlTHuVmTyDiAAAB
+Wednesday:12/27/2017|10:9:27:340 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":81}
+Wednesday:12/27/2017|10:9:40:821 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":81}
+Wednesday:12/27/2017|10:10:0:135 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Wednesday:12/27/2017|10:10:0:142 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Wednesday:12/27/2017|10:10:1:321 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":79}
+Wednesday:12/27/2017|10:10:11:722 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: KyZvW1HiA5NmF_IBAAAC
+Wednesday:12/27/2017|10:10:20:308 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":78}
+Wednesday:12/27/2017|10:10:20:323 - [INFO]   - [IoTSmartHome][message]: LacU3qlTHuVmTyDiAAABis disconnected
+Wednesday:12/27/2017|10:10:33:842 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":78}
+Wednesday:12/27/2017|10:10:55:75 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":78}
+Wednesday:12/27/2017|10:11:39:597 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: r0R6qgQu5xBDgLeEAAAD
+Wednesday:12/27/2017|10:11:47:891 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":77}
+Wednesday:12/27/2017|10:11:47:902 - [INFO]   - [IoTSmartHome][message]: KyZvW1HiA5NmF_IBAAACis disconnected
+Wednesday:12/27/2017|10:12:1:188 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":77}
+Wednesday:12/27/2017|10:12:21:706 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":77}
+Wednesday:12/27/2017|10:12:31:767 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Wednesday:12/27/2017|10:12:31:771 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Wednesday:12/27/2017|10:12:34:389 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Wednesday:12/27/2017|10:12:34:394 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Wednesday:12/27/2017|10:12:41:316 - [INFO]   - [IoTSmartHome][message]: did update setting, data = {"highTempEnable":true,"highTemp":"29.5"}
+Wednesday:12/27/2017|10:12:42:854 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:13:3:514 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:13:24:17 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:13:45:351 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:14:5:797 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:14:26:380 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:14:46:787 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:15:7:250 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:15:28:654 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:15:49:24 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:16:9:501 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:16:29:964 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:16:50:542 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:17:11:970 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:17:32:555 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:18:22:327 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: QEsItLKEVovaiv7hAAAE
+Wednesday:12/27/2017|10:18:30:924 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:18:30:931 - [INFO]   - [IoTSmartHome][message]: r0R6qgQu5xBDgLeEAAADis disconnected
+Wednesday:12/27/2017|10:18:36:946 - [INFO]   - [IoTSmartHome][message]: did update setting, data = {"highTempEnable":true,"highTemp":"29.5"}
+Wednesday:12/27/2017|10:18:41:75 - [INFO]   - [IoTSmartHome][message]: did update setting, data = {"highTempEnable":true,"highTemp":"29.5"}
+Wednesday:12/27/2017|10:18:44:386 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:19:4:759 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:19:25:354 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:19:45:809 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:20:6:274 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:20:27:959 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:20:48:669 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:21:9:430 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:21:30:26 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:21:50:456 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:22:11:792 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:22:32:275 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:22:52:732 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:23:13:542 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:23:14:357 - [INFO]   - [IoTSmartHome][message]: 3ZR_O8GGsP2lKVn1AAAAis disconnected
+Wednesday:12/27/2017|10:23:21:99 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: HH_Af7sciQr6C4xnAAAF
+Wednesday:12/27/2017|10:23:33:842 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:23:55:303 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:24:15:903 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:24:30:201 - [INFO]   - [IoTSmartHome][message]: HH_Af7sciQr6C4xnAAAFis disconnected
+Wednesday:12/27/2017|10:24:36:339 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:24:38:851 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: AAbhudkFrmCBeSSHAAAG
+Wednesday:12/27/2017|10:24:39:7 - [INFO]   - [IoTSmartHome][message]: connect user = 5a41fb602937ae1f664ea979
+Wednesday:12/27/2017|10:24:56:162 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Wednesday:12/27/2017|10:24:56:167 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Wednesday:12/27/2017|10:24:57:386 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:24:58:672 - [INFO]   - [IoTSmartHome][message]: [BEGIN] logout
+Wednesday:12/27/2017|10:24:58:682 - [INFO]   - [IoTSmartHome][message]: [END] logout
+Wednesday:12/27/2017|10:25:4:429 - [INFO]   - [IoTSmartHome][message]: AAbhudkFrmCBeSSHAAAGis disconnected
+Wednesday:12/27/2017|10:25:10:109 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: P4lJgyCJlLC7YSMGAAAH
+Wednesday:12/27/2017|10:25:17:959 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:25:39:408 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:25:50:901 - [INFO]   - [IoTSmartHome][message]: P4lJgyCJlLC7YSMGAAAHis disconnected
+Wednesday:12/27/2017|10:26:0:58 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:26:0:501 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: JqpvJeoY5KM8GMTMAAAI
+Wednesday:12/27/2017|10:26:13:677 - [INFO]   - [IoTSmartHome][message]: [BEGIN] login, username = baonguyen
+Wednesday:12/27/2017|10:26:13:682 - [INFO]   - [IoTSmartHome][message]: Token = 5a41fb602937ae1f664ea979___H2duoHIaDmhX/je0Ccd3BdImBjo=
+Wednesday:12/27/2017|10:26:13:688 - [INFO]   - [IoTSmartHome][message]: [END] login
+Wednesday:12/27/2017|10:26:13:718 - [INFO]   - [IoTSmartHome][message]: connect user = 5a41fb602937ae1f664ea979
+Wednesday:12/27/2017|10:26:13:928 - [INFO]   - [IoTSmartHome][message]: connect user = 5a41fb602937ae1f664ea979
+Wednesday:12/27/2017|10:26:20:389 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:26:22:332 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Wednesday:12/27/2017|10:26:22:335 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Wednesday:12/27/2017|10:26:32:502 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 0
+Wednesday:12/27/2017|10:26:40:901 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:27:1:494 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:27:22:857 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:27:43:181 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:27:54:104 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Wednesday:12/27/2017|10:27:58:301 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 0
+Wednesday:12/27/2017|10:28:3:650 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":74}
+Wednesday:12/27/2017|10:28:57:12 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: XF-7aNXJiWZbF039AAAJ
+Wednesday:12/27/2017|10:29:5:600 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:29:5:608 - [INFO]   - [IoTSmartHome][message]: QEsItLKEVovaiv7hAAAEis disconnected
+Wednesday:12/27/2017|10:29:19:117 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:29:39:700 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:30:0:18 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:30:5:22 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Wednesday:12/27/2017|10:30:8:869 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 0
+Wednesday:12/27/2017|10:30:20:865 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:30:22:109 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Wednesday:12/27/2017|10:30:35:441 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 0
+Wednesday:12/27/2017|10:30:41:202 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:30:49:753 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Wednesday:12/27/2017|10:31:2:645 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:31:11:734 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 0
+Wednesday:12/27/2017|10:31:23:664 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:31:43:975 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:32:4:525 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:32:25:113 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:32:46:501 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:33:7:62 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:33:27:369 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:33:48:435 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:34:8:895 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":77}
+Wednesday:12/27/2017|10:34:30:609 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":77}
+Wednesday:12/27/2017|10:34:50:916 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":78}
+Wednesday:12/27/2017|10:35:11:478 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":78}
+Wednesday:12/27/2017|10:35:31:786 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":78}
+Wednesday:12/27/2017|10:35:52:85 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":78}
+Wednesday:12/27/2017|10:36:14:183 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":78}
+Wednesday:12/27/2017|10:36:34:842 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":78}
+Wednesday:12/27/2017|10:36:55:158 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":78}
+Wednesday:12/27/2017|10:37:15:684 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":78}
+Wednesday:12/27/2017|10:37:36:481 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":78}
+Wednesday:12/27/2017|10:38:25:652 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: b95-rlGs5ibpXg4uAAAK
+Wednesday:12/27/2017|10:38:33:534 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 1
+Wednesday:12/27/2017|10:38:33:544 - [INFO]   - [IoTSmartHome][message]: XF-7aNXJiWZbF039AAAJis disconnected
+Wednesday:12/27/2017|10:38:33:936 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":78}
+Wednesday:12/27/2017|10:38:45:481 - [INFO]   - [IoTSmartHome][message]: did update manual setting: 0
+Wednesday:12/27/2017|10:38:47:300 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":78}
+Wednesday:12/27/2017|10:38:57:878 - [INFO]   - [IoTSmartHome][message]: did update setting, data = {"highTempEnable":true,"highTemp":"20"}
+Wednesday:12/27/2017|10:39:7:35 - [INFO]   - [IoTSmartHome][message]: did update setting, data = {"highTempEnable":true,"highTemp":"30.5"}
+Wednesday:12/27/2017|10:39:7:821 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":79}
+Wednesday:12/27/2017|10:39:28:526 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":78}
+Wednesday:12/27/2017|10:39:48:828 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":79}
+Wednesday:12/27/2017|10:40:9:219 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":78}
+Wednesday:12/27/2017|10:40:31:132 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":77}
+Wednesday:12/27/2017|10:40:51:585 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":77}
+Wednesday:12/27/2017|10:41:11:901 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:41:32:211 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:41:52:699 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:42:14:500 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:42:34:838 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:42:55:256 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:43:15:631 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:43:35:927 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:43:57:415 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:44:18:334 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:44:38:886 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:44:59:485 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:45:20:365 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:45:41:802 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:46:2:778 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":74}
+Wednesday:12/27/2017|10:46:23:172 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:46:43:683 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":74}
+Wednesday:12/27/2017|10:47:4:335 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:47:56:144 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: Q4pXX1LTc2WXUpBfAAAL
+Wednesday:12/27/2017|10:48:4:473 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":74}
+Wednesday:12/27/2017|10:48:4:507 - [INFO]   - [IoTSmartHome][message]: b95-rlGs5ibpXg4uAAAKis disconnected
+Wednesday:12/27/2017|10:48:17:872 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":74}
+Wednesday:12/27/2017|10:48:38:504 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":74}
+Wednesday:12/27/2017|10:48:59:392 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":74}
+Wednesday:12/27/2017|10:49:19:731 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":74}
+Wednesday:12/27/2017|10:49:40:33 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":74}
+Wednesday:12/27/2017|10:50:1:760 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":74}
+Wednesday:12/27/2017|10:50:22:335 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":74}
+Wednesday:12/27/2017|10:50:42:634 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":74}
+Wednesday:12/27/2017|10:51:3:502 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":74}
+Wednesday:12/27/2017|10:51:23:807 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":74}
+Wednesday:12/27/2017|10:51:45:107 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":74}
+Wednesday:12/27/2017|10:52:5:416 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":74}
+Wednesday:12/27/2017|10:52:26:51 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":74}
+Wednesday:12/27/2017|10:52:28:396 - [INFO]   - [IoTSmartHome][message]: did update setting, data = {"highTempEnable":true,"highTemp":"28.5"}
+Wednesday:12/27/2017|10:52:40:895 - [INFO]   - [IoTSmartHome][message]: did update setting, data = {"highTempEnable":false,"highTemp":"28.5"}
+Wednesday:12/27/2017|10:52:46:740 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":73}
+Wednesday:12/27/2017|10:53:7:310 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":74}
+Wednesday:12/27/2017|10:53:28:984 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|10:53:49:391 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|10:54:9:974 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|10:54:30:560 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|10:54:51:71 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|10:55:12:438 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|10:55:32:895 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|10:55:53:335 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|10:56:13:652 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|10:56:34:29 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":74}
+Wednesday:12/27/2017|10:56:55:865 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":74}
+Wednesday:12/27/2017|10:57:16:252 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":74}
+Wednesday:12/27/2017|10:57:37:439 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:57:57:772 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:58:18:515 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":75}
+Wednesday:12/27/2017|10:58:39:931 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|10:59:0:715 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:59:21:293 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|10:59:41:849 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|11:0:2:338 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|11:0:23:860 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":76}
+Wednesday:12/27/2017|11:0:44:391 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|11:1:5:20 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":76}
+Wednesday:12/27/2017|11:1:25:328 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|11:1:45:874 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|11:2:7:716 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|11:2:28:376 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":74}
+Wednesday:12/27/2017|11:2:48:927 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":74}
+Wednesday:12/27/2017|11:3:9:508 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":74}
+Wednesday:12/27/2017|11:3:30:237 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":74}
+Wednesday:12/27/2017|11:3:51:987 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":74}
+Wednesday:12/27/2017|11:4:12:724 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":74}
+Wednesday:12/27/2017|11:4:33:156 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":74}
+Wednesday:12/27/2017|11:4:53:516 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":74}
+Wednesday:12/27/2017|11:5:13:888 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|11:5:35:348 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|11:5:55:950 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|11:6:16:847 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|11:6:37:406 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|11:6:58:296 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|11:7:20:107 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|11:7:40:733 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|11:8:1:269 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|11:8:21:808 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|11:8:42:271 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":73}
+Wednesday:12/27/2017|11:9:3:646 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|11:9:24:391 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|11:9:44:890 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|11:10:5:339 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|11:10:25:770 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|11:10:47:191 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":72}
+Wednesday:12/27/2017|11:11:7:523 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":72}
+Wednesday:12/27/2017|11:11:28:346 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":72}
+Wednesday:12/27/2017|11:11:48:968 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":72}
+Wednesday:12/27/2017|11:12:9:338 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":72}
+Wednesday:12/27/2017|11:12:30:694 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":72}
+Wednesday:12/27/2017|11:12:51:36 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":72}
+Wednesday:12/27/2017|11:13:11:627 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":72}
+Wednesday:12/27/2017|11:13:32:292 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":72}
+Wednesday:12/27/2017|11:13:53:27 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":72}
+Wednesday:12/27/2017|11:14:14:594 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":72}
+Wednesday:12/27/2017|11:14:34:994 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":72}
+Wednesday:12/27/2017|11:14:55:400 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":72}
+Wednesday:12/27/2017|11:15:16:582 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":72}
+Wednesday:12/27/2017|11:15:36:894 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":71}
+Wednesday:12/27/2017|11:15:58:450 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":71}
+Wednesday:12/27/2017|11:16:18:949 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":72}
+Wednesday:12/27/2017|11:16:39:528 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":71}
+Wednesday:12/27/2017|11:17:0:70 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":71}
+Wednesday:12/27/2017|11:17:20:695 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":71}
+Wednesday:12/27/2017|11:17:37:230 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/27/2017|11:17:38:19 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: UQ4UqB95QMznAPJqAAAA
+Wednesday:12/27/2017|11:17:45:297 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":72}
+Wednesday:12/27/2017|11:17:46:466 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: lB3jW3NxOKS_WETNAAAB
+Wednesday:12/27/2017|11:18:2:593 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":72}
+Wednesday:12/27/2017|11:18:22:892 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|11:18:43:225 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|11:19:4:309 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|11:19:25:764 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|11:19:46:75 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":73}
+Wednesday:12/27/2017|11:20:6:386 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":73}
+Wednesday:12/27/2017|11:20:26:895 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|11:20:47:208 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":74}
+Wednesday:12/27/2017|11:21:8:547 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":74}
+Wednesday:12/27/2017|11:21:29:221 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":75}
+Wednesday:12/27/2017|11:21:49:539 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":75}
+Wednesday:12/27/2017|11:22:9:862 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":75}
+Wednesday:12/27/2017|11:22:30:215 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":75}
+Wednesday:12/27/2017|11:22:51:814 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":75}
+Wednesday:12/27/2017|11:22:56:126 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/27/2017|11:22:56:954 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: f6f-RswxT1m8dlkSAAAA
+Wednesday:12/27/2017|11:23:5:354 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: YVxpoUVni3EI6kgQAAAB
+Wednesday:12/27/2017|11:23:14:914 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":75}
+Wednesday:12/27/2017|11:23:35:493 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":74}
+Wednesday:12/27/2017|11:23:57:126 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":74}
+Wednesday:12/27/2017|11:24:18:198 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|11:24:23:543 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/27/2017|11:24:25:369 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: Tma2_x20XLGjR8ucAAAA
+Wednesday:12/27/2017|11:24:32:786 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: x7rDyqXrWt5fL1YTAAAB
+Wednesday:12/27/2017|11:24:41:239 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|11:25:1:799 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|11:25:22:194 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|11:25:42:532 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":74}
+Wednesday:12/27/2017|11:25:53:614 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/27/2017|11:25:53:751 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: -aoja3iDivmZtAD3AAAA
+Wednesday:12/27/2017|11:25:56:307 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/27/2017|11:26:2:976 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 3OSxrf_IudG1AgBaAAAA
+Wednesday:12/27/2017|11:26:4:61 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: x8C-8mdt_x5FTjDSAAAB
+Wednesday:12/27/2017|11:26:11:233 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":74}
+Wednesday:12/27/2017|11:26:24:750 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":74}
+Wednesday:12/27/2017|11:26:45:321 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":74}
+Wednesday:12/27/2017|11:27:5:712 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":75}
+Wednesday:12/27/2017|11:27:26:188 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":75}
+Wednesday:12/27/2017|11:27:36:27 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/27/2017|11:27:36:378 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 1PL8kWtdbLcrjtkKAAAA
+Wednesday:12/27/2017|11:27:45:369 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: mDJ7XcI3jCqBkWtNAAAB
+Wednesday:12/27/2017|11:27:46:777 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":75}
+Wednesday:12/27/2017|11:28:5:651 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/27/2017|11:28:6:776 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: PNTTKgAaHnycckRjAAAA
+Wednesday:12/27/2017|11:28:14:123 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":75}
+Wednesday:12/27/2017|11:28:15:368 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: c1ks7MJD0_d23WI5AAAB
+Wednesday:12/27/2017|11:28:29:474 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":75}
+Wednesday:12/27/2017|11:28:50:87 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":75}
+Wednesday:12/27/2017|11:29:10:809 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":75}
+Wednesday:12/27/2017|11:29:27:782 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/27/2017|11:29:28:64 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 2_zcC1iy3sio__ecAAAA
+Wednesday:12/27/2017|11:29:35:527 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":75}
+Wednesday:12/27/2017|11:29:37:112 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: SAaEWV1af5g1dsmxAAAB
+Wednesday:12/27/2017|11:29:53:589 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/27/2017|11:29:54:275 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: -75MAVHY764Voc0LAAAA
+Wednesday:12/27/2017|11:30:1:332 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":75}
+Wednesday:12/27/2017|11:30:2:923 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: TQEs1RL3Qn8hhPn2AAAB
+Wednesday:12/27/2017|11:30:13:620 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":75}
+Wednesday:12/27/2017|11:30:34:387 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":75}
+Wednesday:12/27/2017|11:30:54:820 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":75}
+Wednesday:12/27/2017|11:31:15:669 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":75}
+Wednesday:12/27/2017|11:31:29:792 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/27/2017|11:31:30:29 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: RuwPqyC88xRGeAfuAAAA
+Wednesday:12/27/2017|11:31:32:530 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/27/2017|11:31:39:151 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: QEYNYxF79k2Hh2guAAAA
+Wednesday:12/27/2017|11:31:46:339 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: FdxEHy1fl6xC3sXKAAAB
+Wednesday:12/27/2017|11:31:53:558 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|11:32:4:289 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|11:32:24:613 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|11:32:45:67 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|11:33:5:407 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|11:33:26:738 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|11:33:32:421 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/27/2017|11:33:32:769 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: noV7QKIbK-xawEdTAAAA
+Wednesday:12/27/2017|11:33:41:738 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 0P_AJTwi3nVCnls8AAAB
+Wednesday:12/27/2017|11:33:47:57 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|11:34:7:709 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|11:34:19:126 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/27/2017|11:34:19:770 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 44mZ-H4KIEu4A24MAAAA
+Wednesday:12/27/2017|11:34:28:302 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|11:34:28:518 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: l8Q8jC-de-Vjwm3PAAAB
+Wednesday:12/27/2017|11:34:48:746 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|11:35:10:78 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|11:35:30:952 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":75}
+Wednesday:12/27/2017|11:35:51:285 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":73}
+Wednesday:12/27/2017|11:35:57:773 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/27/2017|11:35:58:664 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: IuMKDDBKQRiH3UVQAAAA
+Wednesday:12/27/2017|11:35:59:259 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/27/2017|11:36:7:115 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: 2xj7jo-3z3SOED62AAAA
+Wednesday:12/27/2017|11:36:8:788 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: y3bPnDH5Zkc8JmosAAAB
+Wednesday:12/27/2017|11:36:16:126 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":74}
+Wednesday:12/27/2017|11:36:32:506 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":73}
+Wednesday:12/27/2017|11:36:45:286 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/27/2017|11:36:45:799 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: suc9ZzMADcetBe2nAAAA
+Wednesday:12/27/2017|11:36:54:252 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":73}
+Wednesday:12/27/2017|11:36:54:753 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: rNG-cg3qQI1zUsPnAAAB
+Wednesday:12/27/2017|11:38:6:607 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/27/2017|11:38:7:413 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: r_IqnJtbYLNQp1XYAAAA
+Wednesday:12/27/2017|11:38:34:843 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/27/2017|11:38:35:304 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: luaUrQ_In7oamDqaAAAA
+Wednesday:12/27/2017|11:39:31:794 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/27/2017|11:39:32:155 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: yYbkUTde9tCWEpEJAAAA
+Wednesday:12/27/2017|11:39:34:796 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: Id78O_MBCXegj9v8AAAB
+Wednesday:12/27/2017|11:39:39:175 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":73}
+Wednesday:12/27/2017|11:39:39:181 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":73}
+Wednesday:12/27/2017|11:39:39:200 - [INFO]   - [IoTSmartHome][message]: {"temperature":27,"humidity":72}
+Wednesday:12/27/2017|11:39:52:693 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":72}
+Wednesday:12/27/2017|11:39:55:676 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Wednesday:12/27/2017|11:39:55:789 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: lw91cT-NGPhxqsVxAAAA
+Wednesday:12/27/2017|11:40:5:554 - [INFO]   - [IoTSmartHome][message]: User is connected. socket id: T-Lq56dw5YO-i86CAAAB
+Wednesday:12/27/2017|11:40:13:477 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":72}
+Wednesday:12/27/2017|11:40:30:342 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Wednesday:12/27/2017|11:40:30:349 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Wednesday:12/27/2017|11:40:35:135 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":72}
+Wednesday:12/27/2017|11:40:40:439 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Wednesday:12/27/2017|11:40:40:441 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Wednesday:12/27/2017|11:40:46:41 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
+Wednesday:12/27/2017|11:40:46:44 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
+Wednesday:12/27/2017|11:40:56:27 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":73}
+Wednesday:12/27/2017|11:41:16:525 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":72}
+Wednesday:12/27/2017|11:41:37:446 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":72}
+Wednesday:12/27/2017|11:41:58:113 - [INFO]   - [IoTSmartHome][message]: {"temperature":26,"humidity":72}

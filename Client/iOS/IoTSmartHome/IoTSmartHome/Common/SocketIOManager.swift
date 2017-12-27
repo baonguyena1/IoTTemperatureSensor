@@ -24,8 +24,6 @@ class SocketIOManager: NSObject {
         
         socket.on(clientEvent: .connect) { (datas, ack) in
             Logger.log("Socket is connected")
-            // Enhance here
-            SocketIOManager.shared.connectServer(with: User.id!)
         }
         socket.on(clientEvent: .disconnect) { (datas, ack) in
             Logger.log("Socket is disconnected")

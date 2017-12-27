@@ -1,0 +1,209 @@
+'use strict';
+
+const constant = require('./config/constant')
+const Logger = require('./log/log');
+const Status = require('./models/Status');
+const User = require('./models/User');
+const Setting = require('./models/Setting');
+
+const settingController = require('./controllers/SettingController');
+const authController = require('./controllers/AuthController');
+const statusController = require('./controllers/StatusController');
+
+class Routes {
+    constructor(app, socket) {
+        this.app = app;
+        this.io = socket;
+        this.users = [];
+        this.userId = "";
+    }
+
+    appRoutes() {
+        this.app.get('/', (req, res) => {
+            res.send('Welcome to Vietlott Application!');
+        });
+        this.app.use('/setting/', settingController);
+        this.app.use('/auth/', authController);
+        this.app.use('/status/', statusController);
+    }
+
+    socketEvents() {
+        this.io.on(constant.SocketIOEvent.CONNECTION, (socket) => {
+            Logger.logInfo('User is connected. socket id: ' + socket.id);
+        
+            socket.on(constant.SocketIOEvent.DISCONNECT, () => {
+                Logger.logInfo(socket.id + 'is disconnected');
+            });
+        
+            socket.on(constant.SocketIOEvent.CONNECT_USER, (user_id) => {
+                Logger.logInfo('connect user = ' + user_id)
+                this.userId = user_id;
+            });
+        
+            socket.on(constant.SocketIOEvent.DID_UPDATE_TEMPERATURE, (data) => {
+                Logger.logInfo(JSON.stringify(data));
+                if (this.userId) {
+                    updateStatusOfUserId(this.userId, data)
+                    .then(() => {
+                        this.io.emit(constant.SocketIOEvent.DID_UPDATE_TEMPERATURE, data);
+                    })
+                } else {
+                    this.io.emit(constant.SocketIOEvent.DID_UPDATE_TEMPERATURE, data);
+                }
+                
+            });
+        
+            socket.on(constant.SocketIOEvent.DID_UPDATE_MANUALSETTING, (setting) => {
+                var settingValue = setting ? 1 : 0;
+                Logger.logInfo('did update manual setting: ' + settingValue);
+                if (this.userId) {
+                    updateSettingOfUserId(this.userId, { 'manualSetting': setting })
+                    .then(() => {
+                        this.io.emit(constant.SocketIOEvent.DID_UPDATE_MANUALSETTING, settingValue.toString());
+                    })
+                } else {
+                    this.io.emit(constant.SocketIOEvent.DID_UPDATE_MANUALSETTING, settingValue.toString());
+                }
+            });
+        
+            socket.on(constant.SocketIOEvent.DID_UPDATE_FAN_STATUS, (status) => {
+                status = status ? 1 : 0;
+                Logger.logInfo('Set fan status = ' + status);
+                this.io.emit(constant.SocketIOEvent.DID_UPDATE_FAN_STATUS, status.toString());
+                const data = {
+                    'fanStatus': status
+                }
+                if (userId) {
+                    updateStatusOfUserId(userId, data);
+                }
+            });
+        
+            socket.on(constant.SocketIOEvent.DID_UPDATE_SETTING, (data) => {
+                Logger.logInfo('did update setting, data = ' + JSON.stringify(data));
+                if (this.userId) {
+                    updateSettingOfUserId(this.userId, data)
+                    .then(() => {
+                        this.io.emit(constant.SocketIOEvent.DID_UPDATE_SETTING, data);
+                    })
+                } else {
+                    this.io.emit(constant.SocketIOEvent.DID_UPDATE_SETTING, data);
+                }
+            });
+        
+        });
+    }
+
+    routesConfig() {
+        this.appRoutes();
+        this.socketEvents();
+    }
+
+    getStatusByUserId(userId) {
+        const defer = Q.defer()
+        Status.findOne({
+            user_id: userId
+        })
+        .exec(function(error, status) {
+            if (error || util.isNull(status)) {
+                defer.reject(error);
+            } else {
+                defer.resolve(status);
+            }
+        });
+        return defer.promise;
+    }
+    
+    saveModel(object) {
+        const defer = Q.defer()
+        object.save(function(error, obj) {
+            if (error || util.isNull(obj)) {
+                defer.reject(error);
+            } else {
+                defer.resolve(obj);
+            }
+        });
+        return defer.promise;
+    }
+    
+    getUserById(userId) {
+        var defer = Q.defer();
+        User.findById(userId)
+        .exec(function(error, user) {
+            if (error) {
+                defer.reject(error);
+            } else {
+                defer.resolve(user);
+            }
+        })
+        return defer.promise;
+    }
+    
+    getSettingByUserId(userId) {
+        var defer = Q.defer()
+        Setting.findOne({
+            user_id: userId
+        })
+        .exec((error, setting) => {
+            if (error || util.isNull(setting)) {
+                defer.reject(error);
+            } else {
+                defer.resolve(setting);
+            }
+        });
+        return defer.promise;
+    }
+    
+    updateStatusOfUserId(userId, data) {
+        const defer = Q.defer();
+        getStatusByUserId(userId)
+        .then((status) => {
+            if (data.temperature) {
+                status.temperature = data.temperature;
+            }
+            if (data.humidity) {
+                status.humidity = data.humidity;
+            }
+            if (data.fanStatus) {
+                status.fanStatus = data.fanStatus;
+            }
+            status.updated_at = new Date();
+            return saveModel(status);
+        })
+        .then((result) => {
+            defer.resolve(result);
+        })
+        .catch((error) => {
+            Logger.logError(error);
+            defer.reject(error);
+        })
+        return defer.promise;
+    }
+    
+    updateSettingOfUserId(userId, data) {
+        const defer = Q.defer();
+        getSettingByUserId(userId)
+        .then((setting) => {
+            if (!_.isNull(data.manualSetting) && !_.isUndefined(data.manualSetting)) {
+                setting.manualSetting = data.manualSetting;
+            }
+            if (!_.isNull(data.highTempEnable) && !_.isUndefined(data.highTempEnable)) {
+                setting.highTempEnable = data.highTempEnable;
+            }
+            if (data.highTemp) {
+                setting.highTemp = data.highTemp;
+            }
+            setting.updated_at = new Date();
+            return saveModel(setting);
+        })
+        .then((result) => {
+            defer.resolve(result);
+        })
+        .catch((error) => {
+            Logger.logError(error);
+            defer.reject(error);
+        })
+        return defer.promise;
+    }
+}
+
+module.exports = Routes;

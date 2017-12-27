@@ -15,6 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        let _ = SocketIOManager.shared
         redirectVC()
         return true
     }
@@ -43,6 +44,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func redirectVC() {
         if User.id != nil {
             showDashboard()
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.2, execute: {
+                SocketIOManager.shared.connectServer(with: User.id!)
+            })
         } else {
             showLoginVC()
         }

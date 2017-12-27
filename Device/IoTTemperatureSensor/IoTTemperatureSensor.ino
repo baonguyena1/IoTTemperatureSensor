@@ -23,8 +23,9 @@ int fanStatus;
 
 void writeEEPROM(int address, const char *data) {
   Serial.printf("writeEEPROM, data = %s, length = %d\n", data, strlen(data));
+  EEPROM.begin(512);
   for (int i = 0; i < strlen(data); i++) {
-    EEPROM.write(address + i, data[i]);
+    EEPROM.write(address + i, *(data + i));
   }
   EEPROM.commit();
   EEPROM.end();
@@ -32,6 +33,7 @@ void writeEEPROM(int address, const char *data) {
 
 char* readEEPROM(int address) {
   char *result = (char *)malloc(MAX_LENGTH);
+  memset(result, '\0', MAX_LENGTH);
   EEPROM.begin(512);
   for (int i = 0; i < MAX_LENGTH; i++) {
     result[i] = char(EEPROM.read(address + i));
@@ -67,13 +69,22 @@ void updateSetting(const char *payload, size_t length) {
   JsonObject &json = jsonBuffer.parseObject(payload);
   const char *highTemp = json[HIGH_TEMP];
   const char *lowTemp = json[LOW_TEMP];
+  int highTempEnable = json[HIGH_TEMP_ENABLE];
+  int lowTempEnable = json[LOW_TEMP_ENABLE];
+  
   if (highTemp != NULL) {
      writeEEPROM(EEPROM_HIGH_TEMPERATURE, highTemp);
-     const char *value = readEEPROM(EEPROM_HIGH_TEMPERATURE);
+     char *enable = (char *)malloc(2);
+     sprintf(enable, "%d", highTempEnable);
+     writeEEPROM(EEPROM_HIGH_TEMP_ENABLE, enable);
+     FREE(enable);
   }
   if (lowTemp != NULL) {
     writeEEPROM(EEPROM_LOW_TEMPERATURE, lowTemp);
-    const char *value = readEEPROM(EEPROM_LOW_TEMPERATURE);
+    char *enable = (char *)malloc(2);
+    sprintf(enable, "%d", lowTempEnable);
+    writeEEPROM(EEPROM_LOW_TEMP_ENABLE, enable);
+    FREE(enable);
   }
 }
 
@@ -82,9 +93,9 @@ void updateSetting(const char *payload, size_t length) {
    And send data to server
 */
 void dht11Process() {
-  // Read temperature after 20 seconds.
-  if (temperatureSequence++ % 20 != 0) {
-    if (temperatureSequence > 100) {
+  // Read temperature after 1 minute.
+  if (temperatureSequence++ % 120 != 0) {
+    if (temperatureSequence > 120) {
       temperatureSequence = 1;
     }
     return;
@@ -145,5 +156,5 @@ void loop() {
   webSocket.loop();
   dht11Process();
 
-  delay(1000);
+  delay(500);
 }
