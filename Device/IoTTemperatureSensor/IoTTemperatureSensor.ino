@@ -20,6 +20,9 @@ WiFiClient wifiClient;
 SocketIoClient webSocket;
 int manualSetting;
 int fanStatus;
+unsigned long previousMillis = 0;
+unsigned long interval = 1000 * 60;   // 1 minute
+unsigned long deviceId;
 
 void writeEEPROM(int address, const char *data) {
   Serial.printf("writeEEPROM, data = %s, length = %d\n", data, strlen(data));
@@ -55,6 +58,7 @@ void updateManualSetting(const char *payload, size_t length) {
   writeEEPROM(EEPROM_MANUAL_SETTING_ADD, payload);
   char *setting = readEEPROM(EEPROM_MANUAL_SETTING_ADD);
   manualSetting = atoi(setting);
+  FREE(setting);
 }
 
 void updateFanStatus(const char *payload, size_t length) {
@@ -88,18 +92,41 @@ void updateSetting(const char *payload, size_t length) {
   }
 }
 
+void didReceiveCurrentSetting(const char *payload, size_t length) {
+  Serial.printf("didReceiveCurrentSetting: payload = %s, size = %d\n", payload, length);
+  StaticJsonBuffer<400> jsonBuffer;
+  JsonObject &json = jsonBuffer.parseObject(payload);
+  const char *highTemp = json[HIGH_TEMP];
+  const char *lowTemp = json[LOW_TEMP];
+  int highTempEnable = json[HIGH_TEMP_ENABLE];
+  int lowTempEnable = json[LOW_TEMP_ENABLE];
+  int manualSetting = json[MANUAL_SETTING];
+
+  char *temp = (char *)malloc(10);
+  writeEEPROM(EEPROM_HIGH_TEMPERATURE, highTemp);
+  sprintf(temp, "%d", highTempEnable);
+  writeEEPROM(EEPROM_HIGH_TEMP_ENABLE, temp);
+
+  writeEEPROM(EEPROM_LOW_TEMPERATURE, lowTemp);
+  sprintf(temp, "%d", lowTempEnable);
+  writeEEPROM(EEPROM_LOW_TEMP_ENABLE, temp);
+
+  sprintf(temp, "%d", manualSetting);
+  writeEEPROM(EEPROM_MANUAL_SETTING_ADD, temp);
+  FREE(temp);
+}
+
 /**
    Description: Read temperature, Humidity of DHT11
    And send data to server
 */
 void dht11Process() {
   // Read temperature after 1 minute.
-  if (temperatureSequence++ % 120 != 0) {
-    if (temperatureSequence > 120) {
-      temperatureSequence = 1;
-    }
+  if (previousMillis != 0 && millis() - previousMillis < interval) {
     return;
   }
+  previousMillis = millis();
+  
   float h = dht.readHumidity();
   float t = dht.readTemperature();
 
@@ -107,26 +134,29 @@ void dht11Process() {
     Serial.println("Incorrect data");
     return;
   }
+  
+  StaticJsonBuffer<200> jsonBuffer;
+  JsonObject &json = jsonBuffer.createObject();
+  json["deviceId"] = deviceId;
+  json["temperature"] = t;
+  json["humidity"] = h;
+  String jsonString;
+  json.printTo(jsonString);
 
-  Serial.print("Humidity: ");
-  Serial.print(h);
-  Serial.print(" %\t");
-  Serial.print("Temperature: ");
-  Serial.print(t);
-  Serial.println(" *C ");
-  String data = "{\"temperature\": ";
-  data += t;
-  data += ", \"humidity\": ";
-  data += h;
-  data += "}";
-
-  webSocket.emit(SOCKET_DID_UPDATE_TEMPERATURE, data.c_str());
+  webSocket.emit(SOCKET_DID_UPDATE_TEMPERATURE, jsonString.c_str());
 }
 
 void readInitialData() {
   manualSetting = atoi(readEEPROM(EEPROM_MANUAL_SETTING_ADD));
   fanStatus = atoi(readEEPROM(EEPROM_FAN_STATUS));
   Serial.printf("Manual setting = %d, fan status = %d\n", manualSetting, fanStatus);
+}
+
+void broadcastDevice() {
+  deviceId = ESP.getChipId();
+  char *deviceIdentifier = (char *)malloc(32);
+  sprintf(deviceIdentifier, "%ld", deviceId);
+  webSocket.emit(SOCKET_BROADCAST_DEVICE, deviceIdentifier);
 }
 
 void setup() {
@@ -146,9 +176,13 @@ void setup() {
   webSocket.on(SOCKET_DID_UPDATE_MANUAL_SETTING, updateManualSetting);
   webSocket.on(SOCKET_DID_UPDATE_FAN_STATUS, updateFanStatus);
   webSocket.on(SOCKET_DID_UPDATE_SETTING, updateSetting);
+  webSocket.on(SOCKET_CURRENT_SETTING, didReceiveCurrentSetting);
 
   webSocket.begin(host, port);
   readInitialData();
+  delay(200);
+  broadcastDevice();
+  delay(200);
   dht.begin();
 }
 

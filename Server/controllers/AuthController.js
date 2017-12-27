@@ -36,7 +36,8 @@ router.post('/login', function(req, res) {
             var data = {
                 '_id': user.id,
                 'username': user.username,
-                'access_token': token
+                'access_token': token,
+                'device_list': user.device_list
             };
             util.responseSuccess(res, data);
         });
@@ -99,7 +100,8 @@ router.post('/register', function(req, res) {
             var data = {
                 '_id': user.id,
                 'username': user.username,
-                'access_token': token
+                'access_token': token,
+                'device_list': user.device_list
             };
             util.responseSuccess(res, data);
         })

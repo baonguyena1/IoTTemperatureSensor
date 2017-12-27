@@ -4,15 +4,12 @@ var path = require('path');
 var bodyParser = require('body-parser');
 var express = require('express');
 var mongoose = require('mongoose');
-const Q = require('q');
-var _ = require('underscore');
 
 var constant = require('./config/constant')
 var database_config = require('./config/database_config');
 var Logger = require('./log/log');
 var connect_database = require('./config/connect_database');
 var middleware = require('./libs/middleware');
-const util = require('./libs/utils');
 
 const routes = require('./Routes');
 

@@ -26,6 +26,10 @@ var userSchema = new Schema({
             }
         }
     ],
+    device_list: [{
+        type: String,
+        default: []
+    }],
     created_at: {
         type: Date,
         default: Date.now

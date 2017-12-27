@@ -1,7 +1,11 @@
 'use strict';
 
+const Q = require('q');
+var _ = require('underscore');
+
 const constant = require('./config/constant')
 const Logger = require('./log/log');
+const util = require('./libs/utils');
 const Status = require('./models/Status');
 const User = require('./models/User');
 const Setting = require('./models/Setting');
@@ -30,20 +34,66 @@ class Routes {
     socketEvents() {
         this.io.on(constant.SocketIOEvent.CONNECTION, (socket) => {
             Logger.logInfo('User is connected. socket id: ' + socket.id);
-        
+
+
+            socket.on(constant.SocketIOEvent.BORADCAST_DEVICE, (deviceId) => {
+
+                Logger.logInfo('[INFO] Broadcast device id = ' + deviceId);
+                let coditional = {
+                    device_list: { $in: [deviceId] }
+                }
+                this.getUserByCoditional(coditional)
+                .then((user) => {
+                    return this.getSettingByUserId(user.id)
+                })
+                .then((setting) => {
+                    let data = {};
+                    data.manualSetting = setting.manualSetting;
+                    data.highTempEnable = setting.highTempEnable;
+                    data.highTemp = setting.highTemp.toString();
+                    data.lowTempEnable = setting.lowTempEnable;
+                    data.lowTemp = setting.lowTemp.toString();
+                    this.io.emit(constant.SocketIOEvent.CURRENT_SETTING, data);
+                });
+
+            })
+
             socket.on(constant.SocketIOEvent.DISCONNECT, () => {
                 Logger.logInfo(socket.id + 'is disconnected');
+                for (let i = 0; i < this.users.length; i++) {
+                    if (this.users[i].socket_id === socket.id) {
+                        this.users.splice(i, 1);
+                        break;
+                    }
+                }
             });
         
             socket.on(constant.SocketIOEvent.CONNECT_USER, (user_id) => {
+
                 Logger.logInfo('connect user = ' + user_id)
+                let coditional = {
+                    _id: user_id
+                };
+                this.getUserByCoditional(coditional)
+                .then((user) => {
+                    user.socketId = socket.id;
+                    return this.saveModel(user);
+                })
+                this.users.push({
+                    socket_id: socket.id,
+                    user_id: user_id
+                });
                 this.userId = user_id;
             });
-        
+            
+            /**
+             * ESP8266 send event update temperature
+             */
             socket.on(constant.SocketIOEvent.DID_UPDATE_TEMPERATURE, (data) => {
+
                 Logger.logInfo(JSON.stringify(data));
                 if (this.userId) {
-                    updateStatusOfUserId(this.userId, data)
+                    this.updateStatusOfUserId(this.userId, data)
                     .then(() => {
                         this.io.emit(constant.SocketIOEvent.DID_UPDATE_TEMPERATURE, data);
                     })
@@ -53,11 +103,14 @@ class Routes {
                 
             });
         
+            /**
+             * Client send event
+             */
             socket.on(constant.SocketIOEvent.DID_UPDATE_MANUALSETTING, (setting) => {
                 var settingValue = setting ? 1 : 0;
                 Logger.logInfo('did update manual setting: ' + settingValue);
                 if (this.userId) {
-                    updateSettingOfUserId(this.userId, { 'manualSetting': setting })
+                    this.updateSettingOfUserId(this.userId, { 'manualSetting': setting })
                     .then(() => {
                         this.io.emit(constant.SocketIOEvent.DID_UPDATE_MANUALSETTING, settingValue.toString());
                     })
@@ -66,6 +119,9 @@ class Routes {
                 }
             });
         
+            /**
+             * Client send event
+             */
             socket.on(constant.SocketIOEvent.DID_UPDATE_FAN_STATUS, (status) => {
                 status = status ? 1 : 0;
                 Logger.logInfo('Set fan status = ' + status);
@@ -78,10 +134,13 @@ class Routes {
                 }
             });
         
+            /**
+             * Client send event
+             */
             socket.on(constant.SocketIOEvent.DID_UPDATE_SETTING, (data) => {
                 Logger.logInfo('did update setting, data = ' + JSON.stringify(data));
                 if (this.userId) {
-                    updateSettingOfUserId(this.userId, data)
+                    this.updateSettingOfUserId(this.userId, data)
                     .then(() => {
                         this.io.emit(constant.SocketIOEvent.DID_UPDATE_SETTING, data);
                     })
@@ -125,9 +184,9 @@ class Routes {
         return defer.promise;
     }
     
-    getUserById(userId) {
+    getUserByCoditional(coditional) {
         var defer = Q.defer();
-        User.findById(userId)
+        User.findOne(coditional)
         .exec(function(error, user) {
             if (error) {
                 defer.reject(error);
@@ -155,7 +214,7 @@ class Routes {
     
     updateStatusOfUserId(userId, data) {
         const defer = Q.defer();
-        getStatusByUserId(userId)
+        this.getStatusByUserId(userId)
         .then((status) => {
             if (data.temperature) {
                 status.temperature = data.temperature;
@@ -167,7 +226,7 @@ class Routes {
                 status.fanStatus = data.fanStatus;
             }
             status.updated_at = new Date();
-            return saveModel(status);
+            return this.saveModel(status);
         })
         .then((result) => {
             defer.resolve(result);
@@ -181,7 +240,7 @@ class Routes {
     
     updateSettingOfUserId(userId, data) {
         const defer = Q.defer();
-        getSettingByUserId(userId)
+        this.getSettingByUserId(userId)
         .then((setting) => {
             if (!_.isNull(data.manualSetting) && !_.isUndefined(data.manualSetting)) {
                 setting.manualSetting = data.manualSetting;
@@ -193,7 +252,7 @@ class Routes {
                 setting.highTemp = data.highTemp;
             }
             setting.updated_at = new Date();
-            return saveModel(setting);
+            return this.saveModel(setting);
         })
         .then((result) => {
             defer.resolve(result);

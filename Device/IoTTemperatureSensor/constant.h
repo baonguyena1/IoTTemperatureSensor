@@ -15,6 +15,7 @@
 #define LOW_TEMP                    "lowTemp"
 #define HIGH_TEMP_ENABLE            "highTempEnable"
 #define LOW_TEMP_ENABLE             "lowTempEnable"
+#define MANUAL_SETTING              "manualSetting"
 
 #define FREE(x)       { free(x); x = NULL; }
 
@@ -27,6 +28,8 @@ const char *SOCKET_DID_UPDATE_MANUAL_SETTING_RESPONSE = "didUpdateManualSettingR
 const char *SOCKET_DID_UPDATE_FAN_STATUS = "didUpdateFanStatus";
 const char *SOCKET_DID_UPDATE_FAN_STATUS_RESPONSE = "didUpdateFanStatusResponse";
 const char *SOCKET_DID_UPDATE_SETTING = "didUpdateSetting";
+const char *SOCKET_BROADCAST_DEVICE = "broadcastDevice";
+const char *SOCKET_CURRENT_SETTING = "currentSetting";
 
 /**
  * Global define

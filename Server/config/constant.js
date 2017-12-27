@@ -16,7 +16,9 @@ var constant = {
         DID_UPDATE_MANUALSETTING: 'didUpdateManualSetting',
         DID_UPDATE_FAN_STATUS: 'didUpdateFanStatus',
         CONNECT_USER: 'connectUser',
-        DID_UPDATE_SETTING: 'didUpdateSetting'
+        DID_UPDATE_SETTING: 'didUpdateSetting',
+        CURRENT_SETTING: 'currentSetting',
+        BORADCAST_DEVICE: 'broadcastDevice'
     },
     success: 'success',
     status: 'status',
