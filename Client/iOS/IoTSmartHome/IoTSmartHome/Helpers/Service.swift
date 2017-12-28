@@ -102,7 +102,7 @@ struct Service: Serviceable {
     fileprivate func showError(with message: String? = nil, token_expire: Bool = false) {
         
         let alert = UIAlertControllerStyle.alert.controller(title: Language.shared.value(for: LanguageKey.message),
-                                                            message: message,
+                                                            message: message ?? Language.shared.value(for: LanguageKey.somethingWentWrong),
                                                             actions: [
                                                                 Language.shared.value(for: LanguageKey.ok).alertAction(style: .destructive, handler: { (action) in
                                                                     if !token_expire {
