@@ -42,7 +42,6 @@ class LoginController: UIViewController {
                 appDelegate.redirectVC()
             case .error(let error):
                 Logger.log("Error - \(error)")
-                showDefaultAlert()
             }
             MBProgressHUD.hide(for: self.view, animated: true)
         }

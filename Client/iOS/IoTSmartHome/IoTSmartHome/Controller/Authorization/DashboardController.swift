@@ -80,7 +80,6 @@ class DashboardController: UITableViewController {
                 
             case .error(let error):
                 Logger.log("Error - \(error)")
-                showDefaultAlert()
             }
         }
     }

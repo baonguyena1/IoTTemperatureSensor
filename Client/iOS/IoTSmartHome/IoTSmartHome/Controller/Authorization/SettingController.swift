@@ -52,7 +52,6 @@ class SettingController: UITableViewController {
                 
             case .error(let error):
                 Logger.log("Error - \(error)")
-                showDefaultAlert()
             }
         }
     }
@@ -91,7 +90,6 @@ class SettingController: UITableViewController {
                 }
             case .error(let error):
                 Logger.log("Error - \(error)")
-                showDefaultAlert()
             }
             MBProgressHUD.hide(for: self.view, animated: true)
         }

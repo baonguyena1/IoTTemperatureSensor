@@ -24,7 +24,7 @@ func showDefaultAlert() {
     let alert = UIAlertControllerStyle.alert.controller(title: Language.shared.value(for: LanguageKey.message),
                                                         message: Language.shared.value(for: LanguageKey.somethingWentWrong),
                                                         actions: [
-                                                            Language.shared.value(for: LanguageKey.ok).alertAction(style: .default, handler: nil)
+                                                            Language.shared.value(for: LanguageKey.ok).alertAction(style: .destructive, handler: nil)
         ])
     showAlert(alert)
 }
