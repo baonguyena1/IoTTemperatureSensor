@@ -7,6 +7,7 @@ var db_util = {
         dbPath += config.PORT + "/";
         dbPath += config.DATABASE;
         // dbPath += '?authSource=admin';
+        console.log(dbPath);
         return mongoose.connect(dbPath);
     }
 };

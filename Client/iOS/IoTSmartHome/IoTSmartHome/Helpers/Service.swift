@@ -36,9 +36,10 @@ struct Service: Serviceable {
     typealias completionHandler = (Result<Response>) -> Void
     
     func get(_ url: String, completion: @escaping completionHandler) {
-
+        Logger.log("Request url = \(url)")
         Alamofire.request(url, method: .get, parameters: nil, encoding: JSONEncoding.default, headers: getHeaders())
             .responseJSON { (response) in
+                
                 if let _ = response.result.error {
                     completion(.error(.responseUnsuccessful))
                     self.showError()
@@ -47,7 +48,11 @@ struct Service: Serviceable {
                     let response =  Response(with: result)
                     if response.success == false {
                         completion(.error(.responseUnsuccessful))
-                        self.showError(with: response.message)
+                        var token_expire = false
+                        if let error_code = response.error_code, error_code == 501 {
+                            token_expire = true
+                        }
+                        self.showError(with: response.message, token_expire: token_expire)
                     } else {
                         completion(.success(response))
                     }
@@ -60,7 +65,7 @@ struct Service: Serviceable {
     }
     
     func post(_ url: String, with jsonData: [String : Any], completion: @escaping completionHandler) {
-        
+        Logger.log("Request url = \(url), jsonData = \(jsonData)")
         Alamofire.request(url, method: .post, parameters: jsonData, encoding: JSONEncoding.default, headers: getHeaders())
             .responseData { (response) in
                 
@@ -71,9 +76,14 @@ struct Service: Serviceable {
                     do {
                         let json = try JSONSerialization.jsonObject(with: data, options: .allowFragments) as! JSON
                         let response =  Response(with: json)
+                        Logger.log("Response = \(response)")
                         if response.success == false {
                             completion(.error(.responseUnsuccessful))
-                            self.showError(with: response.message)
+                            var token_expire = false
+                            if let error_code = response.error_code, error_code == 501 {
+                                token_expire = true
+                            }
+                            self.showError(with: response.message, token_expire: token_expire)
                         } else {
                             completion(.success(response))
                         }
@@ -89,12 +99,18 @@ struct Service: Serviceable {
         }
     }
     
-    fileprivate func showError(with message: String? = nil) {
+    fileprivate func showError(with message: String? = nil, token_expire: Bool = false) {
         
         let alert = UIAlertControllerStyle.alert.controller(title: Language.shared.value(for: LanguageKey.message),
-                                                            message: message ?? Language.shared.value(for: LanguageKey.somethingWentWrong),
+                                                            message: message,
                                                             actions: [
-                                                                Language.shared.value(for: LanguageKey.ok).alertAction(style: .destructive, handler: nil)
+                                                                Language.shared.value(for: LanguageKey.ok).alertAction(style: .destructive, handler: { (action) in
+                                                                    if !token_expire {
+                                                                        return
+                                                                    }
+                                                                    User.delete()
+                                                                    appDelegate.redirectVC()
+                                                                })
             ])
         DispatchQueue.main.async {
             showAlert(alert)

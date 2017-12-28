@@ -56,7 +56,7 @@ var middleware = {
                 })
                 .exec(function(error, user) {
                     if (error || util.isNull(user)) {
-                        util.responseFailWithMessage(res, message.token_invalid);
+                        util.responseFailWithMessage(res, message.token_invalid, 501);
                     } else {
 
                         var is_expired_curent_token = true;
@@ -75,7 +75,7 @@ var middleware = {
                         user.tokens = tokens;
                         user.save();
                         if (is_expired_curent_token === false) {
-                            util.responseFailWithMessage(res, message.token_expire);
+                            util.responseFailWithMessage(res, message.token_expire, 501);
                         } else {
                             next();
                         }
@@ -84,7 +84,7 @@ var middleware = {
                 });
                 
             } else {
-                util.responseFailWithMessage(res, message.token_expire);
+                util.responseFailWithMessage(res, message.token_expire, 501);
             }
 
         }

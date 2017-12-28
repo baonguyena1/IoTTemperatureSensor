@@ -84,7 +84,6 @@ class SettingController: UITableViewController {
         service.get(url) { (result) in
             switch result {
             case .success(let response):
-                Logger.log("JSON = \(response)")
                 let response = response as! Response
                 if response.success == true {
                     User.delete()

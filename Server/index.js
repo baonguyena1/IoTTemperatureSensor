@@ -40,8 +40,9 @@ class Server {
         this.appConfig();
         new routes(this.app, this.io).routesConfig();
 
-        this.server.listen(constant.listen_port, function() {
-            Logger.logInfo('[INFO]App listen at port: ' + constant.listen_port);
+        let port = process.env.PORT || constant.listen_port;
+        this.server.listen(port, function() {
+            Logger.logInfo('[INFO]App listen at port: ' + port);
          });
     }
 }

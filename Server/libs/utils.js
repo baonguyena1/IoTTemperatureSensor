@@ -12,10 +12,13 @@ var utils = {
     responseFail: function(res) {
         this.responseFailWithMessage(res, 'Something went wrong. Please try again!!!');
     },
-    responseFailWithMessage: function(res, message) {
+    /**
+     * 501 is token expire
+     */
+    responseFailWithMessage: function(res, message, error_code = 500) {
         var response = {};
         response[constant.success] = false;
-        response[constant.error_code] = 500
+        response[constant.error_code] = error_code
         response[constant.message] = message
         res.json(response);
     },

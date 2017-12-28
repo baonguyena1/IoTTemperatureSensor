@@ -2,9 +2,9 @@ var database = {
     mongodb: {
         'USER': 'iotsmarthome',
         'PASS': 'jUst4Fun!!123',
-        'HOST': 'localhost',
+        'HOST': 'ds133017.mlab.com:33017',
         'PORT': '',
-        'DATABASE': 'IoTSmartHome'
+        'DATABASE': 'iotsmarthome'
     }
 };
 
