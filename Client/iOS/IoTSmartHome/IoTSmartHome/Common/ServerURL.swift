@@ -9,10 +9,11 @@
 import Foundation
 
 struct ServerURL {
-//    private static let baseURL = "https://smarthome-iot.herokuapp.com/"
-    private static let baseURL = "http://localhost"
+    static let baseURL = "https://smarthome-iot.herokuapp.com"
+//    private static let baseURL = "http://localhost"
     private static let port = "9898"
-    private static let url = "\(baseURL):\(port)"
+//    private static let url = "\(baseURL):\(port)"
+    private static let url = "\(baseURL)"
     
     static let register = "\(url)/auth/register"
     static let login = "\(url)/auth/login"

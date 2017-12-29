@@ -18,7 +18,7 @@ class SocketIOManager: NSObject {
     
     override init() {
         super.init()
-        manager = SocketManager(socketURL: URL(string: "http://localhost:9898")!, config: [.reconnects(true), .reconnectWait(60), .forcePolling(true)])
+        manager = SocketManager(socketURL: URL(string: ServerURL.baseURL)!, config: [.reconnects(true), .reconnectWait(60), .forcePolling(true)])
         socket = manager.socket(forNamespace: "/client")
         
         socket.on(clientEvent: .connect) { (datas, ack) in

@@ -16,8 +16,7 @@
    Global variable
 */
 DHT dht(DHTPIN, DHTTYPE);
-WiFiClient wifiClient;
-SocketIoClient webSocket;
+SocketIoClient socket;
 int manualSetting;
 int fanStatus;
 unsigned long previousMillis = 0;
@@ -143,8 +142,10 @@ void dht11Process() {
   String jsonString;
   json.printTo(jsonString);
 
-  webSocket.emit(SOCKET_DID_UPDATE_TEMPERATURE, jsonString.c_str());
+  socket.emit(SOCKET_DID_UPDATE_TEMPERATURE, jsonString.c_str());
 }
+
+void disconnectedEvent(const char *payload, size_t length) {}
 
 void readInitialData() {
   manualSetting = atoi(readEEPROM(EEPROM_MANUAL_SETTING_ADD));
@@ -156,7 +157,7 @@ void broadcastDevice() {
   deviceId = ESP.getChipId();
   char *deviceIdentifier = (char *)malloc(32);
   sprintf(deviceIdentifier, "%ld", deviceId);
-  webSocket.emit(SOCKET_BROADCAST_DEVICE, deviceIdentifier);
+  socket.emit(SOCKET_BROADCAST_DEVICE, deviceIdentifier);
 }
 
 void setup() {
@@ -173,12 +174,13 @@ void setup() {
   Serial.print("Wifi address:");
   Serial.println(WiFi.localIP());
 
-  webSocket.on(SOCKET_DID_UPDATE_MANUAL_SETTING, updateManualSetting);
-  webSocket.on(SOCKET_DID_UPDATE_FAN_STATUS, updateFanStatus);
-  webSocket.on(SOCKET_DID_UPDATE_SETTING, updateSetting);
-  webSocket.on(SOCKET_CURRENT_SETTING, didReceiveCurrentSetting);
+  socket.on(SOCKET_DID_UPDATE_MANUAL_SETTING, updateManualSetting);
+  socket.on(SOCKET_DID_UPDATE_FAN_STATUS, updateFanStatus);
+  socket.on(SOCKET_DID_UPDATE_SETTING, updateSetting);
+  socket.on(SOCKET_CURRENT_SETTING, didReceiveCurrentSetting);
+  socket.on("disconnected", disconnectedEvent);
 
-  webSocket.begin(host, port);
+  socket.begin(host, 80);
   readInitialData();
   delay(200);
   broadcastDevice();
@@ -187,7 +189,7 @@ void setup() {
 }
 
 void loop() {
-  webSocket.loop();
+  socket.loop();
   dht11Process();
 
   delay(500);
