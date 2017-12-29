@@ -43,26 +43,18 @@
                         <sections>
                             <tableViewSection headerTitle="" id="7Ay-ag-2RH">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="20" id="hqn-qt-olv">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hqn-qt-olv" id="VrJ-mY-9ro">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="60" id="VhG-cg-yNE">
-                                        <rect key="frame" x="0.0" y="20" width="375" height="60"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="50" id="VhG-cg-yNE">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VhG-cg-yNE" id="hYG-C8-sSq">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="qdj-2t-Bi6">
-                                                    <rect key="frame" x="16" y="0.0" width="343" height="60"/>
+                                                    <rect key="frame" x="16" y="0.0" width="343" height="50"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="XNf-uT-Rx4">
-                                                            <rect key="frame" x="0.0" y="5" width="166.66666666666666" height="50"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="166.66666666666666" height="50"/>
                                                             <subviews>
                                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Temp" translatesAutoresizingMaskIntoConstraints="NO" id="h1u-lY-ORx">
                                                                     <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -80,7 +72,7 @@
                                                             </subviews>
                                                         </stackView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="kYs-ID-RxB">
-                                                            <rect key="frame" x="176.66666666666663" y="5" width="166.33333333333337" height="50"/>
+                                                            <rect key="frame" x="176.66666666666663" y="0.0" width="166.33333333333337" height="50"/>
                                                             <subviews>
                                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Humidity" translatesAutoresizingMaskIntoConstraints="NO" id="52o-6g-waz">
                                                                     <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -108,58 +100,67 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="128" id="yJg-hh-0pK">
-                                        <rect key="frame" x="0.0" y="80" width="375" height="128"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="44" id="IFE-Iy-eUH">
+                                        <rect key="frame" x="0.0" y="50" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="yJg-hh-0pK" id="4DO-nP-3hy">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="128"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="IFE-Iy-eUH" id="AP2-BQ-0dt">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="MfN-0C-rzY">
-                                                    <rect key="frame" x="16" y="4" width="343" height="124"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fan Status:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hB7-43-4a8">
+                                                    <rect key="frame" x="8" y="11" width="86" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="hB7-43-4a8" firstAttribute="centerY" secondItem="AP2-BQ-0dt" secondAttribute="centerY" id="98F-om-rrT"/>
+                                                <constraint firstItem="hB7-43-4a8" firstAttribute="leading" secondItem="AP2-BQ-0dt" secondAttribute="leading" constant="8" id="ack-SE-Wr3"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="yJg-hh-0pK">
+                                        <rect key="frame" x="0.0" y="94" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="yJg-hh-0pK" id="4DO-nP-3hy">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="MfN-0C-rzY">
+                                                    <rect key="frame" x="16" y="0.0" width="343" height="100"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fan status:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZv-tX-8gk">
-                                                            <rect key="frame" x="0.0" y="0.0" width="343" height="21"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <nil key="textColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="p99-5c-Hms">
-                                                            <rect key="frame" x="0.0" y="21" width="343" height="103"/>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Fan_Off" translatesAutoresizingMaskIntoConstraints="NO" id="pn3-yw-Qn3">
+                                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="100" id="NEA-JW-y7j"/>
+                                                                <constraint firstAttribute="width" secondItem="pn3-yw-Qn3" secondAttribute="height" multiplier="1:1" id="Vyd-kt-IX7"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="bottom" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="hdK-9j-C4D">
+                                                            <rect key="frame" x="108" y="15" width="235" height="70"/>
                                                             <subviews>
-                                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Fan_Off" translatesAutoresizingMaskIntoConstraints="NO" id="pn3-yw-Qn3">
-                                                                    <rect key="frame" x="0.0" y="1.3333333333333286" width="100" height="100"/>
-                                                                    <constraints>
-                                                                        <constraint firstAttribute="width" constant="100" id="NEA-JW-y7j"/>
-                                                                        <constraint firstAttribute="width" secondItem="pn3-yw-Qn3" secondAttribute="height" multiplier="1:1" id="Vyd-kt-IX7"/>
-                                                                    </constraints>
-                                                                </imageView>
-                                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="bottom" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="hdK-9j-C4D">
-                                                                    <rect key="frame" x="120" y="16.333333333333336" width="223" height="70"/>
-                                                                    <subviews>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fan Off" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qx8-Dw-xMX">
-                                                                            <rect key="frame" x="167" y="0.0" width="56" height="31"/>
-                                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                            <nil key="textColor"/>
-                                                                            <nil key="highlightedColor"/>
-                                                                        </label>
-                                                                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="K86-4X-4yI">
-                                                                            <rect key="frame" x="174" y="38.999999999999993" width="51" height="31.000000000000007"/>
-                                                                            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                            <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                            <color key="onTintColor" red="0.90196078430000004" green="0.4941176471" blue="0.1333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                            <userDefinedRuntimeAttributes>
-                                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                                    <real key="value" value="16"/>
-                                                                                </userDefinedRuntimeAttribute>
-                                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="maskToBounds" value="YES"/>
-                                                                            </userDefinedRuntimeAttributes>
-                                                                            <connections>
-                                                                                <action selector="fanSwitchTapped:" destination="XWB-K4-Iie" eventType="touchUpInside" id="8Gy-XR-Wbf"/>
-                                                                            </connections>
-                                                                        </switch>
-                                                                    </subviews>
-                                                                </stackView>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fan Off" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qx8-Dw-xMX">
+                                                                    <rect key="frame" x="179" y="0.0" width="56" height="31"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="K86-4X-4yI">
+                                                                    <rect key="frame" x="186" y="39" width="51" height="31"/>
+                                                                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <color key="onTintColor" red="0.90196078430000004" green="0.4941176471" blue="0.1333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <userDefinedRuntimeAttributes>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                            <real key="value" value="16"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="maskToBounds" value="YES"/>
+                                                                    </userDefinedRuntimeAttributes>
+                                                                    <connections>
+                                                                        <action selector="fanSwitchTapped:" destination="XWB-K4-Iie" eventType="touchUpInside" id="8Gy-XR-Wbf"/>
+                                                                    </connections>
+                                                                </switch>
                                                             </subviews>
                                                         </stackView>
                                                     </subviews>
@@ -167,7 +168,7 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="MfN-0C-rzY" secondAttribute="trailing" constant="16" id="Cqq-jX-gQC"/>
-                                                <constraint firstItem="MfN-0C-rzY" firstAttribute="top" secondItem="4DO-nP-3hy" secondAttribute="top" constant="4" id="LrU-X4-Wyo"/>
+                                                <constraint firstItem="MfN-0C-rzY" firstAttribute="top" secondItem="4DO-nP-3hy" secondAttribute="top" id="LrU-X4-Wyo"/>
                                                 <constraint firstAttribute="bottom" secondItem="MfN-0C-rzY" secondAttribute="bottom" id="Z70-Au-ekj"/>
                                                 <constraint firstItem="MfN-0C-rzY" firstAttribute="leading" secondItem="4DO-nP-3hy" secondAttribute="leading" constant="16" id="gpj-G7-NY7"/>
                                             </constraints>

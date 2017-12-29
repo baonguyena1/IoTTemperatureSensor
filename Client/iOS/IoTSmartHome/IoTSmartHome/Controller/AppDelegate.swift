@@ -45,7 +45,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if User.id != nil {
             showDashboard()
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.2, execute: {
-                SocketIOManager.shared.connectServer(with: User.id!)
+                SocketIOManager.shared.connectUser(with: User.id!)
             })
         } else {
             showLoginVC()
@@ -60,7 +60,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     fileprivate func showDashboard() {
         let tabbar =  AppStoryBoard.Authorization.instance.instantiateViewController(withIdentifier: StoryboardIdentifier.tabbarViewController)
         setRootViewController(tabbar)
-        SocketIOManager.shared.connectServer(with: User.id!)
+        SocketIOManager.shared.connectUser(with: User.id!)
     }
 
     private func setRootViewController(_ viewController: UIViewController) {

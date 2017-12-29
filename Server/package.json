@@ -25,6 +25,7 @@
     "mongoose": "^4.13.7",
     "q": "^1.5.1",
     "socket.io": "^2.0.4",
+    "socketio-wildcard": "^2.0.0",
     "underscore": "^1.8.3"
   },
   "engines": {

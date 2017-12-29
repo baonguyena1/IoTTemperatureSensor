@@ -1,7 +1,8 @@
 'use strict';
 
 const Q = require('q');
-var _ = require('underscore');
+const _ = require('underscore');
+const middleware = require('socketio-wildcard')();
 
 const constant = require('./config/constant')
 const Logger = require('./log/log');
@@ -17,9 +18,12 @@ const statusController = require('./controllers/StatusController');
 class Routes {
     constructor(app, socket) {
         this.app = app;
-        this.io = socket;
         this.users = [];
         this.userId = "";
+        this.client_nsp = socket.of('/client');
+        this.esp8266_nsp = socket.of('/esp8266');
+        this.client_nsp.use(middleware);
+        this.esp8266_nsp.use(middleware);
     }
 
     appRoutes() {
@@ -32,13 +36,16 @@ class Routes {
     }
 
     socketEvents() {
-        this.io.on(constant.SocketIOEvent.CONNECTION, (socket) => {
-            Logger.logInfo('User is connected. socket id: ' + socket.id);
+        this.esp8266_nsp.on(constant.SocketIOEvent.CONNECTION, socket => {
+            Logger.logInfo('[ESP8266] Connected. Socket id = ' + socket.id);
+            
+            socket.on(constant.SocketIOEvent.DISCONNECT, () => {
+                Logger.logInfo('[ESP8266] ' + socket.id + 'is disconnected');
+            })
 
+            socket.on(constant.SocketIOEvent.BORADCAST_DEVICE, deviceId => {
+                Logger.logInfo('[ESP8266] Broadcast device id = ' + deviceId);
 
-            socket.on(constant.SocketIOEvent.BORADCAST_DEVICE, (deviceId) => {
-
-                Logger.logInfo('[INFO] Broadcast device id = ' + deviceId);
                 let coditional = {
                     device_list: { $in: [deviceId] }
                 }
@@ -53,13 +60,29 @@ class Routes {
                     data.highTemp = setting.highTemp.toString();
                     data.lowTempEnable = setting.lowTempEnable;
                     data.lowTemp = setting.lowTemp.toString();
-                    this.io.emit(constant.SocketIOEvent.CURRENT_SETTING, data);
+                    this.esp8266_nsp.emit(constant.SocketIOEvent.CURRENT_SETTING, data);
                 });
-
             })
 
+            socket.on(constant.SocketIOEvent.DID_UPDATE_TEMPERATURE, data => {
+                Logger.logInfo('[ESP8266] didUpdateTemperature, data = ' + JSON.stringify(data));
+                if (this.userId) {
+                    this.updateStatusOfUserId(this.userId, data)
+                    .then(() => {
+                        this.client_nsp.emit(constant.SocketIOEvent.DID_UPDATE_TEMPERATURE, data);
+                    })
+                } else {
+                    this.client_nsp.emit(constant.SocketIOEvent.DID_UPDATE_TEMPERATURE, data);
+                }
+            })
+
+        });
+
+        this.client_nsp.on(constant.SocketIOEvent.CONNECTION, socket => {
+            Logger.logInfo('[Client] Client connected. Socket id = ' + socket.id);
+
             socket.on(constant.SocketIOEvent.DISCONNECT, () => {
-                Logger.logInfo(socket.id + 'is disconnected');
+                Logger.logInfo('[Client] ' + socket.id + 'is disconnected');
                 for (let i = 0; i < this.users.length; i++) {
                     if (this.users[i].socket_id === socket.id) {
                         this.users.splice(i, 1);
@@ -67,10 +90,9 @@ class Routes {
                     }
                 }
             });
-        
-            socket.on(constant.SocketIOEvent.CONNECT_USER, (user_id) => {
 
-                Logger.logInfo('connect user = ' + user_id)
+            socket.on(constant.SocketIOEvent.CONNECT_USER, user_id => {
+                Logger.logInfo('[Client] Connect user = ' + user_id);
                 let coditional = {
                     _id: user_id
                 };
@@ -85,71 +107,45 @@ class Routes {
                 });
                 this.userId = user_id;
             });
-            
-            /**
-             * ESP8266 send event update temperature
-             */
-            socket.on(constant.SocketIOEvent.DID_UPDATE_TEMPERATURE, (data) => {
 
-                Logger.logInfo(JSON.stringify(data));
-                if (this.userId) {
-                    this.updateStatusOfUserId(this.userId, data)
-                    .then(() => {
-                        this.io.emit(constant.SocketIOEvent.DID_UPDATE_TEMPERATURE, data);
-                    })
-                } else {
-                    this.io.emit(constant.SocketIOEvent.DID_UPDATE_TEMPERATURE, data);
-                }
-                
-            });
-        
-            /**
-             * Client send event
-             */
-            socket.on(constant.SocketIOEvent.DID_UPDATE_MANUALSETTING, (setting) => {
+            socket.on(constant.SocketIOEvent.DID_UPDATE_MANUALSETTING, setting => {
                 var settingValue = setting ? 1 : 0;
-                Logger.logInfo('did update manual setting: ' + settingValue);
+                Logger.logInfo('[Client] Did update manual setting:' + settingValue);
                 if (this.userId) {
                     this.updateSettingOfUserId(this.userId, { 'manualSetting': setting })
                     .then(() => {
-                        this.io.emit(constant.SocketIOEvent.DID_UPDATE_MANUALSETTING, settingValue.toString());
+                        this.esp8266_nsp.emit(constant.SocketIOEvent.DID_UPDATE_MANUALSETTING, settingValue.toString());
                     })
                 } else {
-                    this.io.emit(constant.SocketIOEvent.DID_UPDATE_MANUALSETTING, settingValue.toString());
+                    this.esp8266_nsp.emit(constant.SocketIOEvent.DID_UPDATE_MANUALSETTING, settingValue.toString());
                 }
-            });
-        
-            /**
-             * Client send event
-             */
-            socket.on(constant.SocketIOEvent.DID_UPDATE_FAN_STATUS, (status) => {
+            })
+
+            socket.on(constant.SocketIOEvent.DID_UPDATE_FAN_STATUS, status => {
                 status = status ? 1 : 0;
-                Logger.logInfo('Set fan status = ' + status);
-                this.io.emit(constant.SocketIOEvent.DID_UPDATE_FAN_STATUS, status.toString());
-                const data = {
+                Logger.logInfo('[Client] Set fan status = ' + status);
+                this.esp8266_nsp.emit(constant.SocketIOEvent.DID_UPDATE_FAN_STATUS, status.toString());
+                let data = {
                     'fanStatus': status
                 }
-                if (userId) {
-                    updateStatusOfUserId(userId, data);
+                if (this.userId) {
+                    updateStatusOfUserId(this.userId, data);
                 }
-            });
-        
-            /**
-             * Client send event
-             */
-            socket.on(constant.SocketIOEvent.DID_UPDATE_SETTING, (data) => {
-                Logger.logInfo('did update setting, data = ' + JSON.stringify(data));
+            })
+
+            socket.on(constant.SocketIOEvent.DID_UPDATE_SETTING, data => {
+                Logger.logInfo('[Client] Did update setting, data = ' + JSON.stringify(data));
                 if (this.userId) {
                     this.updateSettingOfUserId(this.userId, data)
                     .then(() => {
-                        this.io.emit(constant.SocketIOEvent.DID_UPDATE_SETTING, data);
+                        this.esp8266_nsp.emit(constant.SocketIOEvent.DID_UPDATE_SETTING, data);
                     })
                 } else {
-                    this.io.emit(constant.SocketIOEvent.DID_UPDATE_SETTING, data);
+                    this.esp8266_nsp.emit(constant.SocketIOEvent.DID_UPDATE_SETTING, data);
                 }
-            });
-        
-        });
+            })
+
+        })
     }
 
     routesConfig() {

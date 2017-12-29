@@ -18,9 +18,8 @@ class SocketIOManager: NSObject {
     
     override init() {
         super.init()
-//        manager = SocketManager(socketURL: URL(string: "http://localhost:9898")!, config: [.log(true), .compress])
-        manager = SocketManager(socketURL: URL(string: "http://localhost:9898")!)
-        socket = manager.defaultSocket
+        manager = SocketManager(socketURL: URL(string: "http://localhost:9898")!, config: [.reconnects(true), .reconnectWait(60), .forcePolling(true)])
+        socket = manager.socket(forNamespace: "/client")
         
         socket.on(clientEvent: .connect) { (datas, ack) in
             Logger.log("Socket is connected")
@@ -42,7 +41,7 @@ class SocketIOManager: NSObject {
         socket.disconnect()
     }
     
-    func connectServer(with userId: String) {
+    func connectUser(with userId: String) {
         socket.emit(SocketIOEvent.connectUser, userId);
     }
     
