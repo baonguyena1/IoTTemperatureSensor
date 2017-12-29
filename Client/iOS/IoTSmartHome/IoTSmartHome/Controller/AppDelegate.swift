@@ -44,9 +44,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func redirectVC() {
         if User.id != nil {
             showDashboard()
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.2, execute: {
-                SocketIOManager.shared.connectUser(with: User.id!)
-            })
         } else {
             showLoginVC()
         }

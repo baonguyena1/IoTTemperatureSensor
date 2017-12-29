@@ -4702,3 +4702,18 @@ Thursday:12/28/2017|17:53:14:722 - [INFO]   - [IoTSmartHome][message]: connect u
 Thursday:12/28/2017|17:54:19:874 - [INFO]   - [IoTSmartHome][message]: [BEGIN] Get Setting
 Thursday:12/28/2017|17:54:20:226 - [INFO]   - [IoTSmartHome][message]: [END] Get Setting
 Thursday:12/28/2017|17:54:37:74 - [INFO]   - [IoTSmartHome][message]: n-h7XSS4gv_MUO6iAAAIis disconnected
+Friday:12/29/2017|14:2:52:55 - [INFO]   - [IoTSmartHome][message]: [Client] /client#URP8rlXi5Cfl17hMAAABis disconnected
+Friday:12/29/2017|14:10:4:537 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Friday:12/29/2017|14:10:21:348 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Friday:12/29/2017|14:16:17:836 - [INFO]   - [IoTSmartHome][message]: [Client] Client connected. Socket id = /client#YGFVPujpwcz6IbdmAAAA
+Friday:12/29/2017|14:16:33:137 - [INFO]   - [IoTSmartHome][message]: [Client] /client#YGFVPujpwcz6IbdmAAAAis disconnected
+Friday:12/29/2017|14:16:43:203 - [INFO]   - [IoTSmartHome][message]: [Client] Client connected. Socket id = /client#xW9Oqxrg64-Jd5oSAAAB
+Friday:12/29/2017|14:16:43:250 - [INFO]   - [IoTSmartHome][message]: [Client] Connect user = 5a43507c89a3d81f246c78c7
+Friday:12/29/2017|16:13:55:703 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Friday:12/29/2017|16:34:35:541 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Friday:12/29/2017|16:34:50:367 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Friday:12/29/2017|16:35:2:479 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Friday:12/29/2017|16:35:38:850 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Friday:12/29/2017|16:37:38:328 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Friday:12/29/2017|16:38:41:340 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898
+Friday:12/29/2017|16:40:5:595 - [INFO]   - [IoTSmartHome][message]: [INFO]App listen at port: 9898

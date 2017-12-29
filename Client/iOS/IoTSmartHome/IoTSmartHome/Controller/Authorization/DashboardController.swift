@@ -66,7 +66,6 @@ class DashboardController: UITableViewController {
         service.get(url) { [unowned self] (result) in
             switch result {
             case .success(let response):
-                Logger.log("JSON = \(response)")
                 guard let response = response as? Response else {
                     return
                 }

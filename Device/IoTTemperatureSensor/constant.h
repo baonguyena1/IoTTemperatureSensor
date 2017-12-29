@@ -34,9 +34,8 @@ const char *SOCKET_CURRENT_SETTING = "currentSetting";
 /**
  * Global define
  */
-int port = 26459;
-const char *host = "https://smarthome-iot.herokuapp.com";
-const char *esp8266_nsp = "/esp8266";
+const char *host = "smarthome-iot.herokuapp.com";
+const char *esp8266_nsp = "esp8266";
 int temperatureSequence = 0;
 
 

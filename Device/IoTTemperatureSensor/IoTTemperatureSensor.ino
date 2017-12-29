@@ -145,7 +145,7 @@ void dht11Process() {
   socket.emit(SOCKET_DID_UPDATE_TEMPERATURE, jsonString.c_str());
 }
 
-void disconnectedEvent(const char *payload, size_t length) {}
+void generalEvent(const char *payload, size_t length) {}
 
 void readInitialData() {
   manualSetting = atoi(readEEPROM(EEPROM_MANUAL_SETTING_ADD));
@@ -178,9 +178,10 @@ void setup() {
   socket.on(SOCKET_DID_UPDATE_FAN_STATUS, updateFanStatus);
   socket.on(SOCKET_DID_UPDATE_SETTING, updateSetting);
   socket.on(SOCKET_CURRENT_SETTING, didReceiveCurrentSetting);
-  socket.on("disconnected", disconnectedEvent);
+  socket.on("disconnected", generalEvent);
+  socket.on("connect", generalEvent);
 
-  socket.begin(host, 80);
+  socket.begin(host);
   readInitialData();
   delay(200);
   broadcastDevice();
